@@ -4,6 +4,10 @@ import json
 import sys
 import os
 
+# Load the JSON mapping into a Python dictionary
+with open("mapping.json", "r", encoding="utf-8") as f:
+    mapping = json.load(f)
+
 def yaml_to_json(yaml_file):
     with open(yaml_file, 'r', encoding='utf-8') as f:
         data = yaml.safe_load(f)
@@ -44,6 +48,11 @@ def yaml_to_json(yaml_file):
                 form = parts[0] if len(parts) > 0 else ""
                 dhatu_id = parts[1] if len(parts) > 1 else ""
                 upasagra = parts[2] if len(parts) > 2 else ""
+
+                if dhatu_id == "":
+                    dhatu_id = mapping.get(form, "")
+                    if dhatu_id == "":
+                        upasagra = "check Upasarga" 
 
                 verb_block["entries"].append({
                     "form": form,
