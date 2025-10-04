@@ -53,7 +53,7 @@ def generate_full_json(data_folder):
                 "mangalam": mangalam_lines,
                 "vargas": vargas
             })
-    return {"data": sorted(data, key=lambda x: x["kanda_id"])}
+    return { "name": "आख्यातचन्द्रिका","data": sorted(data, key=lambda x: x["kanda_id"])}
 
 # ------------------------------
 # Script execution
