@@ -1,0 +1,1115 @@
+{
+    "data": [
+        {
+            "kanda_id": 1,
+            "kanda_name": "प्रथमकाण्डः",
+            "mangalam": [
+                "भूवार्यादिप्रकृतये पुरुषत्रयमूर्तये । सदाख्यातपदायास्मै परस्मायात्मने नमः ॥",
+                "संस्मृत्य गुरुपादाब्जे भट्टमल्लेन रच्यते । व्युत्पित्सूनां प्रमोदार्थमेकार्थाख्यातपद्धतिः ॥"
+            ],
+            "vargas": [
+                {
+                    "varga_id": 1,
+                    "varga_name": "भावविकारवर्गः",
+                    "shlokas": [
+                        {
+                            "num": 1,
+                            "text": "सत्तायामस्ति भवति विद्यते चाथ जन्मनि । उत्पद्यते जायते च प्ररोहत्युद्भवत्यपि ॥",
+                            "verbs": [
+                                {
+                                    "artha": "सत्तायाम्",
+                                    "entries": [
+                                        {
+                                            "form": "अस्ति",
+                                            "dhatu_id": "02.0060",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "भवति",
+                                            "dhatu_id": "01.0001",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "विद्यते",
+                                            "dhatu_id": "04.0067",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "artha": "जन्मनि",
+                                    "entries": [
+                                        {
+                                            "form": "उत्पद्यते",
+                                            "dhatu_id": "04.0065",
+                                            "upasagra": "उद्"
+                                        },
+                                        {
+                                            "form": "जायते",
+                                            "dhatu_id": "04.0044",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "प्ररोहति",
+                                            "dhatu_id": "01.0095",
+                                            "upasagra": "प्र"
+                                        },
+                                        {
+                                            "form": "उद्भवति",
+                                            "dhatu_id": "01.0001",
+                                            "upasagra": "उद्"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "num": 2,
+                            "text": "निर्वतते सम्भवति सिद्धौ सिध्यति राध्यति । निष्पद्यते च राध्नोति साध्नोति फलतीति च ॥",
+                            "verbs": [
+                                {
+                                    "artha": "सिद्धौ",
+                                    "entries": [
+                                        {
+                                            "form": "निर्वर्तते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "सम्भवति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "सिद्ध्यति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "राध्यति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "निष्पद्यते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "राध्नोति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "साध्नोति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "फलति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "num": 3,
+                            "text": "वर्तते तु वसत्यास्ते ध्रियते चावतिष्ठते । क्षियति स्थलति स्थित्यां मठत्यपि च तिष्ठति ॥",
+                            "verbs": [
+                                {
+                                    "artha": "स्थित्याम्",
+                                    "entries": [
+                                        {
+                                            "form": "वर्तते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "वसति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "आस्ते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "ध्रियते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "अवतिष्ठते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "क्षियति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "स्थलति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "मठति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "तिष्ठति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "num": 4,
+                            "text": "जीवे बलत्यूर्जयति श्वसित्यनिति जीवति । अन्यतेऽथ प्राणिति च समनित्युदनित्यपि ॥",
+                            "verbs": [
+                                {
+                                    "artha": "जीवे",
+                                    "entries": [
+                                        {
+                                            "form": "बलति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "ऊर्जयति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "श्वसिति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "अनिति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "जीवति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "अन्यते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "artha": "प्राणवृत्तिषु",
+                                    "entries": [
+                                        {
+                                            "form": "प्राणिति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "समनिति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "उदनिति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "num": 5,
+                            "text": "व्यनित्यपानिति प्राणवृत्तिष्वाख्यातपञ्चकम् । कुच्छ्रजीवे क्षञ्जयति कठत्यातङ्कति त्रयम् ॥",
+                            "verbs": [
+                                {
+                                    "artha": "प्राणवृत्तिषु",
+                                    "entries": [
+                                        {
+                                            "form": "व्यनिति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "अपानिति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "artha": "कृच्छ्रजीवे",
+                                    "entries": [
+                                        {
+                                            "form": "क्षञ्जयति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "कठति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "आतङ्कति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "num": 6,
+                            "text": "परिणामे परिणमत्यात्मनेऽपि विवर्तते । सम्पद्यते कल्पतेऽथ वृद्धौ बृंहति वर्धते ॥",
+                            "verbs": [
+                                {
+                                    "artha": "परिणामे",
+                                    "entries": [
+                                        {
+                                            "form": "परिणमति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "परिणमते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "विवर्तते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "सम्पद्यते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "कल्पते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "artha": "वृद्धौ",
+                                    "entries": [
+                                        {
+                                            "form": "बृंहति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "वर्धते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "num": 7,
+                            "text": "आप्यायते स्फायते च श्वयत्यृध्नोति बर्हति । आपूर्यते पुष्यति च पोषत्यृध्यति पूषति ॥",
+                            "verbs": [
+                                {
+                                    "artha": "वृद्धौ",
+                                    "entries": [
+                                        {
+                                            "form": "आप्यायते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "स्फायते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "श्वयति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "ऋध्नोति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "बर्हति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "आपूर्यते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "पुष्यति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "पोषति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "ऋद्ध्यति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "पूषति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "num": 8,
+                            "text": "वंहते मंहते मेध्यत्येधते च विपोलति । नीवत्यपि स्थूलयते तथा पीवति मीवति ॥",
+                            "verbs": [
+                                {
+                                    "artha": "वृद्धौ",
+                                    "entries": [
+                                        {
+                                            "form": "वंहते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "मंहते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "मेध्यति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "एधते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "विपोलति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "नीवति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "स्थूलयते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "पीवति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "मीवति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "num": 9,
+                            "text": "महीयते च वठति विपोलयति तीवति ।  क्रमते प्यायते स्फीतीभवति प्रथतेऽपि च ॥",
+                            "verbs": [
+                                {
+                                    "artha": "वृद्धौ",
+                                    "entries": [
+                                        {
+                                            "form": "महीयते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "वठति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "विपोलयति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "तीवति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "क्रमते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "प्यायते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "स्फीतीभवति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "प्रथते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "num": 10,
+                            "text": "क्रम्यते प्रसते तौति तवीति च्छान्दसौ क्वचित् । स्फुटति स्फोटते फुल्लत्युन्मीलत्यपि पुष्प्यति ॥",
+                            "verbs": [
+                                {
+                                    "artha": "वृद्धौ",
+                                    "entries": [
+                                        {
+                                            "form": "क्रम्यते (छ)",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "प्रसते (छ)",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "तौति (छ)",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "तवीति (छ)",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "artha": "विकासे",
+                                    "entries": [
+                                        {
+                                            "form": "स्फुटति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "स्फोटते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "फुल्लति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "समनिति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "उदनिति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "व्यनिति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "अपानिति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "num": 11,
+                            "text": "विजृम्भते विकचते विकासे विकसत्यपि । मीलति स्मीलति क्ष्मीलत्येते सङ्कुचतीति च ॥",
+                            "verbs": []
+                        },
+                        {
+                            "num": 12,
+                            "text": "परिणामे",
+                            "verbs": [
+                                {
+                                    "artha": "",
+                                    "entries": [
+                                        {
+                                            "form": "परिणमति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "परिणमते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "विवर्तते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "सम्पद्यते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "कल्पते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "num": 13,
+                            "text": "कूणयत्यपि सङ्कोचे मुकुलीभवतीति षट् । अथो जरायां जरति सप्त जीयेति झीर्यति ॥",
+                            "verbs": [
+                                {
+                                    "artha": "परिणामे",
+                                    "entries": [
+                                        {
+                                            "form": "परिमति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "परिणमते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "विवर्तते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "सम्पद्यते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "कल्पते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "num": 14,
+                            "text": "सङ्कोचे",
+                            "verbs": [
+                                {
+                                    "artha": "",
+                                    "entries": [
+                                        {
+                                            "form": "मीलति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "स्मीलति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "क्ष्मीलति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "सङ्कुचति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "कूणयति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "मुकुलीभवति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "num": 15,
+                            "text": "जूर्यते जारयति च जिनाति च जृणाति च । दलति स्फोटति विशीर्यते फलति शीयते ॥",
+                            "verbs": []
+                        },
+                        {
+                            "num": 16,
+                            "text": "जरायाम्",
+                            "verbs": [
+                                {
+                                    "artha": "",
+                                    "entries": [
+                                        {
+                                            "form": "जरति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "जीर्यति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "झीर्यति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "जूर्यते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "जारयति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "जिनाति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "जृणाति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "num": 17,
+                            "text": "विशरणे",
+                            "verbs": [
+                                {
+                                    "artha": "",
+                                    "entries": [
+                                        {
+                                            "form": "द्राडते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "ध्राडते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "सीदति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "num": 18,
+                            "text": "द्राडतेऽमी विशरणे ध्राडते चाष्ट सीदति । अल्पत्वे लिश्यते कृश्यत्यमी ह्रसति चुण्डते ॥",
+                            "verbs": []
+                        },
+                        {
+                            "num": 19,
+                            "text": "अल्पत्वे",
+                            "verbs": [
+                                {
+                                    "artha": "",
+                                    "entries": [
+                                        {
+                                            "form": "लिश्यते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "कृश्यति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "ह्रसति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "चुण्डते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "num": 20,
+                            "text": "चत्वारोऽथ दरिद्राति व्यृध्नोति व्यृध्यतीत्यपि । दरिद्रत्वे प्रयोऽथापक्षीयते चापि दीयते ॥",
+                            "verbs": []
+                        },
+                        {
+                            "num": 21,
+                            "text": "दरिद्रत्वे",
+                            "verbs": [
+                                {
+                                    "artha": "",
+                                    "entries": [
+                                        {
+                                            "form": "दरिद्राति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "व्यृध्नोति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "व्यृध्यति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "num": 22,
+                            "text": "अपक्षये",
+                            "verbs": [
+                                {
+                                    "artha": "",
+                                    "entries": [
+                                        {
+                                            "form": "जायति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "अपक्षयति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "दस्यति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "तस्यति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "क्षायति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "सायति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "num": 23,
+                            "text": "अपक्षये जायति चापक्षयत्यपि दस्यति । तस्यत्यपि क्षायति च सायतीति पदाष्टकम् ॥",
+                            "verbs": []
+                        },
+                        {
+                            "num": 24,
+                            "text": "सप्त प्रध्वंसतेऽत्येति विनश्यति विलीयते । प्रलीयते विनाशेऽमी स्यू रिष्यति विपद्यते ॥",
+                            "verbs": []
+                        },
+                        {
+                            "num": 25,
+                            "text": "विनाशे",
+                            "verbs": [
+                                {
+                                    "artha": "",
+                                    "entries": [
+                                        {
+                                            "form": "प्रध्वंसते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "अप्येति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "विनश्यति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "विलीयते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "प्रलीयते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "रिष्यति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "विपद्यते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "num": 26,
+                            "text": "परैति प्रैति मरणे म्रियते च प्रमीयते । सन्तिष्ठते समाप्नोति विरमत्यारमत्यपि ॥",
+                            "verbs": []
+                        },
+                        {
+                            "num": 27,
+                            "text": "मरणे",
+                            "verbs": [
+                                {
+                                    "artha": "",
+                                    "entries": [
+                                        {
+                                            "form": "परैति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "प्रैति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "म्रियते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "प्रमीयते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "सन्तिष्ठते",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "समाप्नोति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "विरमति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "आरमति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "num": 28,
+                            "text": "पर्यवस्यत्युपरमत्यात्मनेपदसंस्थितौ । निर्वाति निर्वायति विध्यायत्युद्वायतीति च ॥",
+                            "verbs": [
+                                {
+                                    "artha": "",
+                                    "entries": [
+                                        {
+                                            "form": "पर्यवस्यति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "उपरमति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "num": 29,
+                            "text": "तेजसः विरतौ",
+                            "verbs": [
+                                {
+                                    "artha": "",
+                                    "entries": [
+                                        {
+                                            "form": "उद्वाति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        },
+                                        {
+                                            "form": "शाम्यति",
+                                            "dhatu_id": "",
+                                            "upasagra": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "num": 30,
+                            "text": "उद्वाति शाम्यतीत्येते तेजसो विरतौ तु षट् । इति भावविकाराः षट् सभेदाः प्राय ईरिताः ॥",
+                            "verbs": []
+                        }
+                    ]
+                },
+                {
+                    "varga_id": 2,
+                    "varga_name": "बुद्धिवर्गः",
+                    "shlokas": []
+                },
+                {
+                    "varga_id": 3,
+                    "varga_name": "अन्तःकरणवृत्तिवर्गः",
+                    "shlokas": []
+                },
+                {
+                    "varga_id": 4,
+                    "varga_name": "वाक्क्रियावर्गः",
+                    "shlokas": []
+                },
+                {
+                    "varga_id": 5,
+                    "varga_name": "ध्वनिक्रियावर्गः",
+                    "shlokas": []
+                }
+            ]
+        },
+        {
+            "kanda_id": 2,
+            "kanda_name": "द्वितीयकाण्डः",
+            "mangalam": [
+                "अथोच्यन्ते नृविप्रादिचेष्टा वर्गैः समासतः । प्रसङ्गसङ्गताश्चान्याः पर्यायैस्तिङ्पदात्मकैः ॥"
+            ],
+            "vargas": [
+                {
+                    "varga_id": 1,
+                    "varga_name": "मनुष्यचेष्टावर्गः",
+                    "shlokas": []
+                },
+                {
+                    "varga_id": 2,
+                    "varga_name": "ब्रह्मचेष्टावर्गः",
+                    "shlokas": []
+                },
+                {
+                    "varga_id": 3,
+                    "varga_name": "क्षत्रियचेष्टावर्गः",
+                    "shlokas": []
+                },
+                {
+                    "varga_id": 4,
+                    "varga_name": "वैश्यचेष्टावर्गः",
+                    "shlokas": []
+                },
+                {
+                    "varga_id": 5,
+                    "varga_name": "शूद्रचेष्टावर्गः",
+                    "shlokas": []
+                }
+            ]
+        },
+        {
+            "kanda_id": 3,
+            "kanda_name": "तृतीयकाण्डः",
+            "mangalam": [
+                "प्रकीर्णकसनाद्यन्तनानार्थान्यात्मनेपदे । तदन्यस्मिन् विभागश्च सङ्गृह्यन्तेऽत्र वर्गशः ॥"
+            ],
+            "vargas": [
+                {
+                    "varga_id": 1,
+                    "varga_name": "प्रकीर्णकवर्गः",
+                    "shlokas": []
+                },
+                {
+                    "varga_id": 2,
+                    "varga_name": "सनाद्यन्तवर्गः",
+                    "shlokas": []
+                },
+                {
+                    "varga_id": 3,
+                    "varga_name": "नानार्थवर्गः",
+                    "shlokas": []
+                },
+                {
+                    "varga_id": 4,
+                    "varga_name": "आत्मनेपदपरस्मैपदवर्गः",
+                    "shlokas": []
+                }
+            ]
+        }
+    ]
+}
