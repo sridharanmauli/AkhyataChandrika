@@ -75,7 +75,7 @@
                         },
                         {
                             "form": "राध्यति",
-                            "dhatu_id": "",
+                            "dhatu_id": "04.0077",
                             "upasagra": ""
                         },
                         {
@@ -85,17 +85,17 @@
                         },
                         {
                             "form": "राध्नोति",
-                            "dhatu_id": "",
+                            "dhatu_id": "05.0018",
                             "upasagra": ""
                         },
                         {
                             "form": "साध्नोति",
-                            "dhatu_id": "",
+                            "dhatu_id": "05.0019",
                             "upasagra": ""
                         },
                         {
                             "form": "फलति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0594, 01.0608",
                             "upasagra": ""
                         }
                     ]
@@ -111,22 +111,22 @@
                     "entries": [
                         {
                             "form": "वर्तते",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0862",
                             "upasagra": ""
                         },
                         {
                             "form": "वसति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.1160",
                             "upasagra": ""
                         },
                         {
                             "form": "आस्ते",
-                            "dhatu_id": "",
+                            "dhatu_id": "02.0011",
                             "upasagra": ""
                         },
                         {
                             "form": "ध्रियते",
-                            "dhatu_id": "",
+                            "dhatu_id": "06.0148",
                             "upasagra": ""
                         },
                         {
@@ -136,22 +136,22 @@
                         },
                         {
                             "form": "क्षियति",
-                            "dhatu_id": "",
+                            "dhatu_id": "06.0143",
                             "upasagra": ""
                         },
                         {
                             "form": "स्थलति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0970",
                             "upasagra": ""
                         },
                         {
                             "form": "मठति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0384",
                             "upasagra": ""
                         },
                         {
                             "form": "तिष्ठति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.1077",
                             "upasagra": ""
                         }
                     ]
@@ -167,32 +167,32 @@
                     "entries": [
                         {
                             "form": "बलति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0974",
                             "upasagra": ""
                         },
                         {
                             "form": "ऊर्जयति",
-                            "dhatu_id": "",
+                            "dhatu_id": "10.0023",
                             "upasagra": ""
                         },
                         {
                             "form": "श्वसिति",
-                            "dhatu_id": "",
+                            "dhatu_id": "02.0064",
                             "upasagra": ""
                         },
                         {
                             "form": "अनिति",
-                            "dhatu_id": "",
+                            "dhatu_id": "02.0065",
                             "upasagra": ""
                         },
                         {
                             "form": "जीवति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0643",
                             "upasagra": ""
                         },
                         {
                             "form": "अन्यते",
-                            "dhatu_id": "",
+                            "dhatu_id": "04.0072",
                             "upasagra": ""
                         }
                     ]
@@ -243,12 +243,12 @@
                     "entries": [
                         {
                             "form": "क्षञ्जयति",
-                            "dhatu_id": "",
+                            "dhatu_id": "10.0113",
                             "upasagra": ""
                         },
                         {
                             "form": "कठति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0385",
                             "upasagra": ""
                         },
                         {
@@ -289,7 +289,7 @@
                         },
                         {
                             "form": "कल्पते",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0866, 01.0875",
                             "upasagra": ""
                         }
                     ]
@@ -299,12 +299,12 @@
                     "entries": [
                         {
                             "form": "बृंहति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0837, 10.0299",
                             "upasagra": ""
                         },
                         {
                             "form": "वर्धते",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0863",
                             "upasagra": ""
                         }
                     ]
@@ -325,22 +325,22 @@
                         },
                         {
                             "form": "स्फायते",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0560",
                             "upasagra": ""
                         },
                         {
                             "form": "श्वयति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.1165",
                             "upasagra": ""
                         },
                         {
                             "form": "ऋध्नोति",
-                            "dhatu_id": "",
+                            "dhatu_id": "05.0027",
                             "upasagra": ""
                         },
                         {
                             "form": "बर्हति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0836, 10.0300",
                             "upasagra": ""
                         },
                         {
@@ -350,22 +350,22 @@
                         },
                         {
                             "form": "पुष्यति",
-                            "dhatu_id": "",
+                            "dhatu_id": "04.0079, 04.0121",
                             "upasagra": ""
                         },
                         {
                             "form": "पोषति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0797, 10.0280",
                             "upasagra": ""
                         },
                         {
-                            "form": "ऋद्ध्यति",
-                            "dhatu_id": "",
+                            "form": "ऋध्यति",
+                            "dhatu_id": "04.0160",
                             "upasagra": ""
                         },
                         {
                             "form": "पूषति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0769",
                             "upasagra": ""
                         }
                     ]
@@ -381,12 +381,12 @@
                     "entries": [
                         {
                             "form": "वंहते",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0720",
                             "upasagra": ""
                         },
                         {
                             "form": "मंहते",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0721",
                             "upasagra": ""
                         },
                         {
@@ -396,7 +396,7 @@
                         },
                         {
                             "form": "एधते",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0002",
                             "upasagra": ""
                         },
                         {
@@ -406,22 +406,22 @@
                         },
                         {
                             "form": "नीवति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0647",
                             "upasagra": ""
                         },
                         {
                             "form": "स्थूलयते",
-                            "dhatu_id": "",
+                            "dhatu_id": "10.0446",
                             "upasagra": ""
                         },
                         {
                             "form": "पीवति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0644",
                             "upasagra": ""
                         },
                         {
                             "form": "मीवति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0645",
                             "upasagra": ""
                         }
                     ]
@@ -442,7 +442,7 @@
                         },
                         {
                             "form": "वठति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0382",
                             "upasagra": ""
                         },
                         {
@@ -452,17 +452,17 @@
                         },
                         {
                             "form": "तीवति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0646",
                             "upasagra": ""
                         },
                         {
                             "form": "क्रमते",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0545",
                             "upasagra": ""
                         },
                         {
                             "form": "प्यायते",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0561, 01.1119",
                             "upasagra": ""
                         },
                         {
@@ -472,7 +472,7 @@
                         },
                         {
                             "form": "प्रथते",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0869",
                             "upasagra": ""
                         }
                     ]
@@ -513,37 +513,27 @@
                     "entries": [
                         {
                             "form": "स्फुटति",
-                            "dhatu_id": "",
+                            "dhatu_id": "06.0100",
                             "upasagra": ""
                         },
                         {
                             "form": "स्फोटते",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0293",
                             "upasagra": ""
                         },
                         {
                             "form": "फुल्लति",
+                            "dhatu_id": "01.0610",
+                            "upasagra": ""
+                        },
+                        {
+                            "form": "उन्मीलति",
                             "dhatu_id": "",
                             "upasagra": ""
                         },
                         {
-                            "form": "समनिति",
-                            "dhatu_id": "",
-                            "upasagra": ""
-                        },
-                        {
-                            "form": "उदनिति",
-                            "dhatu_id": "",
-                            "upasagra": ""
-                        },
-                        {
-                            "form": "व्यनिति",
-                            "dhatu_id": "",
-                            "upasagra": ""
-                        },
-                        {
-                            "form": "अपानिति",
-                            "dhatu_id": "",
+                            "form": "पुष्प्यति",
+                            "dhatu_id": "04.0016",
                             "upasagra": ""
                         }
                     ]
@@ -555,66 +545,20 @@
             "text": "विजृम्भते विकचते विकासे विकसत्यपि । मीलति स्मीलति क्ष्मीलत्येते सङ्कुचतीति च ॥",
             "verbs": [
                 {
-                    "artha": "परिणामे",
+                    "artha": "विकासे",
                     "entries": [
                         {
-                            "form": "परिणमति",
+                            "form": "विजृम्भते",
                             "dhatu_id": "",
                             "upasagra": ""
                         },
                         {
-                            "form": "परिणमते",
+                            "form": "विकचते",
                             "dhatu_id": "",
                             "upasagra": ""
                         },
                         {
-                            "form": "विवर्तते",
-                            "dhatu_id": "",
-                            "upasagra": ""
-                        },
-                        {
-                            "form": "सम्पद्यते",
-                            "dhatu_id": "",
-                            "upasagra": ""
-                        },
-                        {
-                            "form": "कल्पते",
-                            "dhatu_id": "",
-                            "upasagra": ""
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "num": 12,
-            "text": "कूणयत्यपि सङ्कोचे मुकुलीभवतीति षट् । अथो जरायां जरति सप्त जीयेति झीर्यति ॥",
-            "verbs": [
-                {
-                    "artha": "परिणामे",
-                    "entries": [
-                        {
-                            "form": "परिमति",
-                            "dhatu_id": "",
-                            "upasagra": ""
-                        },
-                        {
-                            "form": "परिणमते",
-                            "dhatu_id": "",
-                            "upasagra": ""
-                        },
-                        {
-                            "form": "विवर्तते",
-                            "dhatu_id": "",
-                            "upasagra": ""
-                        },
-                        {
-                            "form": "सम्पद्यते",
-                            "dhatu_id": "",
-                            "upasagra": ""
-                        },
-                        {
-                            "form": "कल्पते",
+                            "form": "विकासति",
                             "dhatu_id": "",
                             "upasagra": ""
                         }
@@ -625,32 +569,63 @@
                     "entries": [
                         {
                             "form": "मीलति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0595",
                             "upasagra": ""
                         },
                         {
                             "form": "स्मीलति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0597",
                             "upasagra": ""
                         },
                         {
                             "form": "क्ष्मीलति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0598",
                             "upasagra": ""
                         },
                         {
                             "form": "सङ्कुचति",
                             "dhatu_id": "",
                             "upasagra": ""
-                        },
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "num": 12,
+            "text": "कूणयत्यपि सङ्कोचे मुकुलीभवतीति षट् । अथो जरायां जरति सप्त जीर्यति झीर्यति ॥",
+            "verbs": [
+                {
+                    "artha": "सङ्कोचे",
+                    "entries": [
                         {
                             "form": "कूणयति",
-                            "dhatu_id": "",
+                            "dhatu_id": "10.0438",
                             "upasagra": ""
                         },
                         {
                             "form": "मुकुलीभवति",
                             "dhatu_id": "",
+                            "upasagra": ""
+                        }
+                    ]
+                },
+                {
+                    "artha": "जरायाम्",
+                    "entries": [
+                        {
+                            "form": "जरति",
+                            "dhatu_id": "01.1098, 10.0346",
+                            "upasagra": ""
+                        },
+                        {
+                            "form": "जीर्यति",
+                            "dhatu_id": "04.0025",
+                            "upasagra": ""
+                        },
+                        {
+                            "form": "झीर्यति",
+                            "dhatu_id": "04.0026",
                             "upasagra": ""
                         }
                     ]
@@ -665,38 +640,23 @@
                     "artha": "जरायाम्",
                     "entries": [
                         {
-                            "form": "जरति",
-                            "dhatu_id": "",
-                            "upasagra": ""
-                        },
-                        {
-                            "form": "जीर्यति",
-                            "dhatu_id": "",
-                            "upasagra": ""
-                        },
-                        {
-                            "form": "झीर्यति",
-                            "dhatu_id": "",
-                            "upasagra": ""
-                        },
-                        {
                             "form": "जूर्यते",
-                            "dhatu_id": "",
+                            "dhatu_id": "04.0051",
                             "upasagra": ""
                         },
                         {
                             "form": "जारयति",
-                            "dhatu_id": "",
+                            "dhatu_id": "10.0346",
                             "upasagra": ""
                         },
                         {
                             "form": "जिनाति",
-                            "dhatu_id": "",
+                            "dhatu_id": "09.0034",
                             "upasagra": ""
                         },
                         {
                             "form": "जृणाति",
-                            "dhatu_id": "",
+                            "dhatu_id": "09.0027",
                             "upasagra": ""
                         }
                     ]
@@ -706,12 +666,12 @@
                     "entries": [
                         {
                             "form": "दलति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0629, 10.0281",
                             "upasagra": ""
                         },
                         {
                             "form": "स्फोटति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0379",
                             "upasagra": ""
                         },
                         {
@@ -721,12 +681,12 @@
                         },
                         {
                             "form": "फलति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0594, 01.0608",
                             "upasagra": ""
                         },
                         {
                             "form": "शीयते",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0991, 06.0164",
                             "upasagra": ""
                         }
                     ]
@@ -742,17 +702,17 @@
                     "entries": [
                         {
                             "form": "द्राडते",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0322",
                             "upasagra": ""
                         },
                         {
                             "form": "ध्राडते",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0323",
                             "upasagra": ""
                         },
                         {
                             "form": "सीदति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0990, 06.0163",
                             "upasagra": ""
                         }
                     ]
@@ -762,17 +722,17 @@
                     "entries": [
                         {
                             "form": "लिश्यते",
-                            "dhatu_id": "",
+                            "dhatu_id": "04.0076",
                             "upasagra": ""
                         },
                         {
                             "form": "कृश्यति",
-                            "dhatu_id": "",
+                            "dhatu_id": "04.0140",
                             "upasagra": ""
                         },
                         {
                             "form": "ह्रसति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.0808",
                             "upasagra": ""
                         },
                         {
@@ -786,14 +746,14 @@
         },
         {
             "num": 15,
-            "text": "चत्वारोऽथ दरिद्राति व्यृध्नोति व्यृध्यतीत्यपि । दरिद्रत्वे प्रयोऽथापक्षीयते चापि दीयते ॥",
+            "text": "चत्वारोऽथ दरिद्राति व्यृध्नोति व्यृध्यतीत्यपि । दरिद्रत्वे त्रयोऽथापक्षीयते चापि दीयते ॥",
             "verbs": [
                 {
                     "artha": "दरिद्रत्वे",
                     "entries": [
                         {
                             "form": "दरिद्राति",
-                            "dhatu_id": "",
+                            "dhatu_id": "02.0068",
                             "upasagra": ""
                         },
                         {
@@ -818,7 +778,7 @@
                         },
                         {
                             "form": "दीयते",
-                            "dhatu_id": "",
+                            "dhatu_id": "04.0029",
                             "upasagra": ""
                         }
                     ]
@@ -834,7 +794,7 @@
                     "entries": [
                         {
                             "form": "जायति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.1062",
                             "upasagra": ""
                         },
                         {
@@ -844,22 +804,22 @@
                         },
                         {
                             "form": "दस्यति",
-                            "dhatu_id": "",
+                            "dhatu_id": "04.0110",
                             "upasagra": ""
                         },
                         {
                             "form": "तस्यति",
-                            "dhatu_id": "",
+                            "dhatu_id": "04.0109",
                             "upasagra": ""
                         },
                         {
                             "form": "क्षायति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.1061",
                             "upasagra": ""
                         },
                         {
                             "form": "सायति",
-                            "dhatu_id": "",
+                            "dhatu_id": "01.1063",
                             "upasagra": ""
                         }
                     ]
@@ -900,7 +860,7 @@
                         },
                         {
                             "form": "रिष्यति",
-                            "dhatu_id": "",
+                            "dhatu_id": "04.0144",
                             "upasagra": ""
                         },
                         {
@@ -931,7 +891,7 @@
                         },
                         {
                             "form": "म्रियते",
-                            "dhatu_id": "",
+                            "dhatu_id": "06.0139",
                             "upasagra": ""
                         },
                         {
@@ -1023,7 +983,7 @@
                         },
                         {
                             "form": "शाम्यति",
-                            "dhatu_id": "",
+                            "dhatu_id": "04.0098",
                             "upasagra": ""
                         }
                     ]
