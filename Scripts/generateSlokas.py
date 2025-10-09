@@ -95,7 +95,7 @@ def yaml_to_json(yaml_file):
     with open("excludes.yaml", "r", encoding="utf-8") as ef:
         exclude_lines = [line.strip() for line in ef if line.strip()]
 
-    print(exclude_lines)
+    # print(exclude_lines)
     # 5️⃣ Convert to JSON structure
     shlokas_list = []
     shloka_num = 1
