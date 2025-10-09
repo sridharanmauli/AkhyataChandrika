@@ -92,7 +92,7 @@ def yaml_to_json(yaml_file):
     write_clean_yaml(data, yaml_file)
     exclude_lines = []
     # 4️⃣ Load exclusions
-    with open("excludes.yaml", "r", encoding="utf-8") as ef:
+    with open("input/excludes.yaml", "r", encoding="utf-8") as ef:
         exclude_lines = [line.strip() for line in ef if line.strip()]
 
     # print(exclude_lines)
