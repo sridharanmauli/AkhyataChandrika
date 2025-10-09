@@ -36,7 +36,7 @@ for number, forms in data.items():
                     mapping[f] += f", {number}"
 
 # Save mapping to JSON
-with open("mapping.json", "w", encoding="utf-8") as f:
+with open("output/mapping.json", "w", encoding="utf-8") as f:
     json.dump(mapping, f, ensure_ascii=False, indent=2)
 
 print("Mapping for all first forms created successfully!")

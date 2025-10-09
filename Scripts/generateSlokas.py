@@ -7,7 +7,7 @@ import os
 TAB_SPACES = 2
 
 # Load JSON mapping
-with open("mapping.json", "r", encoding="utf-8") as f:
+with open("output/mapping.json", "r", encoding="utf-8") as f:
     mapping = json.load(f)
 
 # -------------------------
