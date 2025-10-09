@@ -91,10 +91,22 @@ def yaml_to_json(yaml_file):
     # 2️⃣ Overwrite YAML in-place
     write_clean_yaml(data, yaml_file)
 
-    # 3️⃣ Convert to JSON structure
+    # 4️⃣ Load exclusions
+    exclude_file = os.path.join(os.path.dirname(yaml_file), "exclude.yaml")
+    if os.path.exists(exclude_file):
+        with open(exclude_file, "r", encoding="utf-8") as ef:
+            exclude_lines = [line.strip() for line in ef if line.strip()]
+    else:
+        exclude_lines = []
+
+    # 5️⃣ Convert to JSON structure
     shlokas_list = []
     shloka_num = 1
     for shloka_text, verbs_data in data.items():
+        if shloka_text.strip() in exclude_lines:
+            print(f"⏭️ Skipping excluded shloka: {shloka_text}")
+            continue  # skip increment and skip adding to output
+
         shloka_entry = {
             "num": shloka_num,
             "text": shloka_text.strip().rstrip(":"),
@@ -128,7 +140,6 @@ def yaml_to_json(yaml_file):
                 entries_dict = {}
             
             for verb, metaData in entries_dict.items():
-                print(metaData, type(metaData))
                 form = verb
                 dhatu_id, upasagra = "", ""
                 if metaData:
@@ -143,7 +154,7 @@ def yaml_to_json(yaml_file):
             shloka_entry["verbs"].append(verb_block)
 
         shlokas_list.append(shloka_entry)
-        shloka_num += 1
+        shloka_num += 1  # only incremented for non-excluded shlokas
 
     return {"shlokas": shlokas_list}
 
