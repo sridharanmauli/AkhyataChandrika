@@ -30,10 +30,10 @@ def update_nulls_with_mapping(node):
                     # item is a dict with single key
                     if isinstance(item, dict):
                         for verb, val in item.items():
-                            print(f"Checking verb: {verb} with value: {val}")
+                            # print(f"Checking verb: {verb} with value: {val}")
                             if val is None or val == []:
                                 if verb in mapping:
-                                    print(f"Updating verb '{verb}' with mapping '{mapping[verb]}'")
+                                    # print(f"Updating verb '{verb}' with mapping '{mapping[verb]}'")
                                     # Replace null/empty with the mapped number as a list
                                     item[verb] = [mapping[verb]]
                     elif isinstance(item, str):
@@ -90,21 +90,23 @@ def yaml_to_json(yaml_file):
 
     # 2️⃣ Overwrite YAML in-place
     write_clean_yaml(data, yaml_file)
-
+    exclude_lines = []
     # 4️⃣ Load exclusions
-    exclude_file = os.path.join(os.path.dirname(yaml_file), "exclude.yaml")
-    if os.path.exists(exclude_file):
-        with open(exclude_file, "r", encoding="utf-8") as ef:
-            exclude_lines = [line.strip() for line in ef if line.strip()]
-    else:
-        exclude_lines = []
+    with open("excludes.yaml", "r", encoding="utf-8") as ef:
+        exclude_lines = [line.strip() for line in ef if line.strip()]
 
+    print(exclude_lines)
     # 5️⃣ Convert to JSON structure
     shlokas_list = []
     shloka_num = 1
     for shloka_text, verbs_data in data.items():
         if shloka_text.strip() in exclude_lines:
-            print(f"⏭️ Skipping excluded shloka: {shloka_text}")
+            shloka_entry = {
+            "num": "_",
+            "text": shloka_text.strip().rstrip(":"),
+            "verbs": []
+            }
+            shlokas_list.append(shloka_entry)
             continue  # skip increment and skip adding to output
 
         shloka_entry = {
