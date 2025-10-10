@@ -99,7 +99,7 @@ def write_clean_yaml(data, yaml_file):
         )
 
 # -------------------------
-def yaml_to_json(yaml_file, varga_name=None ):
+def yaml_to_json(yaml_file, varga_name=None, prevCnt=0 ):
     # 1️⃣ Load YAML and clean tabs
     data = load_yaml_clean_tabs(yaml_file)
 
@@ -114,7 +114,7 @@ def yaml_to_json(yaml_file, varga_name=None ):
     # print(exclude_lines)
     # 5️⃣ Convert to JSON structure
     shlokas_list = []
-    shloka_num = 1
+    shloka_num = prevCnt + 1
     for shloka_text, verbs_data in data.items():
         
         if varga_name is None:

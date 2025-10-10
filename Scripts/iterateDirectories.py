@@ -40,8 +40,6 @@ def extract_varga_data(varga_folder):
             if os.path.isdir(subKhandaPath):
                 varga_id = str( file_name.split('_')[0] )
                 varga_name = "_".join(file_name.split('_')[1:])
-                print( varga_id, varga_name)
-                # print( subKhandaPath )
                 mangalam_lines = ""
                 tmp_dict = {}
                 for file_name in sorted( os.listdir( subKhandaPath ) ):
@@ -53,16 +51,12 @@ def extract_varga_data(varga_folder):
                         sub_varga_name = '_'.join(file_name.split('_')[1:]).replace('.yaml','')
                         tmp_dict[ sub_varga_id ] = [ sub_varga_name, yaml_file ]
                 tmp_dict = dict(sorted(tmp_dict.items()))
+                prevCnt = 0
                 for val in tmp_dict.values():
-                    shlokas_json = yaml_to_json(val[1], val[0] )["shlokas"]
+                    shlokas_json = yaml_to_json(val[1], val[0], prevCnt )["shlokas"]
+                    prevCnt = len( shlokas_json ) + prevCnt
                     for item in shlokas_json:
                         subVargas.append(item)
-                vargas.append({
-                    "varga_id": str(varga_id),
-                    "varga_name": varga_name,
-                    "mangalam": mangalam_lines,
-                    "shlokas": subVargas
-                })
                 vargas.append( subVargas)
     return vargas
 
