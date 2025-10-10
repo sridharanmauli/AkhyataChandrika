@@ -29,7 +29,7 @@ def extract_varga_data(varga_folder):
             yaml_file = os.path.join(varga_folder, file_name)
             shlokas_json = yaml_to_json(yaml_file)
             vargas.append({
-                "varga_id": varga_id,
+                "varga_id": str(varga_id),
                 "varga_name": varga_name,
                 "shlokas": shlokas_json["shlokas"]
             })
@@ -43,7 +43,7 @@ def generate_full_json(data_folder):
     for kanda_name in sorted(os.listdir(data_folder)):
         kanda_path = os.path.join(data_folder, kanda_name)
         if os.path.isdir(kanda_path):
-            kanda_id = int(kanda_name.split('_')[0])
+            kanda_id = str(kanda_name.split('_')[0])
             kanda_display_name = '_'.join(kanda_name.split('_')[1:])
             mangalam_lines = read_mangalam(kanda_path)
             vargas = extract_varga_data(kanda_path)

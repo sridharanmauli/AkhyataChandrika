@@ -21,30 +21,50 @@ def quoted_str_representer(dumper, data):
 yaml.add_representer(str, quoted_str_representer, Dumper=QuotedDumper)
 
 def update_nulls_with_mapping(node):
-    """Recursively walk the YAML structure and update null verbs if mapping exists."""
+    """
+    Recursively update list elements or nulls using mapping.
+    Rules:
+      1️⃣ If a list has entries [x, y]:
+            → keep x as-is, replace y if it's in mapping.
+      2️⃣ If key itself is in mapping (and value is None):
+            → convert to [mapping[key]].
+      3️⃣ If key itself is in mapping (and value is a list but empty):
+            → replace list with [mapping[key]].
+    """
     if isinstance(node, dict):
-        for k, v in node.items():
-            # If the value is a list
-            if isinstance(v, list):
-                for i, item in enumerate(v):
-                    # item is a dict with single key
-                    if isinstance(item, dict):
-                        for verb, val in item.items():
-                            # print(f"Checking verb: {verb} with value: {val}")
-                            if val is None or val == []:
-                                if verb in mapping:
-                                    # print(f"Updating verb '{verb}' with mapping '{mapping[verb]}'")
-                                    # Replace null/empty with the mapped number as a list
-                                    item[verb] = [mapping[verb]]
-                    elif isinstance(item, str):
-                        # Optional: handle string items if needed
-                        pass
-            else:
-                # Recurse for nested dicts
-                update_nulls_with_mapping(v)
+        for key, value in node.items():
+            if isinstance(value, (dict, list)):
+                update_nulls_with_mapping(value)
+            elif value is None:
+                # Example: - वेत्ति:
+                if key in mapping:
+                    print(f"🔄 Updating '{key}' → {mapping[key]}")
+                    node[key] = [mapping[key]]
+
     elif isinstance(node, list):
-        for elem in node:
-            update_nulls_with_mapping(elem)
+        for item in node:
+            if isinstance(item, dict):
+                for k, v in item.items():
+                    # Case 1: - अविरस्ति: [आविस्, अस्ति]
+                    if isinstance(v, list):
+                        new_list = []
+                        for elem in v:
+                            if elem in mapping:
+                                print(f"🔄 Updating '{elem}' → {mapping[elem]}")
+                                new_list.append(mapping[elem])
+                            else:
+                                new_list.append(elem)
+                        item[k] = new_list
+
+                    # Case 2: - वेत्ति:
+                    elif v is None:
+                        if k in mapping:
+                            print(f"🔄 Updating '{k}' → {mapping[k]}")
+                            item[k] = [mapping[k]]
+            else:
+                update_nulls_with_mapping(item)
+
+                
 # -------------------------
 # Custom loader to force all scalars to strings
 class ForceStringLoader(yaml.SafeLoader):
@@ -110,17 +130,17 @@ def yaml_to_json(yaml_file):
             continue  # skip increment and skip adding to output
 
         shloka_entry = {
-            "num": shloka_num,
+            "num": str(shloka_num),
             "text": shloka_text.strip().rstrip(":"),
             "verbs": []
         }
 
         if not verbs_data:
             verbs_data = {}
-
-        if isinstance(verbs_data, list) and all(isinstance(e, str) for e in verbs_data):
+        # and all(isinstance(e, str) for e in verbs_data)
+        if isinstance(verbs_data, list):
             verbs_data = {"": verbs_data}
-
+        # print(type(verbs_data))
         for artha, entries in verbs_data.items():
             verb_block = {"artha": artha, "entries": []}
 
@@ -145,12 +165,15 @@ def yaml_to_json(yaml_file):
                 form = verb
                 dhatu_id, upasagra = "", ""
                 if metaData:
-                    dhatu_id = metaData[0] if len(metaData) > 0 else ""
-                    upasagra = metaData[1] if len(metaData) > 1 else ""
+                    if( len( metaData ) == 1):
+                        dhatu_id = metaData[0]
+                    elif( len(metaData) == 2):
+                        upasagra = metaData[0]
+                        dhatu_id = metaData[1]
                 verb_block["entries"].append({
                     "form": form,
                     "dhatu_id": dhatu_id,
-                    "upasagra": upasagra
+                    "gati": upasagra
                 })
 
             shloka_entry["verbs"].append(verb_block)
@@ -163,7 +186,7 @@ def yaml_to_json(yaml_file):
 # -------------------------
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Usage: python3 generateSlokas.py <input.yaml> <output.json>")
+        print("Usage: python3 generateSlokas.py input/sampleFile.yaml output/testSlokas_Autogenerated.json")
         sys.exit(1)
 
     input_yaml = sys.argv[1]
