@@ -57,7 +57,13 @@ def extract_varga_data(varga_folder):
                     prevCnt = len( shlokas_json ) + prevCnt
                     for item in shlokas_json:
                         subVargas.append(item)
-                vargas.append( subVargas)
+                vargas.append({
+                    "varga_id": str(varga_id),
+                    "varga_name": varga_name,
+                    "mangalam": mangalam_lines,
+                    "shlokas": subVargas
+                })
+                # vargas.append( subVargas)
     return vargas
 
 # ------------------------------
