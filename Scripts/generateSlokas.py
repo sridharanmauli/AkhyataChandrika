@@ -99,7 +99,7 @@ def write_clean_yaml(data, yaml_file):
         )
 
 # -------------------------
-def yaml_to_json(yaml_file):
+def yaml_to_json(yaml_file, varga_name=None ):
     # 1️⃣ Load YAML and clean tabs
     data = load_yaml_clean_tabs(yaml_file)
 
@@ -110,30 +110,26 @@ def yaml_to_json(yaml_file):
 
     # 2️⃣ Overwrite YAML in-place
     write_clean_yaml(data, yaml_file)
-    exclude_lines = []
-    # 4️⃣ Load exclusions
-    with open("input/excludes.yaml", "r", encoding="utf-8") as ef:
-        exclude_lines = [line.strip() for line in ef if line.strip()]
 
     # print(exclude_lines)
     # 5️⃣ Convert to JSON structure
     shlokas_list = []
     shloka_num = 1
     for shloka_text, verbs_data in data.items():
-        if shloka_text.strip() in exclude_lines:
+        
+        if varga_name is None:
             shloka_entry = {
-            "num": "_",
-            "text": shloka_text.strip().rstrip(":"),
-            "verbs": []
+                "num": str(shloka_num),
+                "text": shloka_text.strip().rstrip(":"),
+                "verbs": []
             }
-            shlokas_list.append(shloka_entry)
-            continue  # skip increment and skip adding to output
-
-        shloka_entry = {
-            "num": str(shloka_num),
-            "text": shloka_text.strip().rstrip(":"),
-            "verbs": []
-        }
+        else:
+            shloka_entry = {
+                "num": str(shloka_num),
+                "text": shloka_text.strip().rstrip(":"),
+                "adhikaar": varga_name,
+                "verbs": []
+            }
 
         if not verbs_data:
             verbs_data = {}

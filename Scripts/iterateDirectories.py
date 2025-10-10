@@ -23,6 +23,7 @@ def read_mangalam(kanda_folder):
 def extract_varga_data(varga_folder):
     vargas = []
     for file_name in sorted(os.listdir(varga_folder)):
+        # print( os.listdir(varga_folder) )
         if file_name.endswith('.yaml') and file_name != 'mangalam.yaml':
             varga_id = int(file_name.split('_')[0])
             varga_name = '_'.join(file_name.split('_')[1:]).replace('.yaml','')
@@ -33,6 +34,36 @@ def extract_varga_data(varga_folder):
                 "varga_name": varga_name,
                 "shlokas": shlokas_json["shlokas"]
             })
+        else:
+            subVargas = []
+            subKhandaPath = os.path.join(varga_folder, file_name)
+            if os.path.isdir(subKhandaPath):
+                varga_id = str( file_name.split('_')[0] )
+                varga_name = "_".join(file_name.split('_')[1:])
+                print( varga_id, varga_name)
+                # print( subKhandaPath )
+                mangalam_lines = ""
+                tmp_dict = {}
+                for file_name in sorted( os.listdir( subKhandaPath ) ):
+                    if file_name == 'mangalam.yaml':
+                        mangalam_lines = read_mangalam( subKhandaPath )
+                    elif file_name.endswith('.yaml'):
+                        yaml_file = os.path.join(subKhandaPath, file_name)
+                        sub_varga_id = int(file_name.split('_')[0])
+                        sub_varga_name = '_'.join(file_name.split('_')[1:]).replace('.yaml','')
+                        tmp_dict[ sub_varga_id ] = [ sub_varga_name, yaml_file ]
+                tmp_dict = dict(sorted(tmp_dict.items()))
+                for val in tmp_dict.values():
+                    shlokas_json = yaml_to_json(val[1], val[0] )["shlokas"]
+                    for item in shlokas_json:
+                        subVargas.append(item)
+                vargas.append({
+                    "varga_id": str(varga_id),
+                    "varga_name": varga_name,
+                    "mangalam": mangalam_lines,
+                    "shlokas": subVargas
+                })
+                vargas.append( subVargas)
     return vargas
 
 # ------------------------------
@@ -43,6 +74,7 @@ def generate_full_json(data_folder):
     for kanda_name in sorted(os.listdir(data_folder)):
         kanda_path = os.path.join(data_folder, kanda_name)
         if os.path.isdir(kanda_path):
+            # print(kanda_path)
             kanda_id = str(kanda_name.split('_')[0])
             kanda_display_name = '_'.join(kanda_name.split('_')[1:])
             mangalam_lines = read_mangalam(kanda_path)
