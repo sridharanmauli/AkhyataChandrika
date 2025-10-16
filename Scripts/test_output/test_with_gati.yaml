@@ -1,0 +1,63 @@
+# Test file for backport verification
+
+!!python/object/apply:collections.OrderedDict
+- - - 'निष्पद्यते (with gati: निस्)'
+    - !!python/object/apply:collections.OrderedDict
+      - - - form
+          - निष्पद्यते
+        - - dhatu_ids
+          - '04.0065'
+        - - gati
+          - निस्
+        - - kanda
+          - प्रथमकाण्डः
+        - - varga
+          - भावविकारवर्गः
+        - - adhikaar
+          - ''
+        - - artha
+          - सिद्धौ
+        - - shloka_num
+          - '2'
+        - - shloka_text
+          - निर्वर्तते सम्भवति सिद्धौ सिध्यति राध्यति । निष्पद्यते च राध्नोति साध्नोति फलतीति च ॥
+  - - 'आप्यायते (with gati: आङ्)'
+    - !!python/object/apply:collections.OrderedDict
+      - - - form
+          - आप्यायते
+        - - dhatu_ids
+          - 01.0561, 01.1119
+        - - gati
+          - आङ्
+        - - kanda
+          - प्रथमकाण्डः
+        - - varga
+          - भावविकारवर्गः
+        - - adhikaar
+          - ''
+        - - artha
+          - वृद्धौ
+        - - shloka_num
+          - '7'
+        - - shloka_text
+          - आप्यायते स्फायते च श्वयत्यृध्नोति बर्हति । आपूर्यते पुष्यति च पोषत्यृध्यति पूषति ॥
+  - - 'विपोलयति (with gati: वि)'
+    - !!python/object/apply:collections.OrderedDict
+      - - - form
+          - विपोलयति
+        - - dhatu_ids
+          - 10.0090, 10.0131
+        - - gati
+          - वि
+        - - kanda
+          - प्रथमकाण्डः
+        - - varga
+          - भावविकारवर्गः
+        - - adhikaar
+          - ''
+        - - artha
+          - वृद्धौ
+        - - shloka_num
+          - '9'
+        - - shloka_text
+          - महीयते च वठति विपोलयति तीवति ।  क्रमते प्यायते स्फीतीभवति प्रथतेऽपि च ॥

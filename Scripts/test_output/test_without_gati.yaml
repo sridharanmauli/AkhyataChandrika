@@ -1,0 +1,63 @@
+# Test file for backport verification
+
+!!python/object/apply:collections.OrderedDict
+- - - फलति
+    - !!python/object/apply:collections.OrderedDict
+      - - - form
+          - फलति
+        - - dhatu_ids
+          - '01.0594'
+        - - gati
+          - ''
+        - - kanda
+          - प्रथमकाण्डः
+        - - varga
+          - भावविकारवर्गः
+        - - adhikaar
+          - ''
+        - - artha
+          - विशरणे
+        - - shloka_num
+          - '13'
+        - - shloka_text
+          - जूर्यते जारयति च जिनाति च जृणाति च । दलति स्फोटति विशीर्यते फलति शीयते ॥
+  - - कल्पते
+    - !!python/object/apply:collections.OrderedDict
+      - - - form
+          - कल्पते
+        - - dhatu_ids
+          - 01.0866, 01.0875
+        - - gati
+          - ''
+        - - kanda
+          - द्वितीयकाण्डः
+        - - varga
+          - क्षत्रियचेष्टावर्गः
+        - - adhikaar
+          - ''
+        - - artha
+          - शक्तौ
+        - - shloka_num
+          - '56'
+        - - shloka_text
+          - पर्याप्नोति तु शक्नोति क्षमते प्रभवत्यपि । पोथत्यलत्यात्मनेऽपि द्वौ पारयति कल्पते ॥
+  - - बृंहति
+    - !!python/object/apply:collections.OrderedDict
+      - - - form
+          - बृंहति
+        - - dhatu_ids
+          - 01.0837, 10.0299
+        - - gati
+          - ''
+        - - kanda
+          - द्वितीयकाण्डः
+        - - varga
+          - क्षत्रियचेष्टावर्गः
+        - - adhikaar
+          - ''
+        - - artha
+          - स्थिरीकृतौ
+        - - shloka_num
+          - '6'
+        - - shloka_text
+          - स्थिरीकृतौ स्थापयति द्रढयत्यपि बृंहति । दधाति धत्ते बिभृते बिभर्ति भरतीति च ॥

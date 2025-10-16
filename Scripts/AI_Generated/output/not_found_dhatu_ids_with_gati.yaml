@@ -1,0 +1,12 @@
+# Cases where a verb has 'Not Found' dhatu_id (verbs WITH gati)
+# Format: Each entry shows the verb form that needs a dhatu_id assigned
+# Manually edit this file to add the correct dhatu_id for each case
+# After editing, run the backport script to sync changes back to original YAML files
+#
+# Instructions:
+#   1. Find the correct dhatu_id for each verb
+#   2. Change dhatu_id from 'Not Found' to the correct ID (e.g., '01.0594')
+#   3. Keep the gati field as is (don't modify it)
+#   4. Run backport script to apply changes
+
+{}
