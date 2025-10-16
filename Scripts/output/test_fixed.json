@@ -19,7 +19,7 @@
                         },
                         {
                             "form": "मार्जयति",
-                            "dhatu_id": "10.0150, 10.0386",
+                            "dhatu_id": "10.0150, 10.0386 (More than one)",
                             "gati": ""
                         },
                         {
@@ -61,12 +61,12 @@
                         },
                         {
                             "form": "शुन्धति",
-                            "dhatu_id": "01.0077, 10.0369",
+                            "dhatu_id": "01.0077, 10.0369 (More than one)",
                             "gati": ""
                         },
                         {
                             "form": "शुन्धते",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
@@ -107,22 +107,22 @@
                     "entries": [
                         {
                             "form": "उपसङ्गृह्णाति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "उपसङ्गृह्णीते",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "प्रणिपतति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "नमस्कुरुते",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         }
                     ]
@@ -143,7 +143,7 @@
                         },
                         {
                             "form": "अर्हयति",
-                            "dhatu_id": "10.0257, 10.0367",
+                            "dhatu_id": "10.0257, 10.0367 (More than one)",
                             "gati": ""
                         },
                         {
@@ -153,7 +153,7 @@
                         },
                         {
                             "form": "आराधयति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
@@ -168,7 +168,7 @@
                         },
                         {
                             "form": "अर्हति",
-                            "dhatu_id": "01.0841, 10.0367",
+                            "dhatu_id": "01.0841, 10.0367 (More than one)",
                             "gati": ""
                         },
                         {
@@ -209,7 +209,7 @@
                         },
                         {
                             "form": "सम्भावयति",
-                            "dhatu_id": "10.0277, 10.0382",
+                            "dhatu_id": "10.0277, 10.0382 (More than one)",
                             "gati": "सम्"
                         },
                         {
@@ -219,7 +219,7 @@
                         },
                         {
                             "form": "सत्करोति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         }
                     ]
@@ -229,7 +229,7 @@
                     "entries": [
                         {
                             "form": "शुश्रूषति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
@@ -244,7 +244,7 @@
                         },
                         {
                             "form": "द्रवस्यति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         }
                     ]
@@ -286,7 +286,7 @@
                     "entries": [
                         {
                             "form": "भिष्णज्यति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
@@ -301,17 +301,17 @@
                         },
                         {
                             "form": "वासयति",
-                            "dhatu_id": "10.0273, 10.0426",
+                            "dhatu_id": "10.0273, 10.0426 (More than one)",
                             "gati": ""
                         },
                         {
                             "form": "संवाहयति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "विश्रमयति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         }
                     ]
@@ -342,7 +342,7 @@
                         },
                         {
                             "form": "प्रतिपादयति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
@@ -352,12 +352,12 @@
                         },
                         {
                             "form": "भ्राजयति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "श्रणति",
-                            "dhatu_id": "01.0907, 10.0174",
+                            "dhatu_id": "01.0907, 10.0174 (More than one)",
                             "gati": ""
                         },
                         {
@@ -388,22 +388,22 @@
                     "entries": [
                         {
                             "form": "स्वधाकरोति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "स्वधाकुरुते",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "निर्वपति",
-                            "dhatu_id": "01.1158, 01.1158",
+                            "dhatu_id": "01.1158, 01.1158 (More than one)",
                             "gati": "निस्"
                         },
                         {
                             "form": "निर्वपते",
-                            "dhatu_id": "01.1158, 01.1158",
+                            "dhatu_id": "01.1158, 01.1158 (More than one)",
                             "gati": "निस्"
                         }
                     ]
@@ -464,7 +464,7 @@
                         },
                         {
                             "form": "पर्थयति",
-                            "dhatu_id": "10.0028, 10.0186",
+                            "dhatu_id": "10.0028, 10.0186 (More than one)",
                             "gati": ""
                         }
                     ]
@@ -474,32 +474,32 @@
                     "entries": [
                         {
                             "form": "स्वाहाकरोति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "स्वाहाकुरुते",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "वौषट्करोति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "वौषट्कुरुते",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "वषट्करोति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "वषट्कुरुते",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         }
                     ]
@@ -540,7 +540,7 @@
                         },
                         {
                             "form": "धिन्वति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
@@ -586,7 +586,7 @@
                         },
                         {
                             "form": "कुणायति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         }
                     ]
@@ -602,32 +602,32 @@
                     "entries": [
                         {
                             "form": "धापयति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "धापयते",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "पाययति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "पाययते",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "चूषयति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "चूषयते",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         }
                     ]
@@ -647,7 +647,7 @@
                         },
                         {
                             "form": "यामयति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         }
                     ]
@@ -663,17 +663,17 @@
                     "entries": [
                         {
                             "form": "आदयति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "आदयते",
-                            "dhatu_id": "01.0553, 01.1117",
+                            "dhatu_id": "01.0553, 01.1117 (More than one)",
                             "gati": "आङ्"
                         },
                         {
                             "form": "भोजयति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         }
                     ]
@@ -689,12 +689,12 @@
                     "entries": [
                         {
                             "form": "तूणयति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "आप्याययति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
@@ -720,12 +720,12 @@
                         },
                         {
                             "form": "मदयति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "मृडयति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         }
                     ]
@@ -767,17 +767,17 @@
                     "entries": [
                         {
                             "form": "जञ्जप्यते",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "जञ्जप्ति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "जञ्जपीति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         }
                     ]
@@ -792,12 +792,12 @@
                         },
                         {
                             "form": "लङ्‍घते",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "व्रतयति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         }
                     ]
@@ -813,7 +813,7 @@
                     "entries": [
                         {
                             "form": "तपस्यति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
@@ -833,22 +833,22 @@
                     "entries": [
                         {
                             "form": "मद्राकरोति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "मद्राकुरुते",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "भद्राकरोति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "भद्राकुरुते",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         }
                     ]
@@ -900,12 +900,12 @@
                         },
                         {
                             "form": "उपरमते",
-                            "dhatu_id": "01.0953, 01.0989",
+                            "dhatu_id": "01.0953, 01.0989 (More than one)",
                             "gati": "उप"
                         },
                         {
                             "form": "विरमतिविरमते",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
@@ -915,17 +915,17 @@
                         },
                         {
                             "form": "मोक्षते",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "मुमुक्षति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "मुमुक्षते",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         }
                     ]
@@ -946,12 +946,12 @@
                         },
                         {
                             "form": "सन्न्यस्यति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "सन्न्यस्यते",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         }
                     ]
@@ -961,17 +961,17 @@
                     "entries": [
                         {
                             "form": "ब्रह्मीभवति",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "मुच्यते",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         },
                         {
                             "form": "अपवृज्यते",
-                            "dhatu_id": "",
+                            "dhatu_id": "Not Found",
                             "gati": ""
                         }
                     ]
