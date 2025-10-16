@@ -501,22 +501,22 @@
                                     "entries": [
                                         {
                                             "form": "क्रम्यते (छ)",
-                                            "dhatu_id": "Not Found",
+                                            "dhatu_id": "01.0545",
                                             "gati": ""
                                         },
                                         {
                                             "form": "प्रसते (छ)",
-                                            "dhatu_id": "Not Found",
+                                            "dhatu_id": "01.0870",
                                             "gati": ""
                                         },
                                         {
                                             "form": "तौति (छ)",
-                                            "dhatu_id": "Not Found",
+                                            "dhatu_id": "02.0029",
                                             "gati": ""
                                         },
                                         {
                                             "form": "तवीति (छ)",
-                                            "dhatu_id": "Not Found",
+                                            "dhatu_id": "02.0029",
                                             "gati": ""
                                         }
                                     ]
@@ -3672,32 +3672,32 @@
                                     "entries": [
                                         {
                                             "form": "चिरिणोति(छ)",
-                                            "dhatu_id": "Not Found",
+                                            "dhatu_id": "05.0034",
                                             "gati": ""
                                         },
                                         {
                                             "form": "रिणोति(छ)",
-                                            "dhatu_id": "Not Found",
+                                            "dhatu_id": "05.0032",
                                             "gati": ""
                                         },
                                         {
                                             "form": "क्षिणोति(छ)",
-                                            "dhatu_id": "Not Found",
+                                            "dhatu_id": "05.0033, 08.0004 (More than one)",
                                             "gati": ""
                                         },
                                         {
                                             "form": "जिरिणोति(छ)",
-                                            "dhatu_id": "Not Found",
+                                            "dhatu_id": "05.0035",
                                             "gati": ""
                                         },
                                         {
                                             "form": "दाश्नोति(छ)",
-                                            "dhatu_id": "Not Found",
+                                            "dhatu_id": "05.0036",
                                             "gati": ""
                                         },
                                         {
                                             "form": "दृणोति(छ)",
-                                            "dhatu_id": "Not Found",
+                                            "dhatu_id": "05.0037",
                                             "gati": ""
                                         }
                                     ]
@@ -7607,27 +7607,27 @@
                                         },
                                         {
                                             "form": "दीधीते(छ)",
-                                            "dhatu_id": "Not Found",
+                                            "dhatu_id": "02.0071",
                                             "gati": ""
                                         },
                                         {
                                             "form": "बभस्ति(छ)",
-                                            "dhatu_id": "Not Found",
+                                            "dhatu_id": "03.0019",
                                             "gati": ""
                                         },
                                         {
                                             "form": "कञ्चते(छ)",
-                                            "dhatu_id": "Not Found",
+                                            "dhatu_id": "01.0193",
                                             "gati": ""
                                         },
                                         {
                                             "form": "योतते(छ)",
-                                            "dhatu_id": "Not Found",
+                                            "dhatu_id": "01.0031",
                                             "gati": ""
                                         },
                                         {
                                             "form": "मन्दते(छ)",
-                                            "dhatu_id": "Not Found",
+                                            "dhatu_id": "01.0013",
                                             "gati": ""
                                         }
                                     ]
@@ -9147,7 +9147,7 @@
                                         },
                                         {
                                             "form": "जजन्ति(छ)",
-                                            "dhatu_id": "Not Found",
+                                            "dhatu_id": "03.0025",
                                             "gati": ""
                                         }
                                     ]
@@ -12081,7 +12081,7 @@
                                         },
                                         {
                                             "form": "क्षुभ्नाति(छ)",
-                                            "dhatu_id": "Not Found",
+                                            "dhatu_id": "09.0055",
                                             "gati": ""
                                         }
                                     ]
@@ -12589,12 +12589,12 @@
                                         },
                                         {
                                             "form": "एषते(छ)",
-                                            "dhatu_id": "Not Found",
-                                            "gati": ""
+                                            "dhatu_id": "01.0695, 01.0701, 01.0701, 01.0705, 01.0705 (More than one)",
+                                            "gati": "आङ्"
                                         },
                                         {
                                             "form": "नेषते(छ)",
-                                            "dhatu_id": "Not Found",
+                                            "dhatu_id": "01.0704",
                                             "gati": ""
                                         }
                                     ]

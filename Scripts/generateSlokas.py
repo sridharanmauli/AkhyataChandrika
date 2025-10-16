@@ -10,6 +10,20 @@ TAB_SPACES = 2
 with open("output/SopasargaMappings.json", "r", encoding="utf-8") as f:
     sopasarga_mapping = json.load(f)
 
+def normalize_verb_for_lookup(verb):
+    """
+    Normalize a verb for sopasarga_mapping lookup by removing veda prayoga notation.
+    If verb contains (छ) which indicates veda prayoga, remove it before lookup.
+
+    Examples:
+        वर्धति (छ) -> वर्धति
+        पचति -> पचति
+    """
+    if not verb:
+        return verb
+    # Remove (छ) notation and any surrounding whitespace
+    return verb.replace('(छ)', '').strip()
+
 # -------------------------
 # Custom YAML dumper to preserve strings
 class QuotedDumper(yaml.SafeDumper):
@@ -305,9 +319,10 @@ def yaml_to_json(yaml_file, varga_name=None, prevCnt=0 ):
                                 form = form_text
                                 dhatu_id, upasagra = "Not Found", ""
 
-                                # Try to look up in sopasarga_mapping
-                                if form in sopasarga_mapping:
-                                    combinations = sopasarga_mapping[form]
+                                # Try to look up in sopasarga_mapping (normalize to remove (छ) notation)
+                                normalized_form = normalize_verb_for_lookup(form)
+                                if normalized_form in sopasarga_mapping:
+                                    combinations = sopasarga_mapping[normalized_form]
                                     if len(combinations) == 1:
                                         # Single combination
                                         combo = combinations[0]
@@ -368,9 +383,10 @@ def yaml_to_json(yaml_file, varga_name=None, prevCnt=0 ):
                     valid_data = [item for item in data_list if item and isinstance(item, str) and item.strip()]
 
                     if len(valid_data) == 0:
-                        # No valid data - check sopasarga_mapping
-                        if verb in sopasarga_mapping:
-                            combinations = sopasarga_mapping[verb]
+                        # No valid data - check sopasarga_mapping (normalize to remove (छ) notation)
+                        normalized_verb = normalize_verb_for_lookup(verb)
+                        if normalized_verb in sopasarga_mapping:
+                            combinations = sopasarga_mapping[normalized_verb]
                             if len(combinations) == 1:
                                 # Single combination
                                 combo = combinations[0]
