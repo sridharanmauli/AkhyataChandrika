@@ -145,8 +145,7 @@ def split_yaml_file(input_file, output_folder, num_parts, file_type):
             "Format: Each entry shows the verb form with its multiple dhatu_ids",
             "Manually edit this file to select the correct dhatu_id for each case",
             "After editing, run the backport script to sync changes back to original YAML files",
-            "",
-            "ENTRIES TO CORRECT: {{entry_count}}",
+            "ENTRIES TO CORRECT: {entry_count}",
             f"This is part {{part_num}} of {num_parts} - Assigned for proofreading"
         ]
     else:  # not_found_dhatu_ids
@@ -155,14 +154,12 @@ def split_yaml_file(input_file, output_folder, num_parts, file_type):
             "Format: Each entry shows the verb form that needs a dhatu_id assigned",
             "Manually edit this file to add the correct dhatu_id for each case",
             "After editing, run the backport script to sync changes back to original YAML files",
-            "",
             "Instructions:",
             "  1. Find the correct dhatu_id for each verb",
             "  2. Change dhatu_id from 'Not Found' to the correct ID (e.g., '01.0594')",
             "  3. Keep the gati field as is (don't modify it)",
             "  4. Run backport script to apply changes",
-            "",
-            "ENTRIES TO CORRECT: {{entry_count}}",
+            "ENTRIES TO CORRECT: {entry_count}",
             f"This is part {{part_num}} of {num_parts} - Assigned for proofreading"
         ]
 

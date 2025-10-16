@@ -2,7 +2,6 @@
 # Format: Each entry shows the verb form with its multiple dhatu_ids
 # Manually edit this file to select the correct dhatu_id for each case
 # After editing, run the backport script to sync changes back to original YAML files
-#
 # ENTRIES TO CORRECT: 16
 # This is part 2 of 10 - Assigned for proofreading
 
@@ -162,6 +161,18 @@
   "shloka_text": "दभ्नोति विप्रलभते प्रतारयति वञ्चने । अमी वञ्चयते गर्धयति चाऽथ जिघांसने ॥"
   "resolved": "false"
   "comment": ""
+"क्षिणोति(छ)":
+  "form": "क्षिणोति(छ)"
+  "dhatu_ids": "05.0033, 08.0004"
+  "gati": ""
+  "kanda": "प्रथमकाण्डः"
+  "varga": "अन्तःकरणवृत्तिवर्गः"
+  "adhikaar": ""
+  "artha": "जिघांसने"
+  "shloka_num": "21"
+  "shloka_text": "चिरिणोति रिणोत्येवं क्षिणोति जिरिणोति च । दाश्नोति च दृणोत्याहुः पदानि च्छान्दसानि षट्‌ ॥"
+  "resolved": "false"
+  "comment": ""
 "दयते":
   "form": "दयते"
   "dhatu_ids": "01.0553, 01.1117"
@@ -184,17 +195,5 @@
   "artha": "गर्वे"
   "shloka_num": "29"
   "shloka_text": "गर्वेऽभिमन्यते गर्वयते कर्वति खर्वति । हृष्यति स्माभिमनुते गर्वत्युद्यति दृप्यति ॥"
-  "resolved": "false"
-  "comment": ""
-"कडति":
-  "form": "कडति"
-  "dhatu_ids": "01.0417, 06.0108, 06.0111"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "अन्तःकरणवृत्तिवर्गः"
-  "adhikaar": ""
-  "artha": "गर्वे"
-  "shloka_num": "30"
-  "shloka_text": "क्षीबते शौटति कडत्यपि हर्षति कण्डते । माद्यत्यहङ्करोत्यात्मनेऽप्युन्मादे तु लोडति ॥"
   "resolved": "false"
   "comment": ""

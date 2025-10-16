@@ -2,10 +2,21 @@
 # Format: Each entry shows the verb form with its multiple dhatu_ids
 # Manually edit this file to select the correct dhatu_id for each case
 # After editing, run the backport script to sync changes back to original YAML files
-#
 # ENTRIES TO CORRECT: 16
 # This is part 8 of 10 - Assigned for proofreading
 
+"नेदति":
+  "form": "नेदति"
+  "dhatu_ids": "01.1012, 01.1013"
+  "gati": ""
+  "kanda": "द्वितीयकाण्डः"
+  "varga": "क्षत्रियचेष्टावर्गः"
+  "adhikaar": ""
+  "artha": "अन्तिकेअभियाने"
+  "shloka_num": "53"
+  "shloka_text": "सन्निकर्षत्यवष्टभ्नात्यासीदत्यपि नेदते । परस्मै द्वौ सन्निकृषतेऽवष्टभ्नोति चाऽन्तिके ॥"
+  "resolved": "false"
+  "comment": ""
 "नेदते":
   "form": "नेदते"
   "dhatu_ids": "01.1012, 01.1013"
@@ -184,17 +195,5 @@
   "artha": "हिंसायाम्"
   "shloka_num": "82"
   "shloka_text": "ऋथत्युज्जासयति च श्राथयत्यपि युथ्यति । तृहत्युध्नुटयति  च क्षिणाति च कृणाति च ॥"
-  "resolved": "false"
-  "comment": ""
-"कृणोति":
-  "form": "कृणोति"
-  "dhatu_ids": "01.0682, 05.0007"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "क्षत्रियचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "हिंसायाम्"
-  "shloka_num": "83"
-  "shloka_text": "प्रतिष्किरत्यालभते तृणात्युन्मथतीति च । क्षिणोति च्छषति द्रूणाति कृणोति क्षिणोति च ॥"
   "resolved": "false"
   "comment": ""

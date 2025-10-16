@@ -2,52 +2,14 @@
 # Format: Each entry shows the verb form that needs a dhatu_id assigned
 # Manually edit this file to add the correct dhatu_id for each case
 # After editing, run the backport script to sync changes back to original YAML files
-#
 # Instructions:
 #   1. Find the correct dhatu_id for each verb
 #   2. Change dhatu_id from 'Not Found' to the correct ID (e.g., '01.0594')
 #   3. Keep the gati field as is (don't modify it)
 #   4. Run backport script to apply changes
-#
-# ENTRIES TO CORRECT: 60
+# ENTRIES TO CORRECT: 58
 # This is part 9 of 10 - Assigned for proofreading
 
-"उज्जटयति":
-  "form": "उज्जटयति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "क्षत्रियचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "उन्मूलने"
-  "shloka_num": "95"
-  "shloka_text": "उन्मूलयत्युज्जहाति चोत्पाटयति वै समाः। उत्खनत्यात्मनेऽप्येते पञ्चोज्जटयतीति च ॥"
-  "resolved": "false"
-  "comment": ""
-"पराभवते":
-  "form": "पराभवते"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "क्षत्रियचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "भङ्गे"
-  "shloka_num": "96"
-  "shloka_text": "भङ्गे पराभवत्युक्ते पराभवत इत्यमू । जयत्युत्कर्षसम्प्राप्तौ तथा विजयते पदम् ॥"
-  "resolved": "false"
-  "comment": ""
-"बीजाकरोति":
-  "form": "बीजाकरोति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "वैश्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "उप्तकृष्टौ"
-  "shloka_num": "2"
-  "shloka_text": "बीजाकरोत्युप्तकृष्टौ स्याद्‌ द्वितीयाकरोति च । शम्बाकरोति द्विगुणाकरोति द्विःकृषौ त्रयम्‌ ॥"
-  "resolved": "false"
-  "comment": ""
 "बीजाकुरुते":
   "form": "बीजाकुरुते"
   "dhatu_id": "Not Found"
@@ -730,5 +692,17 @@
   "artha": "प्रस्नवे"
   "shloka_num": "32"
   "shloka_text": "वित्तोत्सर्गे व्यययति व्ययति व्ययतेऽपि च । दोहानुकूल्ये दुग्धे गौः प्रस्नुते प्रस्नवे स्वयम् ॥"
+  "resolved": "false"
+  "comment": ""
+"विप्रयुङ्‍क्ते":
+  "form": "विप्रयुङ्‍क्ते"
+  "dhatu_id": "Not Found"
+  "gati": ""
+  "kanda": "द्वितीयकाण्डः"
+  "varga": "वैश्यचेष्टावर्गः"
+  "adhikaar": ""
+  "artha": "विश्लेषणे"
+  "shloka_num": "35"
+  "shloka_text": "विश्लेषणे स्युर्विश्लेषयति यौति वियौति च । मिश्रयत्यपि संयौति सम्पृक्ते सम्पृणक्ति च ॥"
   "resolved": "false"
   "comment": ""

@@ -2,10 +2,21 @@
 # Format: Each entry shows the verb form with its multiple dhatu_ids
 # Manually edit this file to select the correct dhatu_id for each case
 # After editing, run the backport script to sync changes back to original YAML files
-#
 # ENTRIES TO CORRECT: 16
 # This is part 9 of 10 - Assigned for proofreading
 
+"कृणोति":
+  "form": "कृणोति"
+  "dhatu_ids": "01.0682, 05.0007"
+  "gati": ""
+  "kanda": "द्वितीयकाण्डः"
+  "varga": "क्षत्रियचेष्टावर्गः"
+  "adhikaar": ""
+  "artha": "हिंसायाम्"
+  "shloka_num": "83"
+  "shloka_text": "प्रतिष्किरत्यालभते तृणात्युन्मथतीति च । क्षिणोति च्छषति द्रूणाति कृणोति क्षिणोति च ॥"
+  "resolved": "false"
+  "comment": ""
 "क्षिणोति":
   "form": "क्षिणोति"
   "dhatu_ids": "05.0033, 08.0004"
@@ -184,17 +195,5 @@
   "artha": "विभागे"
   "shloka_num": "21"
   "shloka_text": "उत्पंसयति तु प्रोञ्छे प्रोञ्छत्युत्सारयत्यपि । वण्डति व्युष्यति तथा विभजत्यात्मनेऽप्ययम्‌ ॥"
-  "resolved": "false"
-  "comment": ""
-"वण्टयति":
-  "form": "वण्टयति"
-  "dhatu_ids": "10.0073, 10.0464"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "वैश्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "विभागे"
-  "shloka_num": "22"
-  "shloka_text": "विभागे वण्टयति च विभाजयत्यवमाति च । न्यासे निक्षिप्यति न्यस्यत्येवं परिदधाति च ॥"
   "resolved": "false"
   "comment": ""

@@ -2,10 +2,21 @@
 # Format: Each entry shows the verb form with its multiple dhatu_ids
 # Manually edit this file to select the correct dhatu_id for each case
 # After editing, run the backport script to sync changes back to original YAML files
-#
 # ENTRIES TO CORRECT: 16
 # This is part 5 of 10 - Assigned for proofreading
 
+"रमते":
+  "form": "रमते"
+  "dhatu_ids": "01.0953, 01.0989"
+  "gati": ""
+  "kanda": "द्वितीयकाण्डः"
+  "varga": "मनुष्यचेष्टावर्गः"
+  "adhikaar": ""
+  "artha": "क्रीडनार्थकाः"
+  "shloka_num": "17"
+  "shloka_text": "क्रीडति दीव्यति खेलति केलति विहरति च कूर्दते लसति। रमतेऽमी विहरते कुमारयति खूर्दते ॥"
+  "resolved": "false"
+  "comment": ""
 "वमति":
   "form": "वमति"
   "dhatu_ids": "01.0984, 01.0984"
@@ -184,17 +195,5 @@
   "artha": "शुचीभावे"
   "shloka_num": "3"
   "shloka_text": "सयुर्मज्जने क्रुडत्येते शुन्धयत्यपि शुन्धति । शुन्धते शुध्यति शुचीभावे स्युरवदायति  ॥"
-  "resolved": "false"
-  "comment": ""
-"नमति":
-  "form": "नमति"
-  "dhatu_ids": "01.1136, 01.1136"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "ब्रह्मचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "प्रणतौ"
-  "shloka_num": "4"
-  "shloka_text": "उपस्पृशति चाऽऽचामत्यमू आचमनाऽर्थके । अभिवादयते नमति प्रणतावभिवन्दते नमस्यति च ॥"
   "resolved": "false"
   "comment": ""

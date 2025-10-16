@@ -2,14 +2,12 @@
 # Format: Each entry shows the verb form that needs a dhatu_id assigned
 # Manually edit this file to add the correct dhatu_id for each case
 # After editing, run the backport script to sync changes back to original YAML files
-#
 # Instructions:
 #   1. Find the correct dhatu_id for each verb
 #   2. Change dhatu_id from 'Not Found' to the correct ID (e.g., '01.0594')
 #   3. Keep the gati field as is (don't modify it)
 #   4. Run backport script to apply changes
-#
-# ENTRIES TO CORRECT: 60
+# ENTRIES TO CORRECT: 58
 # This is part 1 of 10 - Assigned for proofreading
 
 "सिद्ध्यति":
@@ -58,54 +56,6 @@
   "artha": "वृद्धौ"
   "shloka_num": "9"
   "shloka_text": "महीयते च वठति विपोलयति तीवति ।  क्रमते प्यायते स्फीतीभवति प्रथतेऽपि च ॥"
-  "resolved": "false"
-  "comment": ""
-"क्रम्यते (छ)":
-  "form": "क्रम्यते (छ)"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "भावविकारवर्गः"
-  "adhikaar": ""
-  "artha": "वृद्धौ"
-  "shloka_num": "10"
-  "shloka_text": "क्रम्यते प्रसते तौति तवीति च्छान्दसौ क्वचित् । स्फुटति स्फोटते फुल्लत्युन्मीलत्यपि पुष्प्यति ॥"
-  "resolved": "false"
-  "comment": ""
-"प्रसते (छ)":
-  "form": "प्रसते (छ)"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "भावविकारवर्गः"
-  "adhikaar": ""
-  "artha": "वृद्धौ"
-  "shloka_num": "10"
-  "shloka_text": "क्रम्यते प्रसते तौति तवीति च्छान्दसौ क्वचित् । स्फुटति स्फोटते फुल्लत्युन्मीलत्यपि पुष्प्यति ॥"
-  "resolved": "false"
-  "comment": ""
-"तौति (छ)":
-  "form": "तौति (छ)"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "भावविकारवर्गः"
-  "adhikaar": ""
-  "artha": "वृद्धौ"
-  "shloka_num": "10"
-  "shloka_text": "क्रम्यते प्रसते तौति तवीति च्छान्दसौ क्वचित् । स्फुटति स्फोटते फुल्लत्युन्मीलत्यपि पुष्प्यति ॥"
-  "resolved": "false"
-  "comment": ""
-"तवीति (छ)":
-  "form": "तवीति (छ)"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "भावविकारवर्गः"
-  "adhikaar": ""
-  "artha": "वृद्धौ"
-  "shloka_num": "10"
-  "shloka_text": "क्रम्यते प्रसते तौति तवीति च्छान्दसौ क्वचित् । स्फुटति स्फोटते फुल्लत्युन्मीलत्यपि पुष्प्यति ॥"
   "resolved": "false"
   "comment": ""
 "विकासति":
@@ -730,5 +680,29 @@
   "artha": "संश्रवे"
   "shloka_num": "26"
   "shloka_text": "आत्मनेऽपि त्रयं शीलत्यवधानेऽथ संश्रवे । आशृणोति प्रतिशृणोत्यभ्युपैत्यभ्युपेयते ॥"
+  "resolved": "false"
+  "comment": ""
+"अभ्युपेयते":
+  "form": "अभ्युपेयते"
+  "dhatu_id": "Not Found"
+  "gati": ""
+  "kanda": "प्रथमकाण्डः"
+  "varga": "बुद्धिवर्गः"
+  "adhikaar": ""
+  "artha": "संश्रवे"
+  "shloka_num": "26"
+  "shloka_text": "आत्मनेऽपि त्रयं शीलत्यवधानेऽथ संश्रवे । आशृणोति प्रतिशृणोत्यभ्युपैत्यभ्युपेयते ॥"
+  "resolved": "false"
+  "comment": ""
+"अभ्युपगच्छति":
+  "form": "अभ्युपगच्छति"
+  "dhatu_id": "Not Found"
+  "gati": ""
+  "kanda": "प्रथमकाण्डः"
+  "varga": "बुद्धिवर्गः"
+  "adhikaar": ""
+  "artha": "संश्रवे"
+  "shloka_num": "28"
+  "shloka_text": "समादधात्यात्मनेऽपि मुणत्यभ्युपगच्छति । उरर्यङ्ग्यूर्यूररीभ्यः करोति कुरुते परे ॥"
   "resolved": "false"
   "comment": ""

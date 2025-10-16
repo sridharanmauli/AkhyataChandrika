@@ -2,7 +2,6 @@
 # Format: Each entry shows the verb form with its multiple dhatu_ids
 # Manually edit this file to select the correct dhatu_id for each case
 # After editing, run the backport script to sync changes back to original YAML files
-#
 # ENTRIES TO CORRECT: 16
 # This is part 1 of 10 - Assigned for proofreading
 

@@ -2,28 +2,14 @@
 # Format: Each entry shows the verb form that needs a dhatu_id assigned
 # Manually edit this file to add the correct dhatu_id for each case
 # After editing, run the backport script to sync changes back to original YAML files
-#
 # Instructions:
 #   1. Find the correct dhatu_id for each verb
 #   2. Change dhatu_id from 'Not Found' to the correct ID (e.g., '01.0594')
 #   3. Keep the gati field as is (don't modify it)
 #   4. Run backport script to apply changes
-#
-# ENTRIES TO CORRECT: 55
+# ENTRIES TO CORRECT: 54
 # This is part 10 of 10 - Assigned for proofreading
 
-"विप्रयुङ्‍क्ते":
-  "form": "विप्रयुङ्‍क्ते"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "वैश्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "विश्लेषणे"
-  "shloka_num": "35"
-  "shloka_text": "विश्लेषणे स्युर्विश्लेषयति यौति वियौति च । मिश्रयत्यपि संयौति सम्पृक्ते सम्पृणक्ति च ॥"
-  "resolved": "false"
-  "comment": ""
 "संसृजते":
   "form": "संसृजते"
   "dhatu_id": "Not Found"

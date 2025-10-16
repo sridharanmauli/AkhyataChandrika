@@ -2,10 +2,21 @@
 # Format: Each entry shows the verb form with its multiple dhatu_ids
 # Manually edit this file to select the correct dhatu_id for each case
 # After editing, run the backport script to sync changes back to original YAML files
-#
 # ENTRIES TO CORRECT: 16
 # This is part 7 of 10 - Assigned for proofreading
 
+"कालयति":
+  "form": "कालयति"
+  "dhatu_ids": "10.0093, 10.0422"
+  "gati": ""
+  "kanda": "द्वितीयकाण्डः"
+  "varga": "क्षत्रियचेष्टावर्गः"
+  "adhikaar": ""
+  "artha": "प्रेरणे"
+  "shloka_num": "11"
+  "shloka_text": "नुदति क्षिपतीत्येतावात्मने कालयत्यपि । डिपत्येवं डेपयति लाभयत्यपि डिप्यति ॥"
+  "resolved": "false"
+  "comment": ""
 "वृणीते":
   "form": "वृणीते"
   "dhatu_ids": "09.0019, 09.0045"
@@ -184,17 +195,5 @@
   "artha": "अधोगतौ"
   "shloka_num": "46"
   "shloka_text": "सञ्चारे चरतीत्येष तृतीयायुक्त आत्मने । पतत्यधोगतौ भ्रंसतेऽपि भ्रश्यति भृश्यति ॥"
-  "resolved": "false"
-  "comment": ""
-"नेदति":
-  "form": "नेदति"
-  "dhatu_ids": "01.1012, 01.1013"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "क्षत्रियचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "अन्तिकेअभियाने"
-  "shloka_num": "53"
-  "shloka_text": "सन्निकर्षत्यवष्टभ्नात्यासीदत्यपि नेदते । परस्मै द्वौ सन्निकृषतेऽवष्टभ्नोति चाऽन्तिके ॥"
   "resolved": "false"
   "comment": ""
