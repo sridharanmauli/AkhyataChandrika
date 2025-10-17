@@ -23,7 +23,7 @@ python3 Scripts/AI_Generated/scripts/collectors/collectMultipleDhatuIds.py \
 
 ### collectNotFoundDhatuIds.py
 Collects all verbs where dhatu_id is "Not Found" from the generated JSON file.
-Creates TWO YAML files - one for verbs without gati, one for verbs with gati.
+Creates ONE YAML file for verbs without gati only.
 
 **Usage:**
 ```bash
@@ -34,7 +34,8 @@ python3 Scripts/AI_Generated/scripts/collectors/collectNotFoundDhatuIds.py \
 
 **Output:**
 - `not_found_dhatu_ids_without_gati.yaml` - Verbs with "Not Found" (no gati)
-- `not_found_dhatu_ids_with_gati.yaml` - Verbs with "Not Found" (with gati)
+
+**Note:** Verbs with gati that have "Not Found" dhatu_id are currently 0 entries and not generated.
 
 ---
 

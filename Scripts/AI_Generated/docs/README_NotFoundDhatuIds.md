@@ -32,14 +32,15 @@ python3 Scripts/AI_Generated/scripts/collectNotFoundDhatuIds.py \
 - Reads the auto-generated JSON file
 - Finds all verb entries where `dhatu_id` equals "Not Found"
 - Separates them into two categories based on presence of gati
-- Creates TWO YAML files with all such cases
+- Creates ONE YAML file with all such cases (without gati only)
 - Each entry includes complete metadata for accurate backporting
 
 **Note**: This script automatically skips the नानार्थवर्गः folder.
 
 **Outputs**:
-- `Scripts/AI_Generated/output/not_found_dhatu_ids_without_gati.yaml` - 595 unique verbs
-- `Scripts/AI_Generated/output/not_found_dhatu_ids_with_gati.yaml` - 0 verbs (all "Not Found" cases are without gati)
+- `Scripts/AI_Generated/output/not_found_dhatu_ids_without_gati.yaml` - 576 unique verbs
+
+**Note:** Verbs with gati that have "Not Found" dhatu_id are currently 0 entries and not generated.
 
 ### 2. backportNotFoundDhatuIds.py
 
@@ -88,8 +89,7 @@ python3 Scripts/AI_Generated/scripts/collectNotFoundDhatuIds.py \
 ```
 
 This creates:
-- `not_found_dhatu_ids_without_gati.yaml` (595 verbs)
-- `not_found_dhatu_ids_with_gati.yaml` (0 verbs)
+- `not_found_dhatu_ids_without_gati.yaml` (576 verbs)
 
 ### Step 3: Manually Edit the YAML File
 

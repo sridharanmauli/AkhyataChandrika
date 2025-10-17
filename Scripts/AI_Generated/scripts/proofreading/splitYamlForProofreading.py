@@ -2,18 +2,21 @@
 """
 Script to split large YAML files into multiple smaller files for distributed proofreading.
 
-Location: Scripts/AI_Generated/scripts/splitYamlForProofreading.py
+Location: Scripts/AI_Generated/scripts/proofreading/splitYamlForProofreading.py
 
 Usage (from project root):
-    python3 Scripts/AI_Generated/scripts/splitYamlForProofreading.py
+    python3 Scripts/AI_Generated/scripts/proofreading/splitYamlForProofreading.py
 
 This script:
-1. Reads multiple_dhatu_ids.yaml (285 entries) and splits into 10 files (~28-29 entries each)
-2. Reads not_found_dhatu_ids_without_gati.yaml (595 entries) and splits into 10 files (~59-60 entries each)
-3. Creates folders:
-   - Scripts/output/multiple_dhatu_ids/
-   - Scripts/AI_Generated/output/not_found_dhatu_ids_without_gati/
-4. Creates files named: part_01.yaml, part_02.yaml, ..., part_10.yaml in each folder
+1. Reads multiple_dhatu_ids_with_gati.yaml and splits into 10 files
+2. Reads multiple_dhatu_ids_without_gati.yaml and splits into 10 files
+3. Reads not_found_dhatu_ids_without_gati.yaml and splits into 10 files
+4. Creates folders:
+   - Scripts/AI_Generated/output/multipleDhatuIdsWithGati/
+   - Scripts/AI_Generated/output/multipleDhatuIdsWithoutGati/
+   - Scripts/AI_Generated/output/notFoundDhatuIdsWithoutGati/
+5. Creates files named: part_01.yaml, part_02.yaml, ..., part_10.yaml in each folder
+6. Each entry includes 'resolved' and 'comment' fields for tracking proofreading progress
 """
 
 import yaml
@@ -183,44 +186,54 @@ def split_yaml_file(input_file, output_folder, num_parts, file_type):
 
 
 def main():
-    """Main function to split both YAML files"""
+    """Main function to split YAML files"""
     print("\n" + "="*70)
     print("YAML File Splitter for Distributed Proofreading")
     print("="*70)
 
-    # Define file paths - using the without_gati variants
-    multiple_dhatu_ids_file = "Scripts/AI_Generated/output/multiple_dhatu_ids_without_gati.yaml"
+    # Define file paths
+    multiple_dhatu_ids_with_gati_file = "Scripts/AI_Generated/output/multiple_dhatu_ids_with_gati.yaml"
+    multiple_dhatu_ids_without_gati_file = "Scripts/AI_Generated/output/multiple_dhatu_ids_without_gati.yaml"
     not_found_dhatu_ids_file = "Scripts/AI_Generated/output/not_found_dhatu_ids_without_gati.yaml"
 
-    multiple_dhatu_ids_folder = "Scripts/AI_Generated/output/multipleDhatuIdsWithoutGati"
+    multiple_dhatu_ids_with_gati_folder = "Scripts/AI_Generated/output/multipleDhatuIdsWithGati"
+    multiple_dhatu_ids_without_gati_folder = "Scripts/AI_Generated/output/multipleDhatuIdsWithoutGati"
     not_found_dhatu_ids_folder = "Scripts/AI_Generated/output/notFoundDhatuIdsWithoutGati"
 
     num_parts = 10
 
-    # Check if files exist
-    if not os.path.exists(multiple_dhatu_ids_file):
-        print(f"❌ Error: File not found: {multiple_dhatu_ids_file}")
-        sys.exit(1)
-
-    if not os.path.exists(not_found_dhatu_ids_file):
-        print(f"❌ Error: File not found: {not_found_dhatu_ids_file}")
-        sys.exit(1)
+    # Split multiple_dhatu_ids_with_gati.yaml
+    if os.path.exists(multiple_dhatu_ids_with_gati_file):
+        split_yaml_file(
+            multiple_dhatu_ids_with_gati_file,
+            multiple_dhatu_ids_with_gati_folder,
+            num_parts,
+            'multiple_dhatu_ids'
+        )
+    else:
+        print(f"⚠️  Skipping: File not found: {multiple_dhatu_ids_with_gati_file}")
 
     # Split multiple_dhatu_ids_without_gati.yaml
-    split_yaml_file(
-        multiple_dhatu_ids_file,
-        multiple_dhatu_ids_folder,
-        num_parts,
-        'multiple_dhatu_ids'
-    )
+    if os.path.exists(multiple_dhatu_ids_without_gati_file):
+        split_yaml_file(
+            multiple_dhatu_ids_without_gati_file,
+            multiple_dhatu_ids_without_gati_folder,
+            num_parts,
+            'multiple_dhatu_ids'
+        )
+    else:
+        print(f"⚠️  Skipping: File not found: {multiple_dhatu_ids_without_gati_file}")
 
     # Split not_found_dhatu_ids_without_gati.yaml
-    split_yaml_file(
-        not_found_dhatu_ids_file,
-        not_found_dhatu_ids_folder,
-        num_parts,
-        'not_found_dhatu_ids'
-    )
+    if os.path.exists(not_found_dhatu_ids_file):
+        split_yaml_file(
+            not_found_dhatu_ids_file,
+            not_found_dhatu_ids_folder,
+            num_parts,
+            'not_found_dhatu_ids'
+        )
+    else:
+        print(f"⚠️  Skipping: File not found: {not_found_dhatu_ids_file}")
 
     print("\n" + "="*70)
     print("🎉 All files split successfully!")

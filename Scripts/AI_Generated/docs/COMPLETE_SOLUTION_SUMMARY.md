@@ -64,11 +64,10 @@ Scripts/AI_Generated/
 │   ├── testBackport.sh                           # Simple test
 │   └── workflow_example.sh                       # Interactive demo
 │
-├── output/                                        # Generated YAML files
-│   ├── multiple_dhatu_ids_without_gati.yaml      # 159 entries
-│   ├── multiple_dhatu_ids_with_gati.yaml         # 126 entries
-│   ├── not_found_dhatu_ids_without_gati.yaml     # 595 entries
-│   └── not_found_dhatu_ids_with_gati.yaml        # 0 entries
+├── output/                                        # Generated split folders
+│   ├── multipleDhatuIdsWithGati/                 # 127 entries (10 files)
+│   ├── multipleDhatuIdsWithoutGati/              # 160 entries (10 files)
+│   └── notFoundDhatuIdsWithoutGati/              # 576 entries (10 files)
 │
 └── docs/                                          # Documentation
     ├── AI_Doc.md                                 # Requirements
@@ -85,9 +84,9 @@ Scripts/AI_Generated/
 
 | Category | Count |
 |----------|-------|
-| Verbs with multiple dhatu_ids | 330 |
-| Verbs with "Not Found" | 595 |
-| **Total verbs needing correction** | **925** |
+| Verbs with multiple dhatu_ids | 287 |
+| Verbs with "Not Found" | 576 |
+| **Total verbs needing correction** | **863** |
 | Scripts created | 4 |
 | Documentation files | 7 |
 | Test scripts | 3 |

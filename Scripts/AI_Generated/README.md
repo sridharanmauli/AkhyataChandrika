@@ -33,11 +33,10 @@ AI_Generated/
 │   ├── testCompleteBackportWorkflow.py
 │   ├── testReviewWorkflow.py
 │   └── README.md
-├── output/                  # Generated YAML files (for manual editing)
-│   ├── multiple_dhatu_ids_without_gati.yaml
-│   ├── multiple_dhatu_ids_with_gati.yaml
-│   ├── not_found_dhatu_ids_without_gati.yaml
-│   └── not_found_dhatu_ids_with_gati.yaml
+├── output/                  # Generated split folders (for manual editing)
+│   ├── multipleDhatuIdsWithGati/     # 127 entries split into 10 files
+│   ├── multipleDhatuIdsWithoutGati/  # 160 entries split into 10 files
+│   └── notFoundDhatuIdsWithoutGati/  # 576 entries split into 10 files
 └── docs/                    # Complete documentation
     ├── AI_Doc.md
     ├── README_MultipleDhatuIds.md
@@ -109,8 +108,9 @@ python3 Scripts/AI_Generated/scripts/collectors/collectNotFoundDhatuIds.py \
 ```
 
 This creates:
-- `not_found_dhatu_ids_without_gati.yaml` (595 entries)
-- `not_found_dhatu_ids_with_gati.yaml` (0 entries)
+- `not_found_dhatu_ids_without_gati.yaml` (576 entries)
+
+**Note:** Verbs with gati that have "Not Found" dhatu_id are currently 0 entries and not generated.
 
 #### Step 2: Manually Assign Dhatu IDs
 

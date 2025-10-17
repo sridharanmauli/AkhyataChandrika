@@ -1,7 +1,7 @@
 # Not Found Dhatu IDs - Quick Start Guide
 
 ## Problem
-**595 verbs** have dhatu_id = "Not Found" and need manual assignment.
+**576 verbs** have dhatu_id = "Not Found" and need manual assignment.
 
 ## Solution - Three Simple Steps
 
@@ -16,9 +16,10 @@ python3 Scripts/AI_Generated/scripts/collectNotFoundDhatuIds.py \
     Scripts/AI_Generated/output
 ```
 
-**Output**: Two YAML files created:
-- `Scripts/AI_Generated/output/not_found_dhatu_ids_without_gati.yaml` (595 verbs)
-- `Scripts/AI_Generated/output/not_found_dhatu_ids_with_gati.yaml` (0 verbs)
+**Output**: One YAML file created:
+- `Scripts/AI_Generated/output/not_found_dhatu_ids_without_gati.yaml` (576 verbs)
+
+**Note:** Verbs with gati that have "Not Found" dhatu_id are currently 0 entries and not generated.
 
 ---
 
@@ -38,7 +39,7 @@ Open `not_found_dhatu_ids_without_gati.yaml` and assign dhatu_ids:
   "dhatu_id": "04.0087"       # ← Assigned correct ID
 ```
 
-**Tip**: You don't need to edit all 595 at once! Edit 10-20 entries at a time.
+**Tip**: You don't need to edit all 576 at once! Edit 10-20 entries at a time.
 
 ---
 
@@ -80,8 +81,7 @@ python3 Scripts/AI_Generated/scripts/backportNotFoundDhatuIds.py \
 
 | File | Count | Description |
 |------|-------|-------------|
-| `not_found_dhatu_ids_without_gati.yaml` | 595 | Verbs without gati needing dhatu_id |
-| `not_found_dhatu_ids_with_gati.yaml` | 0 | (All "Not Found" are without gati) |
+| `not_found_dhatu_ids_without_gati.yaml` | 576 | Verbs without gati needing dhatu_id |
 
 ---
 

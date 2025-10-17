@@ -183,6 +183,7 @@ def main():
     print("="*70)
 
     folders = [
+        'Scripts/AI_Generated/output/multipleDhatuIdsWithGati',
         'Scripts/AI_Generated/output/multipleDhatuIdsWithoutGati',
         'Scripts/AI_Generated/output/notFoundDhatuIdsWithoutGati'
     ]
