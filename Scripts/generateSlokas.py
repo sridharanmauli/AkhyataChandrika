@@ -10,6 +10,14 @@ TAB_SPACES = 2
 with open("output/SopasargaMappings.json", "r", encoding="utf-8") as f:
     sopasarga_mapping = json.load(f)
 
+# Load SopasargaNichMappings (contains verb forms with Nich pratyaya)
+with open("output/SopasargaNichMappings.yaml", "r", encoding="utf-8") as f:
+    sopasarga_nich_mapping = yaml.safe_load(f)
+
+# Load SopasargaSanMappings (contains verb forms with San pratyaya)
+with open("output/SopasargaSanMappings.yaml", "r", encoding="utf-8") as f:
+    sopasarga_san_mapping = yaml.safe_load(f)
+
 def normalize_verb_for_lookup(verb):
     """
     Normalize a verb for sopasarga_mapping lookup by removing veda prayoga notation.
@@ -23,6 +31,79 @@ def normalize_verb_for_lookup(verb):
         return verb
     # Remove (छ) notation and any surrounding whitespace
     return verb.replace('(छ)', '').strip()
+
+def lookup_san_nich_mapping(verb):
+    """
+    Look up a verb in San or Nich mappings.
+
+    Returns:
+        tuple: (found, upasarga, dhatu_id, pratyaya) where:
+            - found: True if verb was found in either mapping
+            - upasarga: upasarga string (or "" if no upasarga)
+            - dhatu_id: dhatu number (may contain "(More than one)" for multiple matches)
+            - pratyaya: "San" or "Nich" depending on which mapping it was found in
+    """
+    # Check San mapping first
+    if verb in sopasarga_san_mapping:
+        combinations = sopasarga_san_mapping[verb]
+        if len(combinations) == 1:
+            combo = combinations[0]
+            return True, combo['upasarga'], combo['dhatuNumber'], "San"
+        else:
+            # Multiple combinations - use dhatu_ids separated by comma (deduplicated)
+            dhatu_ids = deduplicate_and_join_dhatu_ids([c['dhatuNumber'] for c in combinations])
+            upasarga = combinations[0]['upasarga']  # All should have same upasarga
+            return True, upasarga, dhatu_ids, "San"
+
+    # Check Nich mapping
+    if verb in sopasarga_nich_mapping:
+        combinations = sopasarga_nich_mapping[verb]
+        if len(combinations) == 1:
+            combo = combinations[0]
+            return True, combo['upasarga'], combo['dhatuNumber'], "Nich"
+        else:
+            # Multiple combinations - use dhatu_ids separated by comma (deduplicated)
+            dhatu_ids = deduplicate_and_join_dhatu_ids([c['dhatuNumber'] for c in combinations])
+            upasarga = combinations[0]['upasarga']  # All should have same upasarga
+            return True, upasarga, dhatu_ids, "Nich"
+
+    # Not found in either mapping
+    return False, "", "Not Found", ""
+
+def deduplicate_and_join_dhatu_ids(dhatu_ids_list):
+    """
+    Remove duplicate dhatu_ids from a list and join them with ", ".
+    Only marks as "(More than one)" if there are multiple UNIQUE dhatu_ids.
+
+    Examples:
+        ["01.0594", "01.0608"] -> "01.0594, 01.0608 (More than one)"
+        ["01.0594", "01.0594"] -> "01.0594"
+        ["01.0594"] -> "01.0594"
+
+    Args:
+        dhatu_ids_list: List of dhatu_id strings
+
+    Returns:
+        String with unique dhatu_ids joined, with "(More than one)" suffix if needed
+    """
+    if not dhatu_ids_list:
+        return "Not Found"
+
+    # Remove duplicates while preserving order
+    seen = set()
+    unique_ids = []
+    for dhatu_id in dhatu_ids_list:
+        dhatu_id = dhatu_id.strip()
+        if dhatu_id and dhatu_id not in seen:
+            seen.add(dhatu_id)
+            unique_ids.append(dhatu_id)
+
+    if len(unique_ids) == 0:
+        return "Not Found"
+    elif len(unique_ids) == 1:
+        return unique_ids[0]
+    else:
+        return ", ".join(unique_ids) + " (More than one)"
 
 # -------------------------
 # Custom YAML dumper to preserve strings
@@ -59,8 +140,8 @@ def update_nulls_with_mapping(node):
                             print(f"🔄 Updating '{key}' → [{combo['dhatuNumber']}]")
                             node[key] = [combo['dhatuNumber']]
                     else:
-                        # Multiple combinations - use dhatu_ids separated by comma
-                        dhatu_ids = ', '.join([c['dhatuNumber'] for c in combinations])
+                        # Multiple combinations - use dhatu_ids separated by comma (deduplicated)
+                        dhatu_ids = deduplicate_and_join_dhatu_ids([c['dhatuNumber'] for c in combinations])
                         upasarga = combinations[0]['upasarga']  # All should have same upasarga
                         if upasarga:
                             print(f"🔄 Updating '{key}' → [{upasarga}, {dhatu_ids}]")
@@ -87,7 +168,7 @@ def update_nulls_with_mapping(node):
                                     print(f"🔄 Updating '{k}' → [{combo['dhatuNumber']}]")
                                     item[k] = [combo['dhatuNumber']]
                             else:
-                                dhatu_ids = ', '.join([c['dhatuNumber'] for c in combinations])
+                                dhatu_ids = deduplicate_and_join_dhatu_ids([c['dhatuNumber'] for c in combinations])
                                 upasarga = combinations[0]['upasarga']
                                 if upasarga:
                                     print(f"🔄 Updating '{k}' → [{upasarga}, {dhatu_ids}]")
@@ -317,7 +398,7 @@ def yaml_to_json(yaml_file, varga_name=None, prevCnt=0 ):
 
                                 # Now we need to split the form_text to extract upasarga and dhatu
                                 form = form_text
-                                dhatu_id, upasagra = "Not Found", ""
+                                dhatu_id, upasagra, pratyaya = "Not Found", "", ""
 
                                 # Try to look up in sopasarga_mapping (normalize to remove (छ) notation)
                                 normalized_form = normalize_verb_for_lookup(form)
@@ -331,16 +412,21 @@ def yaml_to_json(yaml_file, varga_name=None, prevCnt=0 ):
                                     else:
                                         # Multiple dhatu IDs with same upasarga
                                         upasagra = combinations[0]['upasarga']
-                                        dhatu_ids = [c['dhatuNumber'] for c in combinations]
-                                        dhatu_id = ", ".join(dhatu_ids) + " (More than one)"
+                                        dhatu_id = deduplicate_and_join_dhatu_ids([c['dhatuNumber'] for c in combinations])
                                 else:
-                                    dhatu_id = "Not Found"
+                                    # Not found in SopasargaMappings, check San/Nich mappings
+                                    _, upasagra, dhatu_id, pratyaya = lookup_san_nich_mapping(normalized_form)
 
-                                verb_block["entries"].append({
+                                # Build entry dict
+                                entry_dict = {
                                     "form": form,
                                     "dhatu_id": dhatu_id,
                                     "gati": upasagra
-                                })
+                                }
+                                if pratyaya:
+                                    entry_dict["pratyaya"] = pratyaya
+
+                                verb_block["entries"].append(entry_dict)
 
                                 shloka_entry["verbs"].append(verb_block)
         else:
@@ -367,7 +453,7 @@ def yaml_to_json(yaml_file, varga_name=None, prevCnt=0 ):
 
                 for verb, metaData in entries_dict.items():
                     form = verb
-                    dhatu_id, upasagra = "Not Found", ""
+                    dhatu_id, upasagra, pratyaya = "Not Found", "", ""
 
                     # Normalize metaData to a list
                     if not metaData or metaData == "":
@@ -395,17 +481,18 @@ def yaml_to_json(yaml_file, varga_name=None, prevCnt=0 ):
                             else:
                                 # Multiple dhatu IDs with same upasarga
                                 upasagra = combinations[0]['upasarga']  # All should have same upasarga
-                                dhatu_ids = [c['dhatuNumber'] for c in combinations]
-                                dhatu_id = ", ".join(dhatu_ids) + " (More than one)"
+                                dhatu_id = deduplicate_and_join_dhatu_ids([c['dhatuNumber'] for c in combinations])
                         else:
-                            dhatu_id = "Not Found"
+                            # Not found in SopasargaMappings, check San/Nich mappings
+                            _, upasagra, dhatu_id, pratyaya = lookup_san_nich_mapping(normalized_verb)
                     elif len(valid_data) == 1:
                         # Single item - could be dhatu_id or gati
                         item = valid_data[0].strip()
                         # Check if it looks like a dhatu_id (format: XX.XXXX or contains comma-separated IDs)
                         if ',' in item:
-                            # Multiple dhatu_ids separated by comma
-                            dhatu_id = item + " (More than one)"
+                            # Multiple dhatu_ids separated by comma - deduplicate them
+                            dhatu_ids_list = [d.strip() for d in item.split(',')]
+                            dhatu_id = deduplicate_and_join_dhatu_ids(dhatu_ids_list)
                         elif '.' in item and any(c.isdigit() for c in item):
                             dhatu_id = item
                         else:
@@ -418,7 +505,8 @@ def yaml_to_json(yaml_file, varga_name=None, prevCnt=0 ):
                         second_item = valid_data[1].strip()
                         # Check if second item has comma-separated dhatu_ids
                         if ',' in second_item:
-                            dhatu_id = second_item + " (More than one)"
+                            dhatu_ids_list = [d.strip() for d in second_item.split(',')]
+                            dhatu_id = deduplicate_and_join_dhatu_ids(dhatu_ids_list)
                         else:
                             dhatu_id = second_item
                     else:
@@ -434,19 +522,19 @@ def yaml_to_json(yaml_file, varga_name=None, prevCnt=0 ):
                         else:
                             dhatu_ids = [item.strip() for item in valid_data]
 
-                        # Handle multiple dhatu_ids
-                        if len(dhatu_ids) > 1:
-                            dhatu_id = ", ".join(dhatu_ids) + " (More than one)"
-                        elif len(dhatu_ids) == 1:
-                            dhatu_id = dhatu_ids[0]
-                        else:
-                            dhatu_id = "Not Found"
+                        # Handle multiple dhatu_ids (deduplicate)
+                        dhatu_id = deduplicate_and_join_dhatu_ids(dhatu_ids)
 
-                    verb_block["entries"].append({
+                    # Build entry dict
+                    entry_dict = {
                         "form": form,
                         "dhatu_id": dhatu_id,
                         "gati": upasagra
-                    })
+                    }
+                    if pratyaya:
+                        entry_dict["pratyaya"] = pratyaya
+
+                    verb_block["entries"].append(entry_dict)
 
                 shloka_entry["verbs"].append(verb_block)
 

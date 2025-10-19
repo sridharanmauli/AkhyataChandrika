@@ -134,6 +134,7 @@ def write_yaml_file(yaml_file, data, file_type=""):
     with open(yaml_file, 'w', encoding='utf-8') as f:
         # Add header comment
         f.write(f"# Cases where a verb has 'Not Found' dhatu_id ({file_type})\n")
+        f.write(f"# Total items: {len(data)}\n")
         f.write("# Format: Each entry shows the verb form that needs a dhatu_id assigned\n")
         f.write("# Manually edit this file to add the correct dhatu_id for each case\n")
         f.write("# After editing, run the backport script to sync changes back to original YAML files\n")

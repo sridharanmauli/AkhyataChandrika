@@ -1,0 +1,4 @@
+- Currently we see if a verb is in SopasargaMappings.yaml and divide it to dhatu_id and upasarga.
+- But in case if we are not able to find a form, we have to do the following. 
+   - See if form ( forms, if we have multiple entries ) is either in SopasargaNichMappings.yam or SopasargaSanMapping.yaml
+   - If it exists, then for that form we have to split it to dhatu_id and upasarga and also introcude a new field called "pratyaya" and if it is from San write as San or if is from Nich write Nich

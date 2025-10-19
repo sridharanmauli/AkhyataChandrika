@@ -1,13 +1,8 @@
-# Cases where a verb has 'Not Found' dhatu_id (verbs WITHOUT gati)
-# Format: Each entry shows the verb form that needs a dhatu_id assigned
-# Manually edit this file to add the correct dhatu_id for each case
+# Cases where a verb has more than one dhatu_id
+# Format: Each entry shows the verb form with its multiple dhatu_ids
+# Manually edit this file to select the correct dhatu_id for each case
 # After editing, run the backport script to sync changes back to original YAML files
-# Instructions:
-#   1. Find the correct dhatu_id for each verb
-#   2. Change dhatu_id from 'Not Found' to the correct ID (e.g., '01.0594')
-#   3. Keep the gati field as is (don't modify it)
-#   4. Run backport script to apply changes
-# ENTRIES TO CORRECT: 58
+# ENTRIES TO CORRECT: 47
 # This is part 1 of 10 - Assigned for proofreading
 
 "सिद्ध्यति":
@@ -394,18 +389,6 @@
   "shloka_text": "विवेके तु विवेवेक्ति विविनक्त्यात्मनेऽप्यमू । निश्चिनुते निर्णयते निर्णयति च निर्णयेऽध्यवस्यति च ॥"
   "resolved": "false"
   "comment": ""
-"निर्धारयति":
-  "form": "निर्धारयति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "निर्णये"
-  "shloka_num": "16"
-  "shloka_text": "निष्टङ्कयति च सप्त च निर्धारयतीह निश्चिनोति स्युः। । सङ्कल्पयति सङ्कल्पेऽभिसन्धत्त उदीक्षते ॥"
-  "resolved": "false"
-  "comment": ""
 "अभिसन्धत्ते":
   "form": "अभिसन्धत्ते"
   "dhatu_id": "Not Found"
@@ -444,18 +427,6 @@
   "comment": ""
 "साक्षात्कुरुते":
   "form": "साक्षात्कुरुते"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "प्रत्यक्षे"
-  "shloka_num": "17"
-  "shloka_text": "लक्षीकरोत्युद्धिशति चोद्धेशेऽपदिशत्यपि । साक्षात्करोत्यात्मनेऽपि प्रत्यक्षेऽध्यक्षयत्यपि ॥"
-  "resolved": "false"
-  "comment": ""
-"अध्यक्षयति":
-  "form": "अध्यक्षयति"
   "dhatu_id": "Not Found"
   "gati": ""
   "kanda": "प्रथमकाण्डः"
@@ -596,113 +567,5 @@
   "artha": "मोहे"
   "shloka_num": "23"
   "shloka_text": "विस्मृत्यां विस्मरति च स्फूर्च्छति प्रस्मरत्यपि । मोहे विचेतीभवति विमुह्यति च मूर्च्छति ॥"
-  "resolved": "false"
-  "comment": ""
-"विमनीभवति":
-  "form": "विमनीभवति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "अनवधाने"
-  "shloka_num": "25"
-  "shloka_text": "विमनीभवतीति स्युः पञ्चाऽमी विमनायते । समादधात्यवदधात्यमी प्रणिदधाति च ॥"
-  "resolved": "false"
-  "comment": ""
-"विमनायते":
-  "form": "विमनायते"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "अनवधाने"
-  "shloka_num": "25"
-  "shloka_text": "विमनीभवतीति स्युः पञ्चाऽमी विमनायते । समादधात्यवदधात्यमी प्रणिदधाति च ॥"
-  "resolved": "false"
-  "comment": ""
-"समादधाति":
-  "form": "समादधाति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "संश्रवे"
-  "shloka_num": "28"
-  "shloka_text": "समादधात्यात्मनेऽपि मुणत्यभ्युपगच्छति । उरर्यङ्ग्यूर्यूररीभ्यः करोति कुरुते परे ॥"
-  "resolved": "false"
-  "comment": ""
-"समाधत्ते":
-  "form": "समाधत्ते"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "संश्रवे"
-  "shloka_num": "28"
-  "shloka_text": "समादधात्यात्मनेऽपि मुणत्यभ्युपगच्छति । उरर्यङ्ग्यूर्यूररीभ्यः करोति कुरुते परे ॥"
-  "resolved": "false"
-  "comment": ""
-"प्रणिदधाति":
-  "form": "प्रणिदधाति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "अवधाने"
-  "shloka_num": "25"
-  "shloka_text": "विमनीभवतीति स्युः पञ्चाऽमी विमनायते । समादधात्यवदधात्यमी प्रणिदधाति च ॥"
-  "resolved": "false"
-  "comment": ""
-"प्रणिधत्ते":
-  "form": "प्रणिधत्ते"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "अवधाने"
-  "shloka_num": "25"
-  "shloka_text": "विमनीभवतीति स्युः पञ्चाऽमी विमनायते । समादधात्यवदधात्यमी प्रणिदधाति च ॥"
-  "resolved": "false"
-  "comment": ""
-"अभ्युपैति":
-  "form": "अभ्युपैति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "संश्रवे"
-  "shloka_num": "26"
-  "shloka_text": "आत्मनेऽपि त्रयं शीलत्यवधानेऽथ संश्रवे । आशृणोति प्रतिशृणोत्यभ्युपैत्यभ्युपेयते ॥"
-  "resolved": "false"
-  "comment": ""
-"अभ्युपेयते":
-  "form": "अभ्युपेयते"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "संश्रवे"
-  "shloka_num": "26"
-  "shloka_text": "आत्मनेऽपि त्रयं शीलत्यवधानेऽथ संश्रवे । आशृणोति प्रतिशृणोत्यभ्युपैत्यभ्युपेयते ॥"
-  "resolved": "false"
-  "comment": ""
-"अभ्युपगच्छति":
-  "form": "अभ्युपगच्छति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "संश्रवे"
-  "shloka_num": "28"
-  "shloka_text": "समादधात्यात्मनेऽपि मुणत्यभ्युपगच्छति । उरर्यङ्ग्यूर्यूररीभ्यः करोति कुरुते परे ॥"
   "resolved": "false"
   "comment": ""

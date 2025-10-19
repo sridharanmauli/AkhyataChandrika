@@ -260,6 +260,7 @@ def backport_changes(multiple_dhatu_ids_yaml, data_folder):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
+        # python3 backportMultipleDhatuIds.py ../../output/multipleDhatuIdsWithGati  ~/Documents/GitHub/AkhyataChandrika/Data 
         print("Usage: python3 Scripts/AI_Generated/scripts/backportMultipleDhatuIds.py <yaml_file_or_dir> <data_folder>")
         print("\nOptions:")
         print("  1. Process all YAML files in output directory (recommended):")
