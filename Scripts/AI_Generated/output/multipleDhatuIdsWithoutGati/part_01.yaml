@@ -1,13 +1,13 @@
 # Cases where a verb has more than one dhatu_id
 # Format: Each entry shows the verb form with its multiple dhatu_ids
 # Manually edit this file to select the correct dhatu_id for each case
-# After editing, run the backport script to sync changes back to original YAML files
+# After editing, run the backport script to sync changes back to the original YAML files
 # ENTRIES TO CORRECT: 19
 # This is part 1 of 10 - Assigned for proofreading
 
 "फलति":
   "form": "फलति"
-  "dhatu_ids": "01.0594, 01.0608"
+  "dhatu_ids": "01.0594"
   "gati": ""
   "kanda": "प्रथमकाण्डः"
   "varga": "भावविकारवर्गः"
@@ -15,11 +15,11 @@
   "artha": "विशरणे"
   "shloka_num": "13"
   "shloka_text": "जूर्यते जारयति च जिनाति च जृणाति च । दलति स्फोटति विशीर्यते फलति शीयते ॥"
-  "resolved": "false"
+  "resolved": "true"
   "comment": ""
 "कल्पते":
   "form": "कल्पते"
-  "dhatu_ids": "01.0866, 01.0875"
+  "dhatu_ids": "01.0866"
   "gati": ""
   "kanda": "द्वितीयकाण्डः"
   "varga": "क्षत्रियचेष्टावर्गः"
@@ -27,7 +27,7 @@
   "artha": "शक्तौ"
   "shloka_num": "56"
   "shloka_text": "पर्याप्नोति तु शक्नोति क्षमते प्रभवत्यपि । पोथत्यलत्यात्मनेऽपि द्वौ पारयति कल्पते ॥"
-  "resolved": "false"
+  "resolved": "true"
   "comment": ""
 "बृंहति":
   "form": "बृंहति"
