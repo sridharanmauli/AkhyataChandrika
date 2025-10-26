@@ -7,7 +7,7 @@
 
 "सिद्ध्यति":
   "form": "सिद्ध्यति"
-  "dhatu_id": "Not Found"
+  "dhatu_id": "०४.००८९"
   "gati": ""
   "kanda": "प्रथमकाण्डः"
   "varga": "भावविकारवर्गः"
@@ -15,8 +15,8 @@
   "artha": "सिद्धौ"
   "shloka_num": "2"
   "shloka_text": "निर्वर्तते सम्भवति सिद्धौ सिध्यति राध्यति । निष्पद्यते च राध्नोति साध्नोति फलतीति च ॥"
-  "resolved": "false"
-  "comment": "Not Found in Dhatu Patha"
+  "resolved": "true"
+  "comment": "षिधु संरद्धौ ०४.००८९ पुषादि"
 "मेध्यति":
   "form": "मेध्यति"
   "dhatu_id": "Not Found"
@@ -40,7 +40,7 @@
   "shloka_num": "9"
   "shloka_text": "महीयते च वठति विपोलयति तीवति ।  क्रमते प्यायते स्फीतीभवति प्रथतेऽपि च ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "महीङ् पूजायाम् कण्ड्वादिः so we wont find it in regualr dhatupatha as seen in ashtadhyayi website"
 "स्फीतीभवति":
   "form": "स्फीतीभवति"
   "dhatu_id": "Not Found"
@@ -55,7 +55,7 @@
   "comment": "NamaDhatu, च्वि प्रत्यय"
 "विकासति":
   "form": "विकासति"
-  "dhatu_id": "Not Found"
+  "dhatu_id": "०१.०९९६"
   "gati": ""
   "kanda": "प्रथमकाण्डः"
   "varga": "भावविकारवर्गः"
@@ -63,8 +63,8 @@
   "artha": "विकासे"
   "shloka_num": "11"
   "shloka_text": "विजृम्भते विकचते विकासे विकसत्यपि । मीलति स्मीलति क्ष्मीलत्येते सङ्कुचतीति च ॥"
-  "resolved": "false"
-  "comment": ""
+  "resolved": "true"
+  "comment": "वि कस् घञ्"
 "मुकुलीभवति":
   "form": "मुकुलीभवति"
   "dhatu_id": "Not Found"
@@ -76,7 +76,7 @@
   "shloka_num": "12"
   "shloka_text": "कूणयत्यपि सङ्कोचे मुकुलीभवतीति षट् । अथो जरायां जरति सप्त जीर्यति झीर्यति ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "मुकुलीभू अङ्कुरवत् समीपं मुक्"
 "विशीर्यते":
   "form": "विशीर्यते"
   "dhatu_id": "Not Found"
