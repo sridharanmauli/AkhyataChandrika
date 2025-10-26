@@ -147,11 +147,11 @@
   "artha": "अर्चने"
   "shloka_num": "7"
   "shloka_text": "पूजयत्यर्हयति च महत्याराधयत्यपि । मानयत्यञ्चयति चाऽर्हति  यक्षयतेऽर्चने   ॥"
-  "resolved": "false"
+  "resolved": "not sure both look ok"
   "comment": ""
 "वासयति":
   "form": "वासयति"
-  "dhatu_ids": "10.0273, 10.0426"
+  "dhatu_ids": "10.0426"
   "gati": ""
   "kanda": "द्वितीयकाण्डः"
   "varga": "ब्रह्मचेष्टावर्गः"
@@ -159,7 +159,7 @@
   "artha": "उपसेवायां"
   "shloka_num": "10"
   "shloka_text": "भिष्णज्यत्युपसेवायां लाडयत्युपसेवते । वासयत्यपि संवाहयति विश्रमयत्यपि ॥"
-  "resolved": "false"
+  "resolved": "true"
   "comment": ""
 "यच्छति":
   "form": "यच्छति"
