@@ -2,570 +2,476 @@
 # Format: Each entry shows the verb form with its multiple dhatu_ids
 # Manually edit this file to select the correct dhatu_id for each case
 # After editing, run the backport script to sync changes back to original YAML files
-# ENTRIES TO CORRECT: 47
+# ENTRIES TO CORRECT: 36
 # This is part 1 of 10 - Assigned for proofreading
 
-"सिद्ध्यति":
-  "form": "सिद्ध्यति"
-  "dhatu_id": "०४.००८९"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "भावविकारवर्गः"
-  "adhikaar": ""
-  "artha": "सिद्धौ"
-  "shloka_num": "2"
-  "shloka_text": "निर्वर्तते सम्भवति सिद्धौ सिध्यति राध्यति । निष्पद्यते च राध्नोति साध्नोति फलतीति च ॥"
-  "resolved": "true"
-  "comment": "षिधु संरद्धौ ०४.००८९ पुषादि"
-"मेध्यति":
-  "form": "मेध्यति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "भावविकारवर्गः"
-  "adhikaar": ""
-  "artha": "वृद्धौ"
-  "shloka_num": "8"
-  "shloka_text": "वंहते मंहते मेध्यत्येधते च विपोलति । नीवत्यपि स्थूलयते तथा पीवति मीवति ॥"
-  "resolved": "false"
-  "comment": ""
-"महीयते":
-  "form": "महीयते"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "भावविकारवर्गः"
-  "adhikaar": ""
-  "artha": "वृद्धौ"
-  "shloka_num": "9"
-  "shloka_text": "महीयते च वठति विपोलयति तीवति ।  क्रमते प्यायते स्फीतीभवति प्रथतेऽपि च ॥"
-  "resolved": "false"
-  "comment": "महीङ् पूजायाम् कण्ड्वादिः so we wont find it in regualr dhatupatha as seen in ashtadhyayi website"
-"स्फीतीभवति":
-  "form": "स्फीतीभवति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "भावविकारवर्गः"
-  "adhikaar": ""
-  "artha": "वृद्धौ"
-  "shloka_num": "9"
-  "shloka_text": "महीयते च वठति विपोलयति तीवति ।  क्रमते प्यायते स्फीतीभवति प्रथतेऽपि च ॥"
-  "resolved": "false"
-  "comment": "NamaDhatu, च्वि प्रत्यय"
-"विकासति":
-  "form": "विकासति"
-  "dhatu_id": "०१.०९९६"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "भावविकारवर्गः"
-  "adhikaar": ""
-  "artha": "विकासे"
-  "shloka_num": "11"
-  "shloka_text": "विजृम्भते विकचते विकासे विकसत्यपि । मीलति स्मीलति क्ष्मीलत्येते सङ्कुचतीति च ॥"
-  "resolved": "true"
-  "comment": "वि कस् घञ्"
-"मुकुलीभवति":
-  "form": "मुकुलीभवति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "भावविकारवर्गः"
-  "adhikaar": ""
-  "artha": "सङ्कोचे"
-  "shloka_num": "12"
-  "shloka_text": "कूणयत्यपि सङ्कोचे मुकुलीभवतीति षट् । अथो जरायां जरति सप्त जीर्यति झीर्यति ॥"
-  "resolved": "false"
-  "comment": "मुकुलीभू अङ्कुरवत् समीपं मुक्"
-"विशीर्यते":
-  "form": "विशीर्यते"
-  "dhatu_id": "01.0629"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "भावविकारवर्गः"
-  "adhikaar": ""
-  "artha": "विशरणे"
-  "shloka_num": "13"
-  "shloka_text": "जूर्यते जारयति च जिनाति च जृणाति च । दलति स्फोटति विशीर्यते फलति शीयते ॥"
-  "resolved": "true"
-  "comment": "वि दल् विशीर्णतां विभेदं यायादित्यर्थः"
-"चुण्डते":
-  "form": "चुण्डते"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "भावविकारवर्गः"
-  "adhikaar": ""
-  "artha": "अल्पत्वे"
-  "shloka_num": "14"
-  "shloka_text": "द्राडतेऽमी विशरणे ध्राडते चाष्ट सीदति । अल्पत्वे लिश्यते कृश्यत्यमी ह्रसति चुण्डते ॥"
-  "resolved": "false"
-  "comment": "०१.०३६८ चुडिँ अल्पीभावे but dhatu is परस्मैपदी"
-"अपक्षीयते":
-  "form": "अपक्षीयते"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "भावविकारवर्गः"
-  "adhikaar": ""
-  "artha": "अपक्षये"
-  "shloka_num": "15"
-  "shloka_text": "चत्वारोऽथ दरिद्राति व्यृध्नोति व्यृध्यतीत्यपि । दरिद्रत्वे त्रयोऽथापक्षीयते चापि दीयते ॥"
-  "resolved": "false"
-  "comment": ""
-"पर्यवस्यति":
-  "form": "पर्यवस्यति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "भावविकारवर्गः"
-  "adhikaar": ""
-  "artha": "मरणे"
-  "shloka_num": "19"
-  "shloka_text": "पर्यवस्यत्युपरमत्यात्मनेपदसंस्थितौ । निर्वाति निर्वायति विध्यायत्युद्वायतीति च ॥"
-  "resolved": "false"
-  "comment": ""
-"आविर्भवति":
-  "form": "आविर्भवति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "स्फूर्तौ"
-  "shloka_num": "1"
-  "shloka_text": "स्फूर्तौ सप्ताविरस्त्याविर्भवति प्रादुरस्ति च। प्रादुर्भवति निर्भाति स्फुरति प्रतिभासते ॥"
-  "resolved": "false"
-  "comment": "आविर् भू ०१.०००१"
-"प्रादुरस्ति":
-  "form": "प्रादुरस्ति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "स्फूर्तौ"
-  "shloka_num": "1"
-  "shloka_text": "स्फूर्तौ सप्ताविरस्त्याविर्भवति प्रादुरस्ति च। प्रादुर्भवति निर्भाति स्फुरति प्रतिभासते ॥"
-  "resolved": "false"
-  "comment": "प्रादुर् अस् ०२.००६०"
-"प्रादुर्भवति":
-  "form": "प्रादुर्भवति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "स्फूर्तौ"
-  "shloka_num": "1"
-  "shloka_text": "स्फूर्तौ सप्ताविरस्त्याविर्भवति प्रादुरस्ति च। प्रादुर्भवति निर्भाति स्फुरति प्रतिभासते ॥"
-  "resolved": "false"
-  "comment": "प्रादुर्-भू ०१.०००१"
-"चित्तेकरोति":
-  "form": "चित्तेकरोति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "मनसागोचरीकारे"
-  "shloka_num": "6"
-  "shloka_text": "विद्यासु नयते प्राज्ञो वदते तासु पण्डितः । चित्तेमनस्युरसितः करोति कुरुते परे ॥"
-  "resolved": "false"
-  "comment": ""
-"चित्तेकुरुते":
-  "form": "चित्तेकुरुते"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "मनसागोचरीकारे"
-  "shloka_num": "6"
-  "shloka_text": "विद्यासु नयते प्राज्ञो वदते तासु पण्डितः । चित्तेमनस्युरसितः करोति कुरुते परे ॥"
-  "resolved": "false"
-  "comment": ""
-"मनसिकरोति":
-  "form": "मनसिकरोति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "मनसागोचरीकारे"
-  "shloka_num": "6"
-  "shloka_text": "विद्यासु नयते प्राज्ञो वदते तासु पण्डितः । चित्तेमनस्युरसितः करोति कुरुते परे ॥"
-  "resolved": "false"
-  "comment": "मनसि-करोति पालि script. buddhist word. rare in sanskrit "
-"मनसिकुरुते":
-  "form": "मनसिकुरुते"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "मनसागोचरीकारे"
-  "shloka_num": "6"
-  "shloka_text": "विद्यासु नयते प्राज्ञो वदते तासु पण्डितः । चित्तेमनस्युरसितः करोति कुरुते परे ॥"
-  "resolved": "false"
-  "comment": ""
-"उरसिकरोति":
-  "form": "उरसिकरोति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "मनसागोचरीकारे"
-  "shloka_num": "6"
-  "shloka_text": "विद्यासु नयते प्राज्ञो वदते तासु पण्डितः । चित्तेमनस्युरसितः करोति कुरुते परे ॥"
-  "resolved": "false"
-  "comment": "उरस् कृ-डुकृञ् करणे ०८.००१०"
-"उरसिकुरुते":
-  "form": "उरसिकुरुते"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "मनसागोचरीकारे"
-  "shloka_num": "6"
-  "shloka_text": "विद्यासु नयते प्राज्ञो वदते तासु पण्डितः । चित्तेमनस्युरसितः करोति कुरुते परे ॥"
-  "resolved": "false"
-  "comment": "उरस् कृ-डुकृञ् करणे ०८.००१०"
-"मनस्यति":
-  "form": "मनस्यति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "मनस्वित्वे"
-  "shloka_num": "7"
-  "shloka_text": "मनसा गोचरीकारे मनस्वित्वे मनस्यति । मेधायति तु मेधायां त्रयं मेदति मेधते ॥"
-  "resolved": "false"
-  "comment": "मनस् उपतापे कण्ड्वादिः"
-"मेधायति":
-  "form": "मेधायति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "मेधायाम्"
-  "shloka_num": "7"
-  "shloka_text": "मनसा गोचरीकारे मनस्वित्वे मनस्यति । मेधायति तु मेधायां त्रयं मेदति मेधते ॥"
-  "resolved": "false"
-  "comment": "मेधा आशुग्रहणे कण्ड्वादिः"
-"विपर्येति":
-  "form": "विपर्येति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "विभ्रमे"
-  "shloka_num": "8"
-  "shloka_text": "विभ्राम्यति विपर्येति विपर्यस्यति विभ्रमे । भ्रमति भ्राम्यतीत्येते विमतौ तु विमायति ॥"
-  "resolved": "false"
-  "comment": "वि परि इण् to go, aff.अच्"
-"विपर्यस्यति":
-  "form": "विपर्यस्यति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "विभ्रमे"
-  "shloka_num": "8"
-  "shloka_text": "विभ्राम्यति विपर्येति विपर्यस्यति विभ्रमे । भ्रमति भ्राम्यतीत्येते विमतौ तु विमायति ॥"
-  "resolved": "false"
-  "comment": ""
-"विमायति":
-  "form": "विमायति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "विमतौ"
-  "shloka_num": "8"
-  "shloka_text": "विभ्राम्यति विपर्येति विपर्यस्यति विभ्रमे । भ्रमति भ्राम्यतीत्येते विमतौ तु विमायति ॥"
-  "resolved": "false"
-  "comment": ""
-"विप्रतिपद्यते":
-  "form": "विप्रतिपद्यते"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "विमतौ"
-  "shloka_num": "9"
-  "shloka_text": "विमन्यते विवदते तथा विप्रतिपद्यते । संशये पश्च सन्देग्धि सन्दिग्धे विचिकित्सति ॥"
-  "resolved": "false"
-  "comment": ""
-"उत्प्रेक्षते":
-  "form": "उत्प्रेक्षते"
-  "dhatu_id": "०१.०६९४"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "वितर्के"
-  "shloka_num": "11"
-  "shloka_text": "विन्ते चोत्पश्यति परामृशत्यु्त्प्रेक्षते तथा । तावप्युपालोचते द्वौ पर्यालोचत इत्यमू ॥"
-  "resolved": "false"
-  "comment": "उत् + प्र + ईक्ष ०१.०६९४ = उत्प्रेक्षते"
-"उपालोचते":
-  "form": "उपालोचते"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "वितर्के"
-  "shloka_num": "11"
-  "shloka_text": "विन्ते चोत्पश्यति परामृशत्यु्त्प्रेक्षते तथा । तावप्युपालोचते द्वौ पर्यालोचत इत्यमू ॥"
-  "resolved": "false"
-  "comment": "लोच् दर्शने ०१.०१८८ but उपा not able t0 place could be उप"
-"पर्यालोचते":
-  "form": "पर्यालोचते"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "वितर्के"
-  "shloka_num": "11"
-  "shloka_text": "विन्ते चोत्पश्यति परामृशत्यु्त्प्रेक्षते तथा । तावप्युपालोचते द्वौ पर्यालोचत इत्यमू ॥"
-  "resolved": "false"
-  "comment": "परि आ लोच् ल्युट् लोचृ दर्शने ०१.०१८८"
-"संप्रधारयति":
-  "form": "संप्रधारयति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "वितर्के"
-  "shloka_num": "12"
-  "shloka_text": "विचारयति सम्पृच्छत्यात्मनेऽयम्‌ अकर्मकः । सम्प्रधारयतीत्येके समर्थयत इत्यपि ॥"
-  "resolved": "false"
-  "comment": "सं प्र धृ धारणॅ ०१.१०४७ णिच्"
-"श्रद्धत्ते":
-  "form": "श्रद्धत्ते"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "विश्वासे"
-  "shloka_num": "14"
-  "shloka_text": "विस्रम्भते तु प्रत्येति विश्चसित्याश्चसित्यपि । श्रद्धत्ते श्रद्दधातीति विश्वासे प्रश्वसित्यपि ॥"
-  "resolved": "false"
-  "comment": ""
-"श्रद्धधाति":
-  "form": "श्रद्धधाति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "विश्वासे"
-  "shloka_num": "14"
-  "shloka_text": "विस्रम्भते तु प्रत्येति विश्चसित्याश्चसित्यपि । श्रद्धत्ते श्रद्दधातीति विश्वासे प्रश्वसित्यपि ॥"
-  "resolved": "false"
-  "comment": "श्रद्धा धाति sanskrit tibetan"
-"अध्यवस्यति":
-  "form": "अध्यवस्यति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "निर्णये"
-  "shloka_num": "15"
-  "shloka_text": "विवेके तु विवेवेक्ति विविनक्त्यात्मनेऽप्यमू । निश्चिनुते निर्णयते निर्णयति च निर्णयेऽध्यवस्यति च ॥"
-  "resolved": "false"
-  "comment": ""
-"अभिसन्धत्ते":
-  "form": "अभिसन्धत्ते"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "प्रत्यभिज्ञाने"
-  "shloka_num": "22"
-  "shloka_text": "प्रत्यभिजानात्यभिसन्धत्तेऽप्यनुसन्दधाति समाः। प्रतिसन्धत्ते प्रत्यवमृशति प्रतिसन्दधातीति ॥"
-  "resolved": "false"
-  "comment": "अभि सन् धा डुधाञ् धारणापोषणयोः ०३.००११"
-"लक्षीकरोति":
-  "form": "लक्षीकरोति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "उद्देशे"
-  "shloka_num": "17"
-  "shloka_text": "लक्षीकरोत्युद्धिशति चोद्धेशेऽपदिशत्यपि । साक्षात्करोत्यात्मनेऽपि प्रत्यक्षेऽध्यक्षयत्यपि ॥"
-  "resolved": "false"
-  "comment": "लक्षी करोति लक्ष् दर्शनाङ्कनयोः १०.०००६ कृ करणे ०८.००१०"
-"साक्षात्करोति":
-  "form": "साक्षात्करोति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "प्रत्यक्षे"
-  "shloka_num": "17"
-  "shloka_text": "लक्षीकरोत्युद्धिशति चोद्धेशेऽपदिशत्यपि । साक्षात्करोत्यात्मनेऽपि प्रत्यक्षेऽध्यक्षयत्यपि ॥"
-  "resolved": "false"
-  "comment": ""
-"साक्षात्कुरुते":
-  "form": "साक्षात्कुरुते"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "प्रत्यक्षे"
-  "shloka_num": "17"
-  "shloka_text": "लक्षीकरोत्युद्धिशति चोद्धेशेऽपदिशत्यपि । साक्षात्करोत्यात्मनेऽपि प्रत्यक्षेऽध्यक्षयत्यपि ॥"
-  "resolved": "false"
-  "comment": "साक्षात् करोति"
-"साक्षयति":
-  "form": "साक्षयति"
-  "dhatu_id": "०१.०७४२"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "प्रत्यक्षे"
-  "shloka_num": "18"
-  "shloka_text": "साक्षयत्यपि चाध्यक्षीकरोत्यनुभवत्यपि । मिमीते मीयते माति मिनोति मिनुते मितौ ॥"
-  "resolved": "true"
-  "comment": "स अक्षयति"
-"अध्यक्षीकरोति":
-  "form": "अध्यक्षीकरोति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "प्रत्यक्षे"
-  "shloka_num": "18"
-  "shloka_text": "साक्षयत्यपि चाध्यक्षीकरोत्यनुभवत्यपि । मिमीते मीयते माति मिनोति मिनुते मितौ ॥"
-  "resolved": "false"
-  "comment": "अध्यक्षी करोति"
-"उन्मनायते":
-  "form": "उन्मनायते"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "उत्कण्ठायाम्"
-  "shloka_num": "21"
-  "shloka_text": "उत्कण्ठते चोत्कण्ठायाम्‌ आध्यायत्युन्मनायते ।दैवं पर्यालोचयतीत्यर्थ राध्यति चेष्टते ॥"
-  "resolved": "false"
-  "comment": "उन्मनीभू"
-"प्रत्यभिजानाति":
-  "form": "प्रत्यभिजानाति"
-  "dhatu_id": "09.0043"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "प्रत्यभिज्ञाने"
-  "shloka_num": "22"
-  "shloka_text": "प्रत्यभिजानात्यभिसन्धत्तेऽप्यनुसन्दधाति समाः। प्रतिसन्धत्ते प्रत्यवमृशति प्रतिसन्दधातीति ॥"
-  "resolved": "true"
-  "comment": "प्रति अभि ज्ञा"
-"अनुसन्दधाति":
-  "form": "अनुसन्दधाति"
-  "dhatu_id": "०३.००११"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "प्रत्यभिज्ञाने"
-  "shloka_num": "22"
-  "shloka_text": "प्रत्यभिजानात्यभिसन्धत्तेऽप्यनुसन्दधाति समाः। प्रतिसन्धत्ते प्रत्यवमृशति प्रतिसन्दधातीति ॥"
-  "resolved": "true"
-  "comment": "अनु सन् दधाति"
-"प्रतिसन्धत्ते":
-  "form": "प्रतिसन्धत्ते"
-  "dhatu_id": "03.0011"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "प्रत्यभिज्ञाने"
-  "shloka_num": "22"
-  "shloka_text": "प्रत्यभिजानात्यभिसन्धत्तेऽप्यनुसन्दधाति समाः। प्रतिसन्धत्ते प्रत्यवमृशति प्रतिसन्दधातीति ॥"
-  "resolved": "true"
-  "comment": "प्रति सम् धत्ते"
-"प्रत्यवमृशति":
-  "form": "प्रत्यवमृशति"
-  "dhatu_id": "०६.०१६१"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "प्रत्यभिज्ञाने"
-  "shloka_num": "22"
-  "shloka_text": "प्रत्यभिजानात्यभिसन्धत्तेऽप्यनुसन्दधाति समाः। प्रतिसन्धत्ते प्रत्यवमृशति प्रतिसन्दधातीति ॥"
-  "resolved": "true"
-  "comment": "प्रति अव मृश्"
-"प्रतिसन्दधाति":
-  "form": "प्रतिसन्दधाति"
-  "dhatu_id": "03.0011"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "प्रत्यभिज्ञाने"
-  "shloka_num": "22"
-  "shloka_text": "प्रत्यभिजानात्यभिसन्धत्तेऽप्यनुसन्दधाति समाः। प्रतिसन्धत्ते प्रत्यवमृशति प्रतिसन्दधातीति ॥"
-  "resolved": "true"
-  "comment": "प्रति सन् दधाति"
-"स्फूर्च्छति":
-  "form": "स्फूर्च्छति"
-  "dhatu_id": "01.0241"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "विस्मृत्याम्"
-  "shloka_num": "23"
-  "shloka_text": "विस्मृत्यां विस्मरति च स्फूर्च्छति प्रस्मरत्यपि । मोहे विचेतीभवति विमुह्यति च मूर्च्छति ॥"
-  "resolved": "true"
-  "comment": ""
-"विचेतीभवति":
-  "form": "विचेतीभवति"
-  "dhatu_id": "Not Found"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "मोहे"
-  "shloka_num": "23"
-  "shloka_text": "विस्मृत्यां विस्मरति च स्फूर्च्छति प्रस्मरत्यपि । मोहे विचेतीभवति विमुह्यति च मूर्च्छति ॥"
-  "resolved": "false"
-  "comment": ""
-"मूर्च्छति":
-  "form": "मूर्च्छति"
-  "dhatu_id": "०१.०२४०"
-  "gati": ""
-  "kanda": "प्रथमकाण्डः"
-  "varga": "बुद्धिवर्गः"
-  "adhikaar": ""
-  "artha": "मोहे"
-  "shloka_num": "23"
-  "shloka_text": "विस्मृत्यां विस्मरति च स्फूर्च्छति प्रस्मरत्यपि । मोहे विचेतीभवति विमुह्यति च मूर्च्छति ॥"
-  "resolved": "true"
-  "comment": "patch 2 copy"
+
+मेध्यति:
+  form: मेध्यति
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: भावविकारवर्गः
+  adhikaar: ''
+  artha: वृद्धौ
+  shloka_num: '8'
+  shloka_text: वंहते मंहते मेध्यत्येधते च विपोलति । नीवत्यपि स्थूलयते तथा पीवति मीवति
+    ॥
+  resolved: 'false'
+  comment: ''
+महीयते:
+  form: महीयते
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: भावविकारवर्गः
+  adhikaar: ''
+  artha: वृद्धौ
+  shloka_num: '9'
+  shloka_text: महीयते च वठति विपोलयति तीवति ।  क्रमते प्यायते स्फीतीभवति प्रथतेऽपि
+    च ॥
+  resolved: 'false'
+  comment: महीङ् पूजायाम् कण्ड्वादिः so we wont find it in regualr dhatupatha as seen
+    in ashtadhyayi website
+स्फीतीभवति:
+  form: स्फीतीभवति
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: भावविकारवर्गः
+  adhikaar: ''
+  artha: वृद्धौ
+  shloka_num: '9'
+  shloka_text: महीयते च वठति विपोलयति तीवति ।  क्रमते प्यायते स्फीतीभवति प्रथतेऽपि
+    च ॥
+  resolved: 'false'
+  comment: NamaDhatu, च्वि प्रत्यय
+मुकुलीभवति:
+  form: मुकुलीभवति
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: भावविकारवर्गः
+  adhikaar: ''
+  artha: सङ्कोचे
+  shloka_num: '12'
+  shloka_text: कूणयत्यपि सङ्कोचे मुकुलीभवतीति षट् । अथो जरायां जरति सप्त जीर्यति झीर्यति
+    ॥
+  resolved: 'false'
+  comment: मुकुलीभू अङ्कुरवत् समीपं मुक्
+चुण्डते:
+  form: चुण्डते
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: भावविकारवर्गः
+  adhikaar: ''
+  artha: अल्पत्वे
+  shloka_num: '14'
+  shloka_text: द्राडतेऽमी विशरणे ध्राडते चाष्ट सीदति । अल्पत्वे लिश्यते कृश्यत्यमी
+    ह्रसति चुण्डते ॥
+  resolved: 'false'
+  comment: ०१.०३६८ चुडिँ अल्पीभावे but dhatu is परस्मैपदी
+अपक्षीयते:
+  form: अपक्षीयते
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: भावविकारवर्गः
+  adhikaar: ''
+  artha: अपक्षये
+  shloka_num: '15'
+  shloka_text: चत्वारोऽथ दरिद्राति व्यृध्नोति व्यृध्यतीत्यपि । दरिद्रत्वे त्रयोऽथापक्षीयते
+    चापि दीयते ॥
+  resolved: 'false'
+  comment: ''
+पर्यवस्यति:
+  form: पर्यवस्यति
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: भावविकारवर्गः
+  adhikaar: ''
+  artha: मरणे
+  shloka_num: '19'
+  shloka_text: पर्यवस्यत्युपरमत्यात्मनेपदसंस्थितौ । निर्वाति निर्वायति विध्यायत्युद्वायतीति
+    च ॥
+  resolved: 'false'
+  comment: ''
+आविर्भवति:
+  form: आविर्भवति
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: स्फूर्तौ
+  shloka_num: '1'
+  shloka_text: स्फूर्तौ सप्ताविरस्त्याविर्भवति प्रादुरस्ति च। प्रादुर्भवति निर्भाति
+    स्फुरति प्रतिभासते ॥
+  resolved: 'false'
+  comment: आविर् भू ०१.०००१
+प्रादुरस्ति:
+  form: प्रादुरस्ति
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: स्फूर्तौ
+  shloka_num: '1'
+  shloka_text: स्फूर्तौ सप्ताविरस्त्याविर्भवति प्रादुरस्ति च। प्रादुर्भवति निर्भाति
+    स्फुरति प्रतिभासते ॥
+  resolved: 'false'
+  comment: प्रादुर् अस् ०२.००६०
+प्रादुर्भवति:
+  form: प्रादुर्भवति
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: स्फूर्तौ
+  shloka_num: '1'
+  shloka_text: स्फूर्तौ सप्ताविरस्त्याविर्भवति प्रादुरस्ति च। प्रादुर्भवति निर्भाति
+    स्फुरति प्रतिभासते ॥
+  resolved: 'false'
+  comment: प्रादुर्-भू ०१.०००१
+चित्तेकरोति:
+  form: चित्तेकरोति
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: मनसागोचरीकारे
+  shloka_num: '6'
+  shloka_text: विद्यासु नयते प्राज्ञो वदते तासु पण्डितः । चित्तेमनस्युरसितः करोति
+    कुरुते परे ॥
+  resolved: 'false'
+  comment: ''
+चित्तेकुरुते:
+  form: चित्तेकुरुते
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: मनसागोचरीकारे
+  shloka_num: '6'
+  shloka_text: विद्यासु नयते प्राज्ञो वदते तासु पण्डितः । चित्तेमनस्युरसितः करोति
+    कुरुते परे ॥
+  resolved: 'false'
+  comment: ''
+मनसिकरोति:
+  form: मनसिकरोति
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: मनसागोचरीकारे
+  shloka_num: '6'
+  shloka_text: विद्यासु नयते प्राज्ञो वदते तासु पण्डितः । चित्तेमनस्युरसितः करोति
+    कुरुते परे ॥
+  resolved: 'false'
+  comment: 'मनसि-करोति पालि script. buddhist word. rare in sanskrit '
+मनसिकुरुते:
+  form: मनसिकुरुते
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: मनसागोचरीकारे
+  shloka_num: '6'
+  shloka_text: विद्यासु नयते प्राज्ञो वदते तासु पण्डितः । चित्तेमनस्युरसितः करोति
+    कुरुते परे ॥
+  resolved: 'false'
+  comment: ''
+उरसिकरोति:
+  form: उरसिकरोति
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: मनसागोचरीकारे
+  shloka_num: '6'
+  shloka_text: विद्यासु नयते प्राज्ञो वदते तासु पण्डितः । चित्तेमनस्युरसितः करोति
+    कुरुते परे ॥
+  resolved: 'false'
+  comment: उरस् कृ-डुकृञ् करणे ०८.००१०
+उरसिकुरुते:
+  form: उरसिकुरुते
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: मनसागोचरीकारे
+  shloka_num: '6'
+  shloka_text: विद्यासु नयते प्राज्ञो वदते तासु पण्डितः । चित्तेमनस्युरसितः करोति
+    कुरुते परे ॥
+  resolved: 'false'
+  comment: उरस् कृ-डुकृञ् करणे ०८.००१०
+मनस्यति:
+  form: मनस्यति
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: मनस्वित्वे
+  shloka_num: '7'
+  shloka_text: मनसा गोचरीकारे मनस्वित्वे मनस्यति । मेधायति तु मेधायां त्रयं मेदति
+    मेधते ॥
+  resolved: 'false'
+  comment: मनस् उपतापे कण्ड्वादिः
+मेधायति:
+  form: मेधायति
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: मेधायाम्
+  shloka_num: '7'
+  shloka_text: मनसा गोचरीकारे मनस्वित्वे मनस्यति । मेधायति तु मेधायां त्रयं मेदति
+    मेधते ॥
+  resolved: 'false'
+  comment: मेधा आशुग्रहणे कण्ड्वादिः
+विपर्येति:
+  form: विपर्येति
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: विभ्रमे
+  shloka_num: '8'
+  shloka_text: विभ्राम्यति विपर्येति विपर्यस्यति विभ्रमे । भ्रमति भ्राम्यतीत्येते
+    विमतौ तु विमायति ॥
+  resolved: 'false'
+  comment: वि परि इण् to go, aff.अच्
+विपर्यस्यति:
+  form: विपर्यस्यति
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: विभ्रमे
+  shloka_num: '8'
+  shloka_text: विभ्राम्यति विपर्येति विपर्यस्यति विभ्रमे । भ्रमति भ्राम्यतीत्येते
+    विमतौ तु विमायति ॥
+  resolved: 'false'
+  comment: ''
+विमायति:
+  form: विमायति
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: विमतौ
+  shloka_num: '8'
+  shloka_text: विभ्राम्यति विपर्येति विपर्यस्यति विभ्रमे । भ्रमति भ्राम्यतीत्येते
+    विमतौ तु विमायति ॥
+  resolved: 'false'
+  comment: ''
+विप्रतिपद्यते:
+  form: विप्रतिपद्यते
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: विमतौ
+  shloka_num: '9'
+  shloka_text: विमन्यते विवदते तथा विप्रतिपद्यते । संशये पश्च सन्देग्धि सन्दिग्धे
+    विचिकित्सति ॥
+  resolved: 'false'
+  comment: ''
+उत्प्रेक्षते:
+  form: उत्प्रेक्षते
+  dhatu_id: ०१.०६९४
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: वितर्के
+  shloka_num: '11'
+  shloka_text: विन्ते चोत्पश्यति परामृशत्यु्त्प्रेक्षते तथा । तावप्युपालोचते द्वौ
+    पर्यालोचत इत्यमू ॥
+  resolved: 'false'
+  comment: उत् + प्र + ईक्ष ०१.०६९४ = उत्प्रेक्षते
+उपालोचते:
+  form: उपालोचते
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: वितर्के
+  shloka_num: '11'
+  shloka_text: विन्ते चोत्पश्यति परामृशत्यु्त्प्रेक्षते तथा । तावप्युपालोचते द्वौ
+    पर्यालोचत इत्यमू ॥
+  resolved: 'false'
+  comment: लोच् दर्शने ०१.०१८८ but उपा not able t0 place could be उप
+पर्यालोचते:
+  form: पर्यालोचते
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: वितर्के
+  shloka_num: '11'
+  shloka_text: विन्ते चोत्पश्यति परामृशत्यु्त्प्रेक्षते तथा । तावप्युपालोचते द्वौ
+    पर्यालोचत इत्यमू ॥
+  resolved: 'false'
+  comment: परि आ लोच् ल्युट् लोचृ दर्शने ०१.०१८८
+संप्रधारयति:
+  form: संप्रधारयति
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: वितर्के
+  shloka_num: '12'
+  shloka_text: विचारयति सम्पृच्छत्यात्मनेऽयम्‌ अकर्मकः । सम्प्रधारयतीत्येके समर्थयत
+    इत्यपि ॥
+  resolved: 'false'
+  comment: सं प्र धृ धारणॅ ०१.१०४७ णिच्
+श्रद्धत्ते:
+  form: श्रद्धत्ते
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: विश्वासे
+  shloka_num: '14'
+  shloka_text: विस्रम्भते तु प्रत्येति विश्चसित्याश्चसित्यपि । श्रद्धत्ते श्रद्दधातीति
+    विश्वासे प्रश्वसित्यपि ॥
+  resolved: 'false'
+  comment: ''
+श्रद्धधाति:
+  form: श्रद्धधाति
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: विश्वासे
+  shloka_num: '14'
+  shloka_text: विस्रम्भते तु प्रत्येति विश्चसित्याश्चसित्यपि । श्रद्धत्ते श्रद्दधातीति
+    विश्वासे प्रश्वसित्यपि ॥
+  resolved: 'false'
+  comment: श्रद्धा धाति sanskrit tibetan
+अध्यवस्यति:
+  form: अध्यवस्यति
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: निर्णये
+  shloka_num: '15'
+  shloka_text: विवेके तु विवेवेक्ति विविनक्त्यात्मनेऽप्यमू । निश्चिनुते निर्णयते निर्णयति
+    च निर्णयेऽध्यवस्यति च ॥
+  resolved: 'false'
+  comment: ''
+अभिसन्धत्ते:
+  form: अभिसन्धत्ते
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: प्रत्यभिज्ञाने
+  shloka_num: '22'
+  shloka_text: प्रत्यभिजानात्यभिसन्धत्तेऽप्यनुसन्दधाति समाः। प्रतिसन्धत्ते प्रत्यवमृशति
+    प्रतिसन्दधातीति ॥
+  resolved: 'false'
+  comment: अभि सन् धा डुधाञ् धारणापोषणयोः ०३.००११
+लक्षीकरोति:
+  form: लक्षीकरोति
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: उद्देशे
+  shloka_num: '17'
+  shloka_text: लक्षीकरोत्युद्धिशति चोद्धेशेऽपदिशत्यपि । साक्षात्करोत्यात्मनेऽपि प्रत्यक्षेऽध्यक्षयत्यपि
+    ॥
+  resolved: 'false'
+  comment: लक्षी करोति लक्ष् दर्शनाङ्कनयोः १०.०००६ कृ करणे ०८.००१०
+साक्षात्करोति:
+  form: साक्षात्करोति
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: प्रत्यक्षे
+  shloka_num: '17'
+  shloka_text: लक्षीकरोत्युद्धिशति चोद्धेशेऽपदिशत्यपि । साक्षात्करोत्यात्मनेऽपि प्रत्यक्षेऽध्यक्षयत्यपि
+    ॥
+  resolved: 'false'
+  comment: ''
+साक्षात्कुरुते:
+  form: साक्षात्कुरुते
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: प्रत्यक्षे
+  shloka_num: '17'
+  shloka_text: लक्षीकरोत्युद्धिशति चोद्धेशेऽपदिशत्यपि । साक्षात्करोत्यात्मनेऽपि प्रत्यक्षेऽध्यक्षयत्यपि
+    ॥
+  resolved: 'false'
+  comment: साक्षात् करोति
+अध्यक्षीकरोति:
+  form: अध्यक्षीकरोति
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: प्रत्यक्षे
+  shloka_num: '18'
+  shloka_text: साक्षयत्यपि चाध्यक्षीकरोत्यनुभवत्यपि । मिमीते मीयते माति मिनोति मिनुते
+    मितौ ॥
+  resolved: 'false'
+  comment: अध्यक्षी करोति
+उन्मनायते:
+  form: उन्मनायते
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: उत्कण्ठायाम्
+  shloka_num: '21'
+  shloka_text: उत्कण्ठते चोत्कण्ठायाम्‌ आध्यायत्युन्मनायते ।दैवं पर्यालोचयतीत्यर्थ
+    राध्यति चेष्टते ॥
+  resolved: 'false'
+  comment: उन्मनीभू
+विचेतीभवति:
+  form: विचेतीभवति
+  dhatu_id: Not Found
+  gati: ''
+  kanda: प्रथमकाण्डः
+  varga: बुद्धिवर्गः
+  adhikaar: ''
+  artha: मोहे
+  shloka_num: '23'
+  shloka_text: विस्मृत्यां विस्मरति च स्फूर्च्छति प्रस्मरत्यपि । मोहे विचेतीभवति विमुह्यति
+    च मूर्च्छति ॥
+  resolved: 'false'
+  comment: ''

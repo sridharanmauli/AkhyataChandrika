@@ -2,234 +2,32 @@
 # Format: Each entry shows the verb form with its multiple dhatu_ids
 # Manually edit this file to select the correct dhatu_id for each case
 # After editing, run the backport script to sync changes back to original YAML files
-# ENTRIES TO CORRECT: 19
+# ENTRIES TO CORRECT: 2
 # This is part 5 of 10 - Assigned for proofreading
 
-"हापयति":
-  "form": "हापयति"
-  "dhatu_ids": "03.0009"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "मनुष्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "त्यागे"
-  "shloka_num": "35"
-  "shloka_text": "विष्यत्यवस्यति रहयति मोक्षयतीत्यपि । मोचयत्यूनयति चोत्सृज्यते हापयत्यमी ॥"
-  "resolved": "true"
-  "comment": ""
-"वरति":
-  "form": "वरति"
-  "dhatu_ids": "01.1083, 10.0345"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "मनुष्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "वरणे"
-  "shloka_num": "37"
-  "shloka_text": "व्यासेधति निषेधत्यात्मने  परिहरत्यपि । अथ व्रीणाति वरति वृणाति च वृणोति च॥"
-  "resolved": "not sure"
-  "comment": ""
-"वृणाति":
-  "form": "वृणाति"
-  "dhatu_ids": "09.0019"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "मनुष्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "वरणे"
-  "shloka_num": "37"
-  "shloka_text": "व्यासेधति निषेधत्यात्मने  परिहरत्यपि । अथ व्रीणाति वरति वृणाति च वृणोति च॥"
-  "resolved": "true"
-  "comment": ""
-"रिरंसते":
-  "form": "रिरंसते"
-  "dhatu_ids": "01.0989"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "मनुष्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "कामने"
-  "shloka_num": "42"
-  "shloka_text": "रिरंसते कामयते यियप्सति वृषस्यति । अन्यस्त्री चेद्‌ अथाऽश्वा चेद्‌ अश्वस्यत्यथ चुम्बने ॥"
-  "resolved": "true"
-  "comment": ""
-"चुम्बति":
-  "form": "चुम्बति"
-  "dhatu_ids": "01.0495"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "मनुष्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "चुम्बने"
-  "shloka_num": "43"
-  "shloka_text": "निक्षति चुम्बति निंस्ते व्यवैति मिथुनीभवत्यपि च । यभति च भजतीत्येते निधुवति संविशति मैथुनेऽमी स्युः ॥"
-  "resolved": "true"
-  "comment": ""
-"धावति":
-  "form": "धावति"
-  "dhatu_ids": "01.0685"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "क्षत्रियचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "वेगितायां गतौ"
-  "shloka_num": "37"
-  "shloka_text": "सप्ताशीतिरितोऽप्यन्ये नोक्ता विस्तरतो भयात् । वेगितायां गतौ सप्ताऽमी स्युर्धावति तूर्यते  ॥"
-  "resolved": "true"
-  "comment": ""
-"मार्जयति":
-  "form": "मार्जयति"
-  "dhatu_ids": "10.0386"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "ब्रह्मचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "शौचे"
-  "shloka_num": "2"
-  "shloka_text": "निङ्क्ते मार्ष्टि च शौचे स्युर्मार्जयत्यपि मार्जति । मज्जत्याप्लवते  स्नाति स्नायत्येतेऽवगाहते  ॥"
-  "resolved": "true"
-  "comment": ""
-"शुन्धति":
-  "form": "शुन्धति"
-  "dhatu_ids": "10.0369"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "ब्रह्मचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "शुचीभावे"
-  "shloka_num": "3"
-  "shloka_text": "सयुर्मज्जने क्रुडत्येते शुन्धयत्यपि शुन्धति । शुन्धते शुध्यति शुचीभावे स्युरवदायति  ॥"
-  "resolved": "true"
-  "comment": ""
-"अर्चति":
-  "form": "अर्चति"
-  "dhatu_ids": "01.0232"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "ब्रह्मचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "अर्चने"
-  "shloka_num": "5"
-  "shloka_text": "उपसङ्गृह्णात्युपसङ्गृह्णीते प्रणिपतति नमस्कुरुते । अथाऽर्चत्यञ्चति भजत्यपचायति चाऽऽत्मने ॥"
-  "resolved": "true"
-  "comment": ""
-"अञ्चते":
-  "form": "अञ्चते"
-  "dhatu_ids": "01.0998"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "क्षत्रियचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "गतौ"
-  "shloka_num": "35"
-  "shloka_text": "पथति क्रामति पतयते रिण्वति रण्वति । स्रवति श्यायते धन्वत्यञ्चते सलतीत्यपि ॥"
-  "resolved": "true"
-  "comment": ""
-"अर्हयति":
-  "form": "अर्हयति"
-  "dhatu_ids": "10.0257"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "ब्रह्मचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "अर्चने"
-  "shloka_num": "7"
-  "shloka_text": "पूजयत्यर्हयति च महत्याराधयत्यपि । मानयत्यञ्चयति चाऽर्हति  यक्षयतेऽर्चने   ॥"
-  "resolved": "true"
-  "comment": ""
-"अर्हति":
-  "form": "अर्हति"
-  "dhatu_ids": "01.0841"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "ब्रह्मचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "अर्चने"
-  "shloka_num": "7"
-  "shloka_text": "पूजयत्यर्हयति च महत्याराधयत्यपि । मानयत्यञ्चयति चाऽर्हति  यक्षयतेऽर्चने   ॥"
-  "resolved": "not sure both look ok"
-  "comment": ""
-"वासयति":
-  "form": "वासयति"
-  "dhatu_ids": "10.0426"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "ब्रह्मचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "उपसेवायां"
-  "shloka_num": "10"
-  "shloka_text": "भिष्णज्यत्युपसेवायां लाडयत्युपसेवते । वासयत्यपि संवाहयति विश्रमयत्यपि ॥"
-  "resolved": "true"
-  "comment": ""
-"यच्छति":
-  "form": "यच्छति"
-  "dhatu_ids": "01.1079"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "ब्रह्मचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "दाने"
-  "shloka_num": "11"
-  "shloka_text": "ददाति निर्वपति च दधात्यपि च दाशति । सनोति दासति दिशत्यात्मने सप्त यच्छति ॥"
-  "resolved": "true"
-  "comment": ""
-"अर्पयति":
-  "form": "अर्पयति"
-  "dhatu_ids": "01.1086"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "ब्रह्मचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "दाने"
-  "shloka_num": "12"
-  "shloka_text": "अपवर्जयति स्पर्शयति विश्राणयत्यपि । वितरत्यर्पयति च चणत्यतिसृजत्यपि ॥"
-  "resolved": "true"
-  "comment": ""
-"भ्राजयति":
-  "form": "भ्राजयति"
-  "dhatu_ids": "01.0205"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "ब्रह्मचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "दाने"
-  "shloka_num": "13"
-  "shloka_text": "ददते राति शणति प्रतिपादयतीति च । दाने विलभते भ्राजयति श्रणति लाति च ॥"
-  "resolved": "true"
-  "comment": ""
-"श्रणति":
-  "form": "श्रणति"
-  "dhatu_ids": "10.0174"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "ब्रह्मचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "दाने"
-  "shloka_num": "13"
-  "shloka_text": "ददते राति शणति प्रतिपादयतीति च । दाने विलभते भ्राजयति श्रणति लाति च ॥"
-  "resolved": "true"
-  "comment": ""
-"पर्थयति":
-  "form": "पर्थयति"
-  "dhatu_ids": "10.0028"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "ब्रह्मचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "प्रक्षेपे"
-  "shloka_num": "15"
-  "shloka_text": "प्रक्षिप्यति प्रक्षिपति मिनोत्यप्यात्मने द्वयम्‌ । प्रक्षेपे पर्थयति च हविर्दाने जुहोत्यदः ॥"
-  "resolved": "true"
-  "comment": ""
-"तर्पति":
-  "form": "तर्पति"
-  "dhatu_ids": "10.0351"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "ब्रह्मचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "तर्पणे"
-  "shloka_num": "16"
-  "shloka_text": "स्वाहावौषड्वषड्भ्यश्च करोति कुरुते पदे । प्रीणाति प्रयति द्वावप्यात्मनेऽवति तर्पति ॥"
-  "resolved": "true"
-  "comment": ""
+
+वरति:
+  form: वरति
+  dhatu_ids: 01.1083, 10.0345
+  gati: ''
+  kanda: द्वितीयकाण्डः
+  varga: मनुष्यचेष्टावर्गः
+  adhikaar: ''
+  artha: वरणे
+  shloka_num: '37'
+  shloka_text: व्यासेधति निषेधत्यात्मने  परिहरत्यपि । अथ व्रीणाति वरति वृणाति च वृणोति
+    च॥
+  resolved: not sure
+  comment: ''
+अर्हति:
+  form: अर्हति
+  dhatu_ids: '01.0841'
+  gati: ''
+  kanda: द्वितीयकाण्डः
+  varga: ब्रह्मचेष्टावर्गः
+  adhikaar: ''
+  artha: अर्चने
+  shloka_num: '7'
+  shloka_text: पूजयत्यर्हयति च महत्याराधयत्यपि । मानयत्यञ्चयति चाऽर्हति  यक्षयतेऽर्चने   ॥
+  resolved: not sure both look ok
+  comment: ''

@@ -2,234 +2,137 @@
 # Format: Each entry shows the verb form with its multiple dhatu_ids
 # Manually edit this file to select the correct dhatu_id for each case
 # After editing, run the backport script to sync changes back to original YAML files
-# ENTRIES TO CORRECT: 19
+# ENTRIES TO CORRECT: 10
 # This is part 4 of 10 - Assigned for proofreading
 
-"साधयति":
-  "form": "साधयति"
-  "dhatu_ids": "04.0089"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "वैश्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "पाके"
-  "shloka_num": "44"
-  "shloka_text": "रन्धयत्यपि विक्लेदयति साधयतीति च । श्राति श्रायति विक्लिद्यत्यपि राध्यति रध्यते ॥"
-  "resolved": "true"
-  "comment": ""
-"चर्चति":
-  "form": "चर्चति"
-  "dhatu_ids": "01.0814"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "मनुष्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "चर्चायाम्"
-  "shloka_num": "9"
-  "shloka_text": "चर्चत्येवं चर्चयति षडथो भूषणाऽर्थकाः । मण्डति मण्डयति च भूषयत्यपि भूषति ॥"
-  "resolved": "true"
-  "comment": ""
-"मण्डति":
-  "form": "मण्डति"
-  "dhatu_ids": "01.0361, 10.0076"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "मनुष्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "भूषणार्थकाः"
-  "shloka_num": "9"
-  "shloka_text": "चर्चत्येवं चर्चयति षडथो भूषणाऽर्थकाः । मण्डति मण्डयति च भूषयत्यपि भूषति ॥"
-  "resolved": "false"
-  "comment": "both have similar meaning"
-"भ्राजते":
-  "form": "भ्राजते"
-  "dhatu_ids": "01.0205, 01.0957"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "मनुष्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "दीप्तौ"
-  "shloka_num": "13"
-  "shloka_text": "भ्राजते शुम्भति शूभत्येजते शोभतीति च। प्रकाशते भ्राशते च भ्लाशते श्यन्यपि द्वयम्‌ ॥"
-  "resolved": "false"
-  "comment": ""
-"शुम्भति":
-  "form": "शुम्भति"
-  "dhatu_ids": "01.0501, 06.0047"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "मनुष्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "दीप्तौ"
-  "shloka_num": "13"
-  "shloka_text": "भ्राजते शुम्भति शूभत्येजते शोभतीति च। प्रकाशते भ्राशते च भ्लाशते श्यन्यपि द्वयम्‌ ॥"
-  "resolved": "false"
-  "comment": "i see entry 01.0205 in ashtadhyayi"
-"ज्वलति":
-  "form": "ज्वलति"
-  "dhatu_ids": "01.0916"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "मनुष्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "दीप्तौ"
-  "shloka_num": "14"
-  "shloka_text": "भ्रेजते दीव्यति हटत्यमी ज्वलति जोतते । वर्चते दीप्यते दीप्तौ कनत्युल्लसतीति च ॥"
-  "resolved": "true"
-  "comment": ""
-"नटति":
-  "form": "नटति"
-  "dhatu_ids": "01.0347, 01.0890"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "मनुष्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "नृत्ते"
-  "shloka_num": "16"
-  "shloka_text": "नटत्यमी नाटयति नृत्ते नृत्यत्यथो हसे । जक्षिति कक्खति तकति प्रहसति कखति घघति स्मयते ॥"
-  "resolved": "false"
-  "comment": "both have similar meaning"
-"कखति":
-  "form": "कखति"
-  "dhatu_ids": "01.0128, 01.0893"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "मनुष्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "हासे"
-  "shloka_num": "16"
-  "shloka_text": "नटत्यमी नाटयति नृत्ते नृत्यत्यथो हसे । जक्षिति कक्खति तकति प्रहसति कखति घघति स्मयते ॥"
-  "resolved": "false"
-  "comment": "both have same meaning"
-"रमते":
-  "form": "रमते"
-  "dhatu_ids": "01.0953, 01.0989"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "मनुष्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "क्रीडनार्थकाः"
-  "shloka_num": "17"
-  "shloka_text": "क्रीडति दीव्यति खेलति केलति विहरति च कूर्दते लसति। रमतेऽमी विहरते कुमारयति खूर्दते ॥"
-  "resolved": "false"
-  "comment": "both have same meaning"
-"धित्सति":
-  "form": "धित्सति"
-  "dhatu_ids": "01.1050"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "मनुष्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "तर्षे"
-  "shloka_num": "21"
-  "shloka_text": "कुत्सिते स्मयने प्रोक्तं तङ्‌ वा कुस्मयते पदम्‌ । तर्षे तृष्यत्यमि धित्सत्युदन्यति पिपासति ॥"
-  "resolved": "true"
-  "comment": ""
-"पिपासति":
-  "form": "पिपासति"
-  "dhatu_ids": "01.1074"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "मनुष्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "तर्षे"
-  "shloka_num": "21"
-  "shloka_text": "कुत्सिते स्मयने प्रोक्तं तङ्‌ वा कुस्मयते पदम्‌ । तर्षे तृष्यत्यमि धित्सत्युदन्यति पिपासति ॥"
-  "resolved": "true"
-  "comment": ""
-"जिघत्सति":
-  "form": "जिघत्सति"
-  "dhatu_ids": "01.0812, 02.0001"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "मनुष्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "क्षुधि"
-  "shloka_num": "22"
-  "shloka_text": "पिबत्याचामति धयत्यपि चूषति पीयते । पानेऽथ क्षुध्यति क्षुध्यशनायति जिघत्सति ॥"
-  "resolved": "false"
-  "comment": "both have same meaning"
-"शेषति":
-  "form": "शेषति"
-  "dhatu_ids": "01.0783"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "क्षत्रियचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "हिंसायाम्"
-  "shloka_num": "80"
-  "shloka_text": "शूर्यते शेषति तुपत्यपि रोषति रेषति । धूर्यते यूषति तुफत्यपि दूर्वति धूर्वति ॥"
-  "resolved": "true"
-  "comment": ""
-"गर्हते":
-  "form": "गर्हते"
-  "dhatu_ids": "01.0723, 01.0737"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "मनुष्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "आदाने"
-  "shloka_num": "32"
-  "shloka_text": "आदाने कोकते लाति गर्हते ग्लहते क्वचित्‌ । वर्कते धिण्णते गृह्णात्येवं झषति चीवति ॥"
-  "resolved": "false"
-  "comment": ""
-"झषति":
-  "form": "झषति"
-  "dhatu_ids": "01.0785"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "मनुष्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "आदाने"
-  "shloka_num": "32"
-  "shloka_text": "आदाने कोकते लाति गर्हते ग्लहते क्वचित्‌ । वर्कते धिण्णते गृह्णात्येवं झषति चीवति ॥"
-  "resolved": "true"
-  "comment": ""
-"चीवति":
-  "form": "चीवति"
-  "dhatu_ids": "01.1021"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "मनुष्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "आदाने"
-  "shloka_num": "32"
-  "shloka_text": "आदाने कोकते लाति गर्हते ग्लहते क्वचित्‌ । वर्कते धिण्णते गृह्णात्येवं झषति चीवति ॥"
-  "resolved": "true"
-  "comment": ""
-"बुस्यति":
-  "form": "बुस्यति"
-  "dhatu_ids": "04.0117, 04.0129"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "मनुष्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "त्यागे"
-  "shloka_num": "34"
-  "shloka_text": "रहति त्यजति त्यागे जहात्युज्झति बुस्यति ।विसृजत्युत्सृजति च मुञ्चते मुञ्चतीति च ॥"
-  "resolved": "false"
-  "comment": ""
-"मुञ्चते":
-  "form": "मुञ्चते"
-  "dhatu_ids": "01.0196"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "मनुष्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "त्यागे"
-  "shloka_num": "34"
-  "shloka_text": "रहति त्यजति त्यागे जहात्युज्झति बुस्यति ।विसृजत्युत्सृजति च मुञ्चते मुञ्चतीति च ॥"
-  "resolved": "true"
-  "comment": ""
-"रहयति":
-  "form": "रहयति"
-  "dhatu_ids": "10.0122, 10.0396"
-  "gati": ""
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "मनुष्यचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "त्यागे"
-  "shloka_num": "35"
-  "shloka_text": "विष्यत्यवस्यति रहयति मोक्षयतीत्यपि । मोचयत्यूनयति चोत्सृज्यते हापयत्यमी ॥"
-  "resolved": "false"
-  "comment": "both have similar meaning"
+
+मण्डति:
+  form: मण्डति
+  dhatu_ids: 01.0361, 10.0076
+  gati: ''
+  kanda: द्वितीयकाण्डः
+  varga: मनुष्यचेष्टावर्गः
+  adhikaar: ''
+  artha: भूषणार्थकाः
+  shloka_num: '9'
+  shloka_text: चर्चत्येवं चर्चयति षडथो भूषणाऽर्थकाः । मण्डति मण्डयति च भूषयत्यपि भूषति
+    ॥
+  resolved: 'false'
+  comment: both have similar meaning
+भ्राजते:
+  form: भ्राजते
+  dhatu_ids: 01.0205, 01.0957
+  gati: ''
+  kanda: द्वितीयकाण्डः
+  varga: मनुष्यचेष्टावर्गः
+  adhikaar: ''
+  artha: दीप्तौ
+  shloka_num: '13'
+  shloka_text: भ्राजते शुम्भति शूभत्येजते शोभतीति च। प्रकाशते भ्राशते च भ्लाशते श्यन्यपि
+    द्वयम्‌ ॥
+  resolved: 'false'
+  comment: ''
+शुम्भति:
+  form: शुम्भति
+  dhatu_ids: 01.0501, 06.0047
+  gati: ''
+  kanda: द्वितीयकाण्डः
+  varga: मनुष्यचेष्टावर्गः
+  adhikaar: ''
+  artha: दीप्तौ
+  shloka_num: '13'
+  shloka_text: भ्राजते शुम्भति शूभत्येजते शोभतीति च। प्रकाशते भ्राशते च भ्लाशते श्यन्यपि
+    द्वयम्‌ ॥
+  resolved: 'false'
+  comment: i see entry 01.0205 in ashtadhyayi
+नटति:
+  form: नटति
+  dhatu_ids: 01.0347, 01.0890
+  gati: ''
+  kanda: द्वितीयकाण्डः
+  varga: मनुष्यचेष्टावर्गः
+  adhikaar: ''
+  artha: नृत्ते
+  shloka_num: '16'
+  shloka_text: नटत्यमी नाटयति नृत्ते नृत्यत्यथो हसे । जक्षिति कक्खति तकति प्रहसति
+    कखति घघति स्मयते ॥
+  resolved: 'false'
+  comment: both have similar meaning
+कखति:
+  form: कखति
+  dhatu_ids: 01.0128, 01.0893
+  gati: ''
+  kanda: द्वितीयकाण्डः
+  varga: मनुष्यचेष्टावर्गः
+  adhikaar: ''
+  artha: हासे
+  shloka_num: '16'
+  shloka_text: नटत्यमी नाटयति नृत्ते नृत्यत्यथो हसे । जक्षिति कक्खति तकति प्रहसति
+    कखति घघति स्मयते ॥
+  resolved: 'false'
+  comment: both have same meaning
+रमते:
+  form: रमते
+  dhatu_ids: 01.0953, 01.0989
+  gati: ''
+  kanda: द्वितीयकाण्डः
+  varga: मनुष्यचेष्टावर्गः
+  adhikaar: ''
+  artha: क्रीडनार्थकाः
+  shloka_num: '17'
+  shloka_text: क्रीडति दीव्यति खेलति केलति विहरति च कूर्दते लसति। रमतेऽमी विहरते कुमारयति
+    खूर्दते ॥
+  resolved: 'false'
+  comment: both have same meaning
+जिघत्सति:
+  form: जिघत्सति
+  dhatu_ids: 01.0812, 02.0001
+  gati: ''
+  kanda: द्वितीयकाण्डः
+  varga: मनुष्यचेष्टावर्गः
+  adhikaar: ''
+  artha: क्षुधि
+  shloka_num: '22'
+  shloka_text: पिबत्याचामति धयत्यपि चूषति पीयते । पानेऽथ क्षुध्यति क्षुध्यशनायति जिघत्सति
+    ॥
+  resolved: 'false'
+  comment: both have same meaning
+गर्हते:
+  form: गर्हते
+  dhatu_ids: 01.0723, 01.0737
+  gati: ''
+  kanda: द्वितीयकाण्डः
+  varga: मनुष्यचेष्टावर्गः
+  adhikaar: ''
+  artha: आदाने
+  shloka_num: '32'
+  shloka_text: आदाने कोकते लाति गर्हते ग्लहते क्वचित्‌ । वर्कते धिण्णते गृह्णात्येवं
+    झषति चीवति ॥
+  resolved: 'false'
+  comment: ''
+बुस्यति:
+  form: बुस्यति
+  dhatu_ids: 04.0117, 04.0129
+  gati: ''
+  kanda: द्वितीयकाण्डः
+  varga: मनुष्यचेष्टावर्गः
+  adhikaar: ''
+  artha: त्यागे
+  shloka_num: '34'
+  shloka_text: रहति त्यजति त्यागे जहात्युज्झति बुस्यति ।विसृजत्युत्सृजति च मुञ्चते
+    मुञ्चतीति च ॥
+  resolved: 'false'
+  comment: ''
+रहयति:
+  form: रहयति
+  dhatu_ids: 10.0122, 10.0396
+  gati: ''
+  kanda: द्वितीयकाण्डः
+  varga: मनुष्यचेष्टावर्गः
+  adhikaar: ''
+  artha: त्यागे
+  shloka_num: '35'
+  shloka_text: विष्यत्यवस्यति रहयति मोक्षयतीत्यपि । मोचयत्यूनयति चोत्सृज्यते हापयत्यमी
+    ॥
+  resolved: 'false'
+  comment: both have similar meaning
