@@ -8,7 +8,7 @@
 
 दंशयते:
   form: दंशयते
-  dhatu_ids: 10.0193, 10.0295
+  dhatu_ids: 01.1144, 10.0193
   gati: ''
   kanda: द्वितीयकाण्डः
   varga: क्षत्रियचेष्टावर्गः
@@ -21,7 +21,7 @@
   comment: ''
 चलति:
   form: चलति
-  dhatu_ids: 01.0924, 01.0966, 06.0083
+  dhatu_ids: 01.0924, 01.0966
   gati: ''
   kanda: द्वितीयकाण्डः
   varga: क्षत्रियचेष्टावर्गः
@@ -30,11 +30,11 @@
   shloka_num: '27'
   shloka_text: चलने चलति प्रेङ्खत्येवं ह्मलति घट्टते । वलते वल्लते वेल्लत्येवं ह्वलति
     चेलति ॥
-  resolved: 'false'
+  resolved: 'true'
   comment: ''
 एति:
   form: एति
-  dhatu_ids: 02.0040, 02.0042
+  dhatu_ids: 02.0040
   gati: ''
   kanda: द्वितीयकाण्डः
   varga: क्षत्रियचेष्टावर्गः
@@ -43,11 +43,11 @@
   shloka_num: '29'
   shloka_text: प्रतिष्ठतेऽञ्चत्ययते व्रजत्ययति गच्छति । ऋणोत्यटति यात्येति सरतीयर्ति
     सर्पति  ॥
-  resolved: 'false'
+  resolved: 'true'
   comment: ''
 अर्दति:
   form: अर्दति
-  dhatu_ids: 01.0057, 10.0365
+  dhatu_ids: 01.0057
   gati: ''
   kanda: द्वितीयकाण्डः
   varga: वैश्यचेष्टावर्गः
@@ -56,11 +56,11 @@
   shloka_num: '28'
   shloka_text: तथैवाऽपवृणोति द्वावात्मने निरिणाति च । अपेक्षतेऽभ्यर्थयते भिक्षतेऽर्दति
     नाथति ॥
-  resolved: 'false'
+  resolved: 'true'
   comment: ''
 वयते:
   form: वयते
-  dhatu_ids: 01.0547, 01.1161
+  dhatu_ids:  01.1161
   gati: ''
   kanda: द्वितीयकाण्डः
   varga: शूद्रचेष्टावर्गः
@@ -69,11 +69,11 @@
   shloka_num: '1'
   shloka_text: वयते वयति व्यूतावूयतेऽथ विषीव्यति । स्यूतौ निषीव्यति तथा परिषीव्यति
     सीव्यति ॥
-  resolved: 'false'
+  resolved: 'true'
   comment: ''
 विच्छायति:
   form: विच्छायति
-  dhatu_ids: 06.0159, 10.0304
+  dhatu_ids: 06.0159
   gati: ''
   kanda: द्वितीयकाण्डः
   varga: क्षत्रियचेष्टावर्गः
@@ -82,11 +82,11 @@
   shloka_num: '32'
   shloka_text: पयते वयते विच्छायति पन्थयतीजते । चरण्यति स्रङ्कतेऽपि घटते श्वञ्चतेऽङ्गति
     ॥
-  resolved: 'false'
+  resolved: 'true'
   comment: ''
 वञ्चति:
   form: वञ्चति
-  dhatu_ids: 01.0216, 10.0227
+  dhatu_ids: 01.0216
   gati: ''
   kanda: द्वितीयकाण्डः
   varga: क्षत्रियचेष्टावर्गः
@@ -95,11 +95,11 @@
   shloka_num: '34'
   shloka_text: वञ्चति म्रोचति म्लोचत्यजति त्वञ्चतीजते । फणति द्रवते गाते पद्यते विच्छति
     क्वचित् ॥
-  resolved: 'false'
+  resolved: 'true'
   comment: ''
 सलति:
   form: सलति
-  dhatu_ids: 01.0253, 01.0628, 01.0759
+  dhatu_ids:  01.0628
   gati: ''
   kanda: द्वितीयकाण्डः
   varga: क्षत्रियचेष्टावर्गः
@@ -108,11 +108,11 @@
   shloka_num: '35'
   shloka_text: पथति क्रामति पतयते रिण्वति रण्वति । स्रवति श्यायते धन्वत्यञ्चते सलतीत्यपि
     ॥
-  resolved: 'false'
+  resolved: 'true'
   comment: ''
 रंहति:
   form: रंहति
-  dhatu_ids: 01.0833, 10.0329
+  dhatu_ids: 01.0833
   gati: ''
   kanda: द्वितीयकाण्डः
   varga: क्षत्रियचेष्टावर्गः
@@ -121,7 +121,7 @@
   shloka_num: '38'
   shloka_text: जवति श्वल्लति श्वलत्यपि द्रवति रंहति । डयते डीयते व्योमगतेऽथाऽकति चाऽगति
     ॥
-  resolved: 'false'
+  resolved: 'true'
   comment: ''
 पतति:
   form: पतति
@@ -134,7 +134,7 @@
   shloka_num: '46'
   shloka_text: सञ्चारे चरतीत्येष तृतीयायुक्त आत्मने । पतत्यधोगतौ भ्रंसतेऽपि भ्रश्यति
     भृश्यति ॥
-  resolved: 'false'
+  resolved: 'true'
   comment: ''
 नेदति:
   form: नेदति
@@ -147,7 +147,7 @@
   shloka_num: '53'
   shloka_text: सन्निकर्षत्यवष्टभ्नात्यासीदत्यपि नेदते । परस्मै द्वौ सन्निकृषतेऽवष्टभ्नोति
     चाऽन्तिके ॥
-  resolved: 'false'
+  resolved: 'true'
   comment: ''
 नेदते:
   form: नेदते
@@ -160,11 +160,11 @@
   shloka_num: '53'
   shloka_text: सन्निकर्षत्यवष्टभ्नात्यासीदत्यपि नेदते । परस्मै द्वौ सन्निकृषतेऽवष्टभ्नोति
     चाऽन्तिके ॥
-  resolved: 'false'
+  resolved: 'true'
   comment: ''
 भावयते:
   form: भावयते
-  dhatu_ids: 10.0277, 10.0382
+  dhatu_ids:  10.0382
   gati: ''
   kanda: द्वितीयकाण्डः
   varga: क्षत्रियचेष्टावर्गः
@@ -173,11 +173,11 @@
   shloka_num: '54'
   shloka_text: प्राप्तौ प्राप्नोति भवते विन्दत्यवरुणद्धि च। आत्मनेऽपि द्वयं भावयते
     लभत ॠच्छति ॥
-  resolved: 'false'
+  resolved: 'true'
   comment: ''
 वटति:
   form: वटति
-  dhatu_ids: 01.0337, 01.0888
+  dhatu_ids: 01.0337
   gati: ''
   kanda: द्वितीयकाण्डः
   varga: क्षत्रियचेष्टावर्गः
@@ -186,11 +186,11 @@
   shloka_num: '59'
   shloka_text: मण्डते वेष्टते वेष्टे मगध्यति मुरत्यपि । कृणत्ति गुण्डयति च परिक्षिपति
     चाऽऽत्मने ॥
-  resolved: 'false'
+  resolved: 'true'
   comment: ''
 ज्रयति:
   form: ज्रयति
-  dhatu_ids: 01.1097, 10.0347
+  dhatu_ids: 01.1097
   gati: ''
   kanda: द्वितीयकाण्डः
   varga: क्षत्रियचेष्टावर्गः
@@ -199,7 +199,7 @@
   shloka_num: '62'
   shloka_text: जयत्येवं विजयते ज्रयत्यभिभवत्यपि । अभ्यस्ति च प्रसहते पराभावयतीति च
     ॥
-  resolved: 'false'
+  resolved: 'true'
   comment: ''
 लङ्घयति:
   form: लङ्घयति
@@ -216,7 +216,7 @@
   comment: ''
 वाजयति:
   form: वाजयति
-  dhatu_ids: 01.0285, 02.0045
+  dhatu_ids: 02.0045
   gati: ''
   kanda: द्वितीयकाण्डः
   varga: क्षत्रियचेष्टावर्गः
@@ -225,11 +225,11 @@
   shloka_num: '66'
   shloka_text: धूनयति धुवति चलयति धूनोति धवति धुनाति च धुनोति । चत्वारि चाऽऽत्मने
     कम्पयति क्ष्मापयति वाजयति ॥
-  resolved: 'false'
+  resolved: 'true'
   comment: ''
 लोटति:
   form: लोटति
-  dhatu_ids: 01.0351, 10.0284
+  dhatu_ids: 01.0351
   gati: ''
   kanda: द्वितीयकाण्डः
   varga: क्षत्रियचेष्टावर्गः
@@ -238,5 +238,5 @@
   shloka_num: '68'
   shloka_text: विलोडयति मथ्नाति मथत्येवं खजत्यपि । गाहते मन्थने लुट्यत्यपि लोटति मन्थति
     ॥
-  resolved: 'false'
+  resolved: 'true'
   comment: ''
