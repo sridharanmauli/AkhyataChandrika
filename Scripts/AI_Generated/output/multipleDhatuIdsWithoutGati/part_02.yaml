@@ -124,7 +124,7 @@
   "shloka_num": "21"
   "shloka_text": "चिरिणोति रिणोत्येवं क्षिणोति जिरिणोति च । दाश्नोति च दृणोत्याहुः पदानि च्छान्दसानि षट्‌ ॥"
   "resolved": "true"
-  "comment": "Both seems ok.Taken the ParasmaipadI instead of Ubhayapadi"
+  "comment": ""
 "दयते":
   "form": "दयते"
   "dhatu_ids": "01.1117"
@@ -160,7 +160,7 @@
   "shloka_num": "30"
   "shloka_text": "क्षीबते शौटति कडत्यपि हर्षति कण्डते । माद्यत्यहङ्करोत्यात्मनेऽप्युन्मादे तु लोडति ॥"
   "resolved": "true"
-  "comment": "Please Rechek"
+  "comment": ""
 "लोडति":
   "form": "लोडति"
   "dhatu_ids": "01.0413"
@@ -199,7 +199,7 @@
   "comment": ""
 "गमयति":
   "form": "गमयति"
-  "dhatu_ids": "01.1137, 02.0040"
+  "dhatu_ids": "01.1137"
   "gati": ""
   "kanda": "प्रथमकाण्डः"
   "varga": "वाक्क्रियावर्गः"
@@ -207,8 +207,8 @@
   "artha": "अध्ययने"
   "shloka_num": "4"
   "shloka_text": "आमनत्युपयुङ्क्ते च गमयत्यपि शिक्षते । शिक्षणेऽध्यापयति च शिक्षयत्यनुशास्ति च ॥"
-  "resolved": "false"
-  "comment": "Dont Know"
+  "resolved": "true"
+  "comment": ""
 "लञ्जति":
   "form": "लञ्जति"
   "dhatu_ids": "10.0048"
@@ -220,7 +220,7 @@
   "shloka_num": "13"
   "shloka_text": "भर्त्सयते तर्जयते सन्तर्जति लजति लाजति च । लञ्जति लाञ्जति तुल्याः तर्जयति च दृश्यते कविषु ॥"
   "resolved": "true"
-  "comment": "Could be 10.0315 Speaking Harshly. Check"
+  "comment": ""
 "तर्जयति":
   "form": "तर्जयति"
   "dhatu_ids": "01.0259"
