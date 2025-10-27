@@ -1,127 +1,130 @@
-# Cases where a verb has more than one dhatu_id
-# Format: Each entry shows the verb form with its multiple dhatu_ids
-# Manually edit this file to select the correct dhatu_id for each case
-# After editing, run the backport script to sync changes back to original YAML files
-# ENTRIES TO CORRECT: 10
-# This is part 6 of 10 - Assigned for proofreading
-
-"प्रेषयति (with gati: प्र)":
-  "form": "प्रेषयति"
-  "dhatu_ids": "01.0695, 01.0701, 01.0705, 01.0706, 01.0780, 04.0022, 06.0078, 09.0061"
-  "gati": "प्र"
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "क्षत्रियचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "प्रेषणे"
-  "shloka_num": "9"
-  "shloka_text": "द्वावात्मनेऽपि चाऽऽज्ञायाम् अथ प्रस्थापयत्यमी । स्युः प्रेषणे प्रेषयति प्रेष्यति प्रहिणोति च ॥"
-  "resolved": "false"
-  "comment": ""
-"आगमयते (with gati: आङ्)":
-  "form": "आगमयते"
-  "dhatu_ids": "01.1137, 02.0040, 02.0042"
-  "gati": "आङ्"
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "क्षत्रियचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "प्रतीक्षायाम्"
-  "shloka_num": "18"
-  "shloka_text": "प्रतीक्षते प्रतीक्षायां स्युरागमयते तथा । अनुपालयतीत्येते प्रतिपालयतीति च ॥"
-  "resolved": "false"
-  "comment": ""
-"अनुपालयति (with gati: अनु)":
-  "form": "अनुपालयति"
-  "dhatu_ids": "10.0098, 10.0099"
-  "gati": "अनु"
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "क्षत्रियचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "प्रतीक्षायाम्"
-  "shloka_num": "18"
-  "shloka_text": "प्रतीक्षते प्रतीक्षायां स्युरागमयते तथा । अनुपालयतीत्येते प्रतिपालयतीति च ॥"
-  "resolved": "false"
-  "comment": ""
-"प्रतिपालयति (with gati: प्रति)":
-  "form": "प्रतिपालयति"
-  "dhatu_ids": "10.0098, 10.0099"
-  "gati": "प्रति"
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "क्षत्रियचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "प्रतीक्षायाम्"
-  "shloka_num": "18"
-  "shloka_text": "प्रतीक्षते प्रतीक्षायां स्युरागमयते तथा । अनुपालयतीत्येते प्रतिपालयतीति च ॥"
-  "resolved": "false"
-  "comment": ""
-"सम्भ्रमति (with gati: सम्)":
-  "form": "सम्भ्रमति"
-  "dhatu_ids": "01.0985, 04.0102"
-  "gati": "सम्"
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "क्षत्रियचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "त्वरायाम्"
-  "shloka_num": "19"
-  "shloka_text": "त्वरायां सम्भ्रमति च सम्भ्राम्यति तुरण्यति । गुप्यति त्वरते सप्त सम्भ्रम्यति तुतोर्ति च ॥"
-  "resolved": "false"
-  "comment": ""
-"एषते(छ) (with gati: आङ्)":
-  "form": "एषते(छ)"
-  "dhatu_ids": "01.0695, 01.0701, 01.0705"
-  "gati": "आङ्"
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "क्षत्रियचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "गतौ"
-  "shloka_num": "36"
-  "shloka_text": "शुनति च्छङ्गयति च श्वर्तयत्यपि रेवते । ममर्ति च्छान्दसं केचिद् एषते नेषते गतौ ॥"
-  "resolved": "false"
-  "comment": ""
-"पर्येति (with gati: परि)":
-  "form": "पर्येति"
-  "dhatu_ids": "02.0040, 02.0042"
-  "gati": "परि"
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "क्षत्रियचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "भ्रमे"
-  "shloka_num": "43"
-  "shloka_text": "भ्रमति भ्राम्यति भ्रम्यत्यपि पर्यटति भ्रमे । घोणते घूर्णते पर्येत्येते घुणति घूर्णति ॥"
-  "resolved": "false"
-  "comment": ""
-"उदेति (with gati: उद्)":
-  "form": "उदेति"
-  "dhatu_ids": "02.0040, 02.0042"
-  "gati": "उद्"
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "क्षत्रियचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "उदये"
-  "shloka_num": "44"
-  "shloka_text": "उद्गच्छत्युन्नमति चाऽप्युज्जिहीत उदीयते । उदञ्चत्युदयत्येतावात्मने द्वावुदेति च ॥"
-  "resolved": "false"
-  "comment": ""
-"अभ्येति (with gati: अभि)":
-  "form": "अभ्येति"
-  "dhatu_ids": "02.0040, 02.0042"
-  "gati": "अभि"
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "क्षत्रियचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "अभिक्रमे"
-  "shloka_num": "51"
-  "shloka_text": "द्यौत्यभिगच्छत्यभियात्यभ्येत्याद्या अभिक्रमे । अभियोगेऽभ्यवस्कन्दत्यड्डत्यास्तिघ्नुतेऽपि च ॥"
-  "resolved": "false"
-  "comment": ""
-"आसेधति (with gati: आङ्)":
-  "form": "आसेधति"
-  "dhatu_ids": "01.0049, 01.0050, 01.0450"
-  "gati": "आङ्"
-  "kanda": "द्वितीयकाण्डः"
-  "varga": "क्षत्रियचेष्टावर्गः"
-  "adhikaar": ""
-  "artha": "अभियोगे"
-  "shloka_num": "52"
-  "shloka_text": "सप्ताऽभियुङ्क्ते तिक्नोति तिग्नोत्यासेधतीति च । सेनया त्वभियाने स्याद् अभिषेणयतीति च ॥"
-  "resolved": "false"
-  "comment": ""
+'प्रेषयति (with gati: प्र)':
+  form: प्रेषयति
+  dhatu_ids: 01.0695, 01.0701, 01.0705, 01.0706, 01.0780, 04.0022, 06.0078, 09.0061
+  gati: प्र
+  kanda: द्वितीयकाण्डः
+  varga: क्षत्रियचेष्टावर्गः
+  adhikaar: ''
+  artha: प्रेषणे
+  shloka_num: '9'
+  shloka_text: द्वावात्मनेऽपि चाऽऽज्ञायाम् अथ प्रस्थापयत्यमी । स्युः प्रेषणे प्रेषयति
+    प्रेष्यति प्रहिणोति च ॥
+  resolved: 'false'
+  comment: ''
+'आगमयते (with gati: आङ्)':
+  form: आगमयते
+  dhatu_ids: 01.1137, 02.0040, 02.0042
+  gati: आङ्
+  kanda: द्वितीयकाण्डः
+  varga: क्षत्रियचेष्टावर्गः
+  adhikaar: ''
+  artha: प्रतीक्षायाम्
+  shloka_num: '18'
+  shloka_text: प्रतीक्षते प्रतीक्षायां स्युरागमयते तथा । अनुपालयतीत्येते प्रतिपालयतीति
+    च ॥
+  resolved: 'false'
+  comment: ''
+'अनुपालयति (with gati: अनु)':
+  form: अनुपालयति
+  dhatu_ids: 10.0098, 10.0099
+  gati: अनु
+  kanda: द्वितीयकाण्डः
+  varga: क्षत्रियचेष्टावर्गः
+  adhikaar: ''
+  artha: प्रतीक्षायाम्
+  shloka_num: '18'
+  shloka_text: प्रतीक्षते प्रतीक्षायां स्युरागमयते तथा । अनुपालयतीत्येते प्रतिपालयतीति
+    च ॥
+  resolved: 'false'
+  comment: ''
+'प्रतिपालयति (with gati: प्रति)':
+  form: प्रतिपालयति
+  dhatu_ids: 10.0098, 10.0099
+  gati: प्रति
+  kanda: द्वितीयकाण्डः
+  varga: क्षत्रियचेष्टावर्गः
+  adhikaar: ''
+  artha: प्रतीक्षायाम्
+  shloka_num: '18'
+  shloka_text: प्रतीक्षते प्रतीक्षायां स्युरागमयते तथा । अनुपालयतीत्येते प्रतिपालयतीति
+    च ॥
+  resolved: 'false'
+  comment: ''
+'सम्भ्रमति (with gati: सम्)':
+  form: सम्भ्रमति
+  dhatu_ids: 01.0985, 04.0102
+  gati: सम्
+  kanda: द्वितीयकाण्डः
+  varga: क्षत्रियचेष्टावर्गः
+  adhikaar: ''
+  artha: त्वरायाम्
+  shloka_num: '19'
+  shloka_text: त्वरायां सम्भ्रमति च सम्भ्राम्यति तुरण्यति । गुप्यति त्वरते सप्त सम्भ्रम्यति
+    तुतोर्ति च ॥
+  resolved: 'false'
+  comment: ''
+'एषते (with gati: आङ्)':
+  form: एषते
+  dhatu_ids: 01.0695, 01.0701, 01.0705
+  gati: आङ्
+  kanda: द्वितीयकाण्डः
+  varga: क्षत्रियचेष्टावर्गः
+  adhikaar: ''
+  artha: गतौ
+  shloka_num: '36'
+  shloka_text: शुनति च्छङ्गयति च श्वर्तयत्यपि रेवते । ममर्ति च्छान्दसं केचिद् एषते
+    नेषते गतौ ॥
+  resolved: 'false'
+  comment: ''
+'पर्येति (with gati: परि)':
+  form: पर्येति
+  dhatu_ids: 02.0040, 02.0042
+  gati: परि
+  kanda: द्वितीयकाण्डः
+  varga: क्षत्रियचेष्टावर्गः
+  adhikaar: ''
+  artha: भ्रमे
+  shloka_num: '43'
+  shloka_text: भ्रमति भ्राम्यति भ्रम्यत्यपि पर्यटति भ्रमे । घोणते घूर्णते पर्येत्येते
+    घुणति घूर्णति ॥
+  resolved: 'false'
+  comment: ''
+'उदेति (with gati: उद्)':
+  form: उदेति
+  dhatu_ids: 02.0040, 02.0042
+  gati: उद्
+  kanda: द्वितीयकाण्डः
+  varga: क्षत्रियचेष्टावर्गः
+  adhikaar: ''
+  artha: उदये
+  shloka_num: '44'
+  shloka_text: उद्गच्छत्युन्नमति चाऽप्युज्जिहीत उदीयते । उदञ्चत्युदयत्येतावात्मने
+    द्वावुदेति च ॥
+  resolved: 'false'
+  comment: ''
+'अभ्येति (with gati: अभि)':
+  form: अभ्येति
+  dhatu_ids: 02.0040, 02.0042
+  gati: अभि
+  kanda: द्वितीयकाण्डः
+  varga: क्षत्रियचेष्टावर्गः
+  adhikaar: ''
+  artha: अभिक्रमे
+  shloka_num: '51'
+  shloka_text: द्यौत्यभिगच्छत्यभियात्यभ्येत्याद्या अभिक्रमे । अभियोगेऽभ्यवस्कन्दत्यड्डत्यास्तिघ्नुतेऽपि
+    च ॥
+  resolved: 'false'
+  comment: ''
+'आसेधति (with gati: आङ्)':
+  form: आसेधति
+  dhatu_ids: 01.0049, 01.0050, 01.0450
+  gati: आङ्
+  kanda: द्वितीयकाण्डः
+  varga: क्षत्रियचेष्टावर्गः
+  adhikaar: ''
+  artha: अभियोगे
+  shloka_num: '52'
+  shloka_text: सप्ताऽभियुङ्क्ते तिक्नोति तिग्नोत्यासेधतीति च । सेनया त्वभियाने स्याद्
+    अभिषेणयतीति च ॥
+  resolved: 'false'
+  comment: ''
