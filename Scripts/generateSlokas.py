@@ -417,6 +417,13 @@ def yaml_to_json(yaml_file, varga_name=None, prevCnt=0 ):
                                     # Not found in SopasargaMappings, check San/Nich mappings
                                     _, upasagra, dhatu_id, pratyaya = lookup_san_nich_mapping(normalized_form)
 
+                                # Always check if this verb is in Nich/San mappings to add pratyaya field
+                                # This is important because YAML files may have the metadata but not the pratyaya info
+                                if not pratyaya:  # Only check if pratyaya wasn't already set
+                                    found, _, _, pratyaya_from_mapping = lookup_san_nich_mapping(normalized_form)
+                                    if found:
+                                        pratyaya = pratyaya_from_mapping
+
                                 # Build entry dict
                                 entry_dict = {
                                     "form": form,
@@ -524,6 +531,14 @@ def yaml_to_json(yaml_file, varga_name=None, prevCnt=0 ):
 
                         # Handle multiple dhatu_ids (deduplicate)
                         dhatu_id = deduplicate_and_join_dhatu_ids(dhatu_ids)
+
+                    # Always check if this verb is in Nich/San mappings to add pratyaya field
+                    # This is important because YAML files may have the metadata but not the pratyaya info
+                    if not pratyaya:  # Only check if pratyaya wasn't already set
+                        normalized_verb = normalize_verb_for_lookup(verb)
+                        found, _, _, pratyaya_from_mapping = lookup_san_nich_mapping(normalized_verb)
+                        if found:
+                            pratyaya = pratyaya_from_mapping
 
                     # Build entry dict
                     entry_dict = {
