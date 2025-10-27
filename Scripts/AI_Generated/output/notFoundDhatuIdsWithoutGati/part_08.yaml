@@ -16,7 +16,7 @@
   "shloka_num": "67"
   "shloka_text": "ह्वालयति ह्मालयति ह्वलयति ह्मलयतीति स्युः। तद्वत् प्रेङ्खोलयति प्रकम्पने डोलयत्यपि च ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "none"
 "डोलयति":
   "form": "डोलयति"
   "dhatu_id": "Not Found"
@@ -28,9 +28,9 @@
   "shloka_num": "67"
   "shloka_text": "ह्वालयति ह्मालयति ह्वलयति ह्मलयतीति स्युः। तद्वत् प्रेङ्खोलयति प्रकम्पने डोलयत्यपि च ॥"
   "resolved": "false"
-  "comment": ""
-"लुट्‍यति":
-  "form": "लुट्‍यति"
+  "comment": "found as dhatu डोल id - 10.0089"
+"लुट्यति":
+  "form": "लुट्यति"
   "dhatu_id": "Not Found"
   "gati": ""
   "kanda": "द्वितीयकाण्डः"
@@ -39,8 +39,8 @@
   "artha": "मन्थने"
   "shloka_num": "68"
   "shloka_text": "विलोडयति मथ्नाति मथत्येवं खजत्यपि । गाहते मन्थने लुट्यत्यपि लोटति मन्थति ॥"
-  "resolved": "false"
-  "comment": ""
+  "resolved": "flase"
+  "comment": "found as dhatu लुट्य id_04.0133"
 "सम्प्रहरते":
   "form": "सम्प्रहरते"
   "dhatu_id": "Not Found"
@@ -52,7 +52,7 @@
   "shloka_num": "73"
   "shloka_text": "युध्यते सम्प्रहरते युद्धे जजति जञ्जति । सम्मर्दयति सङ्ग्रामयतीमे कलहायते ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "found as dhatu सम्प्रह id_04.0069"
 "सङ्‍ग्रामयति":
   "form": "सङ्‍ग्रामयति"
   "dhatu_id": "Not Found"
@@ -64,7 +64,7 @@
   "shloka_num": "73"
   "shloka_text": "युध्यते सम्प्रहरते युद्धे जजति जञ्जति । सम्मर्दयति सङ्ग्रामयतीमे कलहायते ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "found as dhatu सङ्ग्राम id_10.0467"
 "कलहायते":
   "form": "कलहायते"
   "dhatu_id": "Not Found"
@@ -76,7 +76,7 @@
   "shloka_num": "73"
   "shloka_text": "युध्यते सम्प्रहरते युद्धे जजति जञ्जति । सम्मर्दयति सङ्ग्रामयतीमे कलहायते ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "none"
 "उपाजेकरोति":
   "form": "उपाजेकरोति"
   "dhatu_id": "Not Found"
@@ -88,7 +88,7 @@
   "shloka_num": "74"
   "shloka_text": "करोत्युपाजेऽन्वाजेभ्याम् आत्मनेऽपि बलाऽर्पणे । विक्रम्यते वीरयते पराक्रमत इत्यपि ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "none"
 "उपाजेकुरुते":
   "form": "उपाजेकुरुते"
   "dhatu_id": "Not Found"
@@ -100,7 +100,7 @@
   "shloka_num": "74"
   "shloka_text": "करोत्युपाजेऽन्वाजेभ्याम् आत्मनेऽपि बलाऽर्पणे । विक्रम्यते वीरयते पराक्रमत इत्यपि ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "none"
 "अन्वाजेकरोति":
   "form": "अन्वाजेकरोति"
   "dhatu_id": "Not Found"
@@ -112,7 +112,7 @@
   "shloka_num": "74"
   "shloka_text": "करोत्युपाजेऽन्वाजेभ्याम् आत्मनेऽपि बलाऽर्पणे । विक्रम्यते वीरयते पराक्रमत इत्यपि ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "none"
 "अन्वाजेकुरुते":
   "form": "अन्वाजेकुरुते"
   "dhatu_id": "Not Found"
@@ -124,7 +124,7 @@
   "shloka_num": "74"
   "shloka_text": "करोत्युपाजेऽन्वाजेभ्याम् आत्मनेऽपि बलाऽर्पणे । विक्रम्यते वीरयते पराक्रमत इत्यपि ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "none"
 "ओजायते":
   "form": "ओजायते"
   "dhatu_id": "Not Found"
@@ -136,7 +136,7 @@
   "shloka_num": "75"
   "shloka_text": "प्रगल्भते शूरयते पराक्रम्यत इत्यसौ । ओजायते विक्रमते विक्रमेऽष्टपदी भवेत् ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "none"
 "अरुष्करोति":
   "form": "अरुष्करोति"
   "dhatu_id": "Not Found"
@@ -148,7 +148,7 @@
   "shloka_num": "76"
   "shloka_text": "अरुष्करोत्यात्मनेऽपि व्रणयत्यङ्गचूर्णने । गोकर्तृकायां हिंसायां प्रस्तुम्पति सुटा भवेत् ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "none"
 "अरुष्कुरुते":
   "form": "अरुष्कुरुते"
   "dhatu_id": "Not Found"
@@ -160,7 +160,7 @@
   "shloka_num": "76"
   "shloka_text": "अरुष्करोत्यात्मनेऽपि व्रणयत्यङ्गचूर्णने । गोकर्तृकायां हिंसायां प्रस्तुम्पति सुटा भवेत् ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "none"
 "प्रस्तुम्पति[az]":
   "form": "प्रस्तुम्पति[az]"
   "dhatu_id": "Not Found"
@@ -172,7 +172,7 @@
   "shloka_num": "76"
   "shloka_text": "अरुष्करोत्यात्मनेऽपि व्रणयत्यङ्गचूर्णने । गोकर्तृकायां हिंसायां प्रस्तुम्पति सुटा भवेत् ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "none"
 "युथ्यति":
   "form": "युथ्यति"
   "dhatu_id": "Not Found"
@@ -184,7 +184,7 @@
   "shloka_num": "82"
   "shloka_text": "ऋथत्युज्जासयति च श्राथयत्यपि युथ्यति । तृहत्युध्नुटयति  च क्षिणाति च कृणाति च ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "none"
 "उध्नुटयति":
   "form": "उध्नुटयति"
   "dhatu_id": "Not Found"
@@ -196,7 +196,7 @@
   "shloka_num": "82"
   "shloka_text": "ऋथत्युज्जासयति च श्राथयत्यपि युथ्यति । तृहत्युध्नुटयति  च क्षिणाति च कृणाति च ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "none"
 "क्षिणाति":
   "form": "क्षिणाति"
   "dhatu_id": "Not Found"
@@ -208,7 +208,7 @@
   "shloka_num": "82"
   "shloka_text": "ऋथत्युज्जासयति च श्राथयत्यपि युथ्यति । तृहत्युध्नुटयति  च क्षिणाति च कृणाति च ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "found as dhatu क्षिण id_08.0004"
 "प्रतिष्किरति":
   "form": "प्रतिष्किरति"
   "dhatu_id": "Not Found"
@@ -220,7 +220,7 @@
   "shloka_num": "83"
   "shloka_text": "प्रतिष्किरत्यालभते तृणात्युन्मथतीति च । क्षिणोति च्छषति द्रूणाति कृणोति क्षिणोति च ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "none"
 "तृणाति":
   "form": "तृणाति"
   "dhatu_id": "Not Found"
@@ -232,7 +232,7 @@
   "shloka_num": "83"
   "shloka_text": "प्रतिष्किरत्यालभते तृणात्युन्मथतीति च । क्षिणोति च्छषति द्रूणाति कृणोति क्षिणोति च ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "none"
 "क्षेणोते":
   "form": "क्षेणोते"
   "dhatu_id": "Not Found"
@@ -244,7 +244,7 @@
   "shloka_num": "83"
   "shloka_text": "प्रतिष्किरत्यालभते तृणात्युन्मथतीति च । क्षिणोति च्छषति द्रूणाति कृणोति क्षिणोति च ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "found as dhatu क्षिण id_08.0004"
 "द्रुणाति":
   "form": "द्रुणाति"
   "dhatu_id": "Not Found"
@@ -256,7 +256,7 @@
   "shloka_num": "83"
   "shloka_text": "प्रतिष्किरत्यालभते तृणात्युन्मथतीति च । क्षिणोति च्छषति द्रूणाति कृणोति क्षिणोति च ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "found as dhatu द्रुण id_06.0063"
 "द्रुणीते":
   "form": "द्रुणीते"
   "dhatu_id": "Not Found"
@@ -268,7 +268,7 @@
   "shloka_num": "83"
   "shloka_text": "प्रतिष्किरत्यालभते तृणात्युन्मथतीति च । क्षिणोति च्छषति द्रूणाति कृणोति क्षिणोति च ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "found as dhatu द्रुण id_06.0063"
 "क्षिणुति":
   "form": "क्षिणुति"
   "dhatu_id": "Not Found"
@@ -280,10 +280,10 @@
   "shloka_num": "83"
   "shloka_text": "प्रतिष्किरत्यालभते तृणात्युन्मथतीति च । क्षिणोति च्छषति द्रूणाति कृणोति क्षिणोति च ॥"
   "resolved": "false"
-  "comment": ""
-"स्पृणाति":
-  "form": "स्पृणाति"
-  "dhatu_id": "Not Found"
+  "comment": "found as dhatus क्षि, क्षिण् id_05.0033, 08.0004"
+"स्तृहति"
+  "form": "स्तृहति"
+  "dhatu_id": "06.0076"
   "gati": ""
   "kanda": "द्वितीयकाण्डः"
   "varga": "क्षत्रियचेष्टावर्गः"
@@ -291,8 +291,8 @@
   "artha": "हिंसायाम्"
   "shloka_num": "84"
   "shloka_text": "अष्टौ क्षणोति मीनाति कृणातीत्यात्मनेऽप्यमी । कुन्थति पुन्थति लुन्थति रिशति रुशति हिंसति स्तृहति॥"
-  "resolved": "false"
-  "comment": ""
+  "resolved": "true"
+  "comment": "it's not स्पृहति"
 "स्पृणीते":
   "form": "स्पृणीते"
   "dhatu_id": "Not Found"
@@ -304,7 +304,7 @@
   "shloka_num": "84"
   "shloka_text": "अष्टौ क्षणोति मीनाति कृणातीत्यात्मनेऽप्यमी । कुन्थति पुन्थति लुन्थति रिशति रुशति हिंसति स्तृहति॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "it's not स्पृणीते, found dhatu स्तृणीते id_09.0017"
 "दृणति":
   "form": "दृणति"
   "dhatu_id": "Not Found"
@@ -316,7 +316,7 @@
   "shloka_num": "85"
   "shloka_text": "तृंहति सृम्भति मृणति च चुम्बयति श्रथति च क्लथति । सर्भति मेदति दृणति स्फिट्टयति च हिंसयत्यमी चृतति॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "found as dhatu दृणत id_09.0026"
 "वस्तयते":
   "form": "वस्तयते"
   "dhatu_id": "Not Found"
@@ -328,7 +328,7 @@
   "shloka_num": "88"
   "shloka_text": "वस्तयते गन्धयते लुम्बति लुम्बयति चाऽर्दनार्थाः स्युः । ओहति तोहति दोहति तद्वत् तुम्बति च तुम्बयत्येते ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "mismatch - वस्त means स्तम्भे id_04.0111, आर्दन् means हिंसायाम् id_10.0365"
 "दूनयति":
   "form": "दूनयति"
   "dhatu_id": "Not Found"
@@ -340,7 +340,7 @@
   "shloka_num": "89"
   "shloka_text": "दृम्फति दृफति दुनोति व्यथयति दुःखयति तपति पीडयति । क्लिश्नाति दूनयत्यपि धृपायति खेदयत्याद्याः॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "found as dhatu दून id_04.0028"
 "दुःखाकरोति":
   "form": "दुःखाकरोति"
   "dhatu_id": "Not Found"
@@ -352,7 +352,7 @@
   "shloka_num": "90"
   "shloka_text": "दुःखाकरोति तुदति च करोति वैकल्यमुदाद्विभ्योऽमी । आत्मनेऽपि ग्लपयति ग्लापयत्यपि पीडने ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "found as dhatu दुःख id_10.0876"
 "वैक्लव्यंकरोति":
   "form": "वैक्लव्यंकरोति"
   "dhatu_id": "Not Found"
@@ -364,9 +364,9 @@
   "shloka_num": "90"
   "shloka_text": "दुःखाकरोति तुदति च करोति वैकल्यमुदाद्विभ्योऽमी । आत्मनेऽपि ग्लपयति ग्लापयत्यपि पीडने ॥"
   "resolved": "false"
-  "comment": ""
-"वैक्लव्यंकुरुते":
-  "form": "वैक्लव्यंकुरुते"
+  "comment": "it's not वैक्लव्यं, dhatu is वैकल्यं"
+"वैकल्यंकुरुते":
+  "form": "वैकल्यंकुरुते"
   "dhatu_id": "Not Found"
   "gati": ""
   "kanda": "द्वितीयकाण्डः"
@@ -376,7 +376,7 @@
   "shloka_num": "90"
   "shloka_text": "दुःखाकरोति तुदति च करोति वैकल्यमुदाद्विभ्योऽमी । आत्मनेऽपि ग्लपयति ग्लापयत्यपि पीडने ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "found as dhatu वैकल्य id_01.0969"
 "व्युदाकरोति":
   "form": "व्युदाकरोति"
   "dhatu_id": "Not Found"
@@ -388,7 +388,7 @@
   "shloka_num": "90"
   "shloka_text": "दुःखाकरोति तुदति च करोति वैकल्यमुदाद्विभ्योऽमी । आत्मनेऽपि ग्लपयति ग्लापयत्यपि पीडने ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "is the word व्युदा or उदा id_01.0336"
 "व्युदाकुरुते":
   "form": "व्युदाकुरुते"
   "dhatu_id": "Not Found"
@@ -400,7 +400,7 @@
   "shloka_num": "90"
   "shloka_text": "दुःखाकरोति तुदति च करोति वैकल्यमुदाद्विभ्योऽमी । आत्मनेऽपि ग्लपयति ग्लापयत्यपि पीडने ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "which is correct व्युदाकुरुते or उदाकुरुते"
 "रोठते":
   "form": "रोठते"
   "dhatu_id": "Not Found"
@@ -412,7 +412,7 @@
   "shloka_num": "91"
   "shloka_text": "रोठते लोठते कुथ्नात्यपि मन्थति बाधते । एठते हेठते तत्र लोटते क्लेशयत्यपि ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "found as dhatu रोठत id_01.0389"
 "हठते[bf]":
   "form": "हठते[bf]"
   "dhatu_id": "Not Found"
@@ -424,7 +424,7 @@
   "shloka_num": "91"
   "shloka_text": "रोठते लोठते कुथ्नात्यपि मन्थति बाधते । एठते हेठते तत्र लोटते क्लेशयत्यपि ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": " no हठते in sloka, found dhatu हेठते id_01.0299 & हठ id_01.0388"
 "मुद्नाति":
   "form": "मुद्नाति"
   "dhatu_id": "Not Found"
@@ -436,7 +436,7 @@
   "shloka_num": "93"
   "shloka_text": "मुटति म्रदते मर्दे मृद्राति च पिनष्टि च । क्षुन्ते क्षुणत्ति सञ्चूर्णयति पाशयतीति च ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "no मुद्नाति in sloka, found as dhatu मृद्/मर्द id_01.0081"
 "सञ्चूर्णति":
   "form": "सञ्चूर्णति"
   "dhatu_id": "Not Found"
@@ -448,7 +448,7 @@
   "shloka_num": "93"
   "shloka_text": "मुटति म्रदते मर्दे मृद्राति च पिनष्टि च । क्षुन्ते क्षुणत्ति सञ्चूर्णयति पाशयतीति च ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "found as dhatu सञ्चूर्ण id_07.0015, 10.0104"
 "उज्जटयति":
   "form": "उज्जटयति"
   "dhatu_id": "Not Found"
@@ -460,7 +460,7 @@
   "shloka_num": "95"
   "shloka_text": "उन्मूलयत्युज्जहाति चोत्पाटयति वै समाः। उत्खनत्यात्मनेऽप्येते पञ्चोज्जटयतीति च ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "none"
 "पराभवते":
   "form": "पराभवते"
   "dhatu_id": "Not Found"
@@ -472,7 +472,7 @@
   "shloka_num": "96"
   "shloka_text": "भङ्गे पराभवत्युक्ते पराभवत इत्यमू । जयत्युत्कर्षसम्प्राप्तौ तथा विजयते पदम् ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "found as dhatu पराभव id_10.0260"
 "बीजाकरोति":
   "form": "बीजाकरोति"
   "dhatu_id": "Not Found"
@@ -484,7 +484,7 @@
   "shloka_num": "2"
   "shloka_text": "बीजाकरोत्युप्तकृष्टौ स्याद्‌ द्वितीयाकरोति च । शम्बाकरोति द्विगुणाकरोति द्विःकृषौ त्रयम्‌ ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "none"
 "बीजाकुरुते":
   "form": "बीजाकुरुते"
   "dhatu_id": "Not Found"
@@ -496,7 +496,7 @@
   "shloka_num": "2"
   "shloka_text": "बीजाकरोत्युप्तकृष्टौ स्याद्‌ द्वितीयाकरोति च । शम्बाकरोति द्विगुणाकरोति द्विःकृषौ त्रयम्‌ ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "none"
 "द्वितीयाकरोति":
   "form": "द्वितीयाकरोति"
   "dhatu_id": "Not Found"
@@ -508,7 +508,7 @@
   "shloka_num": "2"
   "shloka_text": "बीजाकरोत्युप्तकृष्टौ स्याद्‌ द्वितीयाकरोति च । शम्बाकरोति द्विगुणाकरोति द्विःकृषौ त्रयम्‌ ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "none"
 "द्वितीयाकुरुते":
   "form": "द्वितीयाकुरुते"
   "dhatu_id": "Not Found"
@@ -520,7 +520,7 @@
   "shloka_num": "2"
   "shloka_text": "बीजाकरोत्युप्तकृष्टौ स्याद्‌ द्वितीयाकरोति च । शम्बाकरोति द्विगुणाकरोति द्विःकृषौ त्रयम्‌ ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "none"
 "शम्बाकरोति":
   "form": "शम्बाकरोति"
   "dhatu_id": "Not Found"
@@ -532,7 +532,7 @@
   "shloka_num": "2"
   "shloka_text": "बीजाकरोत्युप्तकृष्टौ स्याद्‌ द्वितीयाकरोति च । शम्बाकरोति द्विगुणाकरोति द्विःकृषौ त्रयम्‌ ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "found as dhatu शम्बा id_10.0031"
 "शम्बाकुरुते":
   "form": "शम्बाकुरुते"
   "dhatu_id": "Not Found"
@@ -544,7 +544,7 @@
   "shloka_num": "2"
   "shloka_text": "बीजाकरोत्युप्तकृष्टौ स्याद्‌ द्वितीयाकरोति च । शम्बाकरोति द्विगुणाकरोति द्विःकृषौ त्रयम्‌ ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "none"
 "द्विगुणाकरोति":
   "form": "द्विगुणाकरोति"
   "dhatu_id": "Not Found"
@@ -556,7 +556,7 @@
   "shloka_num": "2"
   "shloka_text": "बीजाकरोत्युप्तकृष्टौ स्याद्‌ द्वितीयाकरोति च । शम्बाकरोति द्विगुणाकरोति द्विःकृषौ त्रयम्‌ ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "found as dhatu द्वि id_02.0003"
 "द्विगुणाकुरुते":
   "form": "द्विगुणाकुरुते"
   "dhatu_id": "Not Found"
@@ -568,4 +568,4 @@
   "shloka_num": "2"
   "shloka_text": "बीजाकरोत्युप्तकृष्टौ स्याद्‌ द्वितीयाकरोति च । शम्बाकरोति द्विगुणाकरोति द्विःकृषौ त्रयम्‌ ॥"
   "resolved": "false"
-  "comment": ""
+  "comment": "none"
